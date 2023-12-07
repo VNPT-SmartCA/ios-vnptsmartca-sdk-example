@@ -1,0 +1,485 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "syncfusion_flutter_pdfviewer"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "syncfusion_flutter_pdfviewer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftSyncfusionFlutterPdfViewerPlugin",
+        "printedName": "SwiftSyncfusionFlutterPdfViewerPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "documentRepo",
+            "printedName": "documentRepo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGPDFDocument?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPDFDocument",
+                        "printedName": "CoreGraphics.CGPDFDocument",
+                        "usr": "c:@T@CGPDFDocumentRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvp",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvp",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreGraphics.CGPDFDocument?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGPDFDocument",
+                            "printedName": "CoreGraphics.CGPDFDocument",
+                            "usr": "c:@T@CGPDFDocumentRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvg",
+                "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvg",
+                "moduleName": "syncfusion_flutter_pdfviewer",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : CoreGraphics.CGPDFDocument?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreGraphics.CGPDFDocument?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGPDFDocument",
+                            "printedName": "CoreGraphics.CGPDFDocument",
+                            "usr": "c:@T@CGPDFDocumentRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvs",
+                "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvs",
+                "moduleName": "syncfusion_flutter_pdfviewer",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvM",
+                "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC12documentRepoSDySSSo16CGPDFDocumentRefaSgGvM",
+                "moduleName": "syncfusion_flutter_pdfviewer",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dispatcher",
+            "printedName": "dispatcher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC10dispatcherSo17OS_dispatch_queueCvp",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC10dispatcherSo17OS_dispatch_queueCvp",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC10dispatcherSo17OS_dispatch_queueCvg",
+                "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC10dispatcherSo17OS_dispatch_queueCvg",
+                "moduleName": "syncfusion_flutter_pdfviewer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pointToPixelRatio",
+            "printedName": "pointToPixelRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC17pointToPixelRatioSdvp",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC17pointToPixelRatioSdvp",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC17pointToPixelRatioSdvg",
+                "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC17pointToPixelRatioSdvg",
+                "moduleName": "syncfusion_flutter_pdfviewer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@syncfusion_flutter_pdfviewer@objc(cs)SwiftSyncfusionFlutterPdfViewerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC8register4withySo0fI9Registrar_p_tFZ",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@syncfusion_flutter_pdfviewer@objc(cs)SwiftSyncfusionFlutterPdfViewerPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC6handle_6resultySo0F10MethodCallC_yypSgctF",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftSyncfusionFlutterPdfViewerPlugin",
+                "printedName": "syncfusion_flutter_pdfviewer.SwiftSyncfusionFlutterPdfViewerPlugin",
+                "usr": "c:@M@syncfusion_flutter_pdfviewer@objc(cs)SwiftSyncfusionFlutterPdfViewerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@syncfusion_flutter_pdfviewer@objc(cs)SwiftSyncfusionFlutterPdfViewerPlugin(im)init",
+            "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginCACycfc",
+            "moduleName": "syncfusion_flutter_pdfviewer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@syncfusion_flutter_pdfviewer@objc(cs)SwiftSyncfusionFlutterPdfViewerPlugin",
+        "mangledName": "$s28syncfusion_flutter_pdfviewer37SwiftSyncfusionFlutterPdfViewerPluginC",
+        "moduleName": "syncfusion_flutter_pdfviewer",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.4\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 30,
+      "value": "\"syncfusion_flutter_pdfviewer\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.4\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 494,
+      "length": 4,
+      "value": "96.0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.4\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 501,
+      "length": 4,
+      "value": "72.0"
+    }
+  ]
+}

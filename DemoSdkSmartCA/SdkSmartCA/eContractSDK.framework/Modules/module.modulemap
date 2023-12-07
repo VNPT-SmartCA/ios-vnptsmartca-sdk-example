@@ -1,0 +1,11 @@
+framework module eContractSDK {
+  umbrella header "eContractSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module eContractSDK.Swift {
+  header "eContractSDK-Swift.h"
+  requires objc
+}

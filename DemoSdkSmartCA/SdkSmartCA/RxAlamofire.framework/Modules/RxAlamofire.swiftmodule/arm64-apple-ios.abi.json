@@ -1,0 +1,4510 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "RxAlamofire"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "RxAlamofire"
+      },
+      {
+        "kind": "Var",
+        "name": "RxAlamofireUnknownError",
+        "printedName": "RxAlamofireUnknownError",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "NSError",
+            "printedName": "Foundation.NSError",
+            "usr": "c:objc(cs)NSError"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:11RxAlamofire0aB12UnknownErrorSo7NSErrorCvp",
+        "mangledName": "$s11RxAlamofire0aB12UnknownErrorSo7NSErrorCvp",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:11RxAlamofire0aB12UnknownErrorSo7NSErrorCvg",
+            "mangledName": "$s11RxAlamofire0aB12UnknownErrorSo7NSErrorCvg",
+            "moduleName": "RxAlamofire",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "urlRequest",
+        "printedName": "urlRequest(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequest",
+            "printedName": "Foundation.URLRequest",
+            "usr": "s:10Foundation10URLRequestV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire10urlRequest__10parameters8encoding7headers10Foundation10URLRequestV0B010HTTPMethodO_AI14URLConvertible_pSDySSypGSgAI17ParameterEncoding_pSDyS2SGSgtKF",
+        "mangledName": "$s11RxAlamofire10urlRequest__10parameters8encoding7headers10Foundation10URLRequestV0B010HTTPMethodO_AI14URLConvertible_pSDySSypGSgAI17ParameterEncoding_pSDyS2SGSgtKF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "request",
+        "printedName": "request(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.DataRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataRequest",
+                "printedName": "Alamofire.DataRequest",
+                "usr": "s:9Alamofire11DataRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire7request__10parameters8encoding7headers0A5Swift10ObservableCy0B011DataRequestCGAI10HTTPMethodO_AI14URLConvertible_pSDySSypGSgAI17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire7request__10parameters8encoding7headers0A5Swift10ObservableCy0B011DataRequestCGAI10HTTPMethodO_AI14URLConvertible_pSDySSypGSgAI17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "request",
+        "printedName": "request(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.DataRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DataRequest",
+                "printedName": "Alamofire.DataRequest",
+                "usr": "s:9Alamofire11DataRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire7requesty0A5Swift10ObservableCy0B011DataRequestCGAF21URLRequestConvertible_pF",
+        "mangledName": "$s11RxAlamofire7requesty0A5Swift10ObservableCy0B011DataRequestCGAF21URLRequestConvertible_pF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestData",
+        "printedName": "requestData(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Foundation.Data)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire11requestData__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_10Foundation0D0VtG0B010HTTPMethodO_AO14URLConvertible_pSDySSypGSgAO17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire11requestData__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_10Foundation0D0VtG0B010HTTPMethodO_AO14URLConvertible_pSDySSypGSgAO17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestData",
+        "printedName": "requestData(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Foundation.Data)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire11requestDatay0A5Swift10ObservableCySo17NSHTTPURLResponseC_10Foundation0D0VtG0B021URLRequestConvertible_pF",
+        "mangledName": "$s11RxAlamofire11requestDatay0A5Swift10ObservableCySo17NSHTTPURLResponseC_10Foundation0D0VtG0B021URLRequestConvertible_pF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "data",
+        "printedName": "data(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Foundation.Data>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire4data__10parameters8encoding7headers0A5Swift10ObservableCy10Foundation4DataVG0B010HTTPMethodO_AM14URLConvertible_pSDySSypGSgAM17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire4data__10parameters8encoding7headers0A5Swift10ObservableCy10Foundation4DataVG0B010HTTPMethodO_AM14URLConvertible_pSDySSypGSgAM17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestString",
+        "printedName": "requestString(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire13requestString__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_SStG0B010HTTPMethodO_AL14URLConvertible_pSDySSypGSgAL17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire13requestString__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_SStG0B010HTTPMethodO_AL14URLConvertible_pSDySSypGSgAL17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestString",
+        "printedName": "requestString(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire13requestStringy0A5Swift10ObservableCySo17NSHTTPURLResponseC_SStG0B021URLRequestConvertible_pF",
+        "mangledName": "$s11RxAlamofire13requestStringy0A5Swift10ObservableCySo17NSHTTPURLResponseC_SStG0B021URLRequestConvertible_pF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "string",
+        "printedName": "string(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Swift.String>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire6string__10parameters8encoding7headers0A5Swift10ObservableCySSG0B010HTTPMethodO_AJ14URLConvertible_pSDySSypGSgAJ17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire6string__10parameters8encoding7headers0A5Swift10ObservableCySSG0B010HTTPMethodO_AJ14URLConvertible_pSDySSypGSgAJ17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestJSON",
+        "printedName": "requestJSON(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Any)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire11requestJSON__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_yptG0B010HTTPMethodO_AL14URLConvertible_pSDySSypGSgAL17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire11requestJSON__10parameters8encoding7headers0A5Swift10ObservableCySo17NSHTTPURLResponseC_yptG0B010HTTPMethodO_AL14URLConvertible_pSDySSypGSgAL17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "requestJSON",
+        "printedName": "requestJSON(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.HTTPURLResponse, Any)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire11requestJSONy0A5Swift10ObservableCySo17NSHTTPURLResponseC_yptG0B021URLRequestConvertible_pF",
+        "mangledName": "$s11RxAlamofire11requestJSONy0A5Swift10ObservableCySo17NSHTTPURLResponseC_yptG0B021URLRequestConvertible_pF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "json",
+        "printedName": "json(_:_:parameters:encoding:headers:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Any>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "HTTPMethod",
+            "printedName": "Alamofire.HTTPMethod",
+            "usr": "s:9Alamofire10HTTPMethodO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLConvertible",
+            "printedName": "Alamofire.URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Any]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ParameterEncoding",
+            "printedName": "Alamofire.ParameterEncoding",
+            "hasDefaultArg": true,
+            "usr": "s:9Alamofire17ParameterEncodingP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.String : Swift.String]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire4json__10parameters8encoding7headers0A5Swift10ObservableCyypG0B010HTTPMethodO_AJ14URLConvertible_pSDySSypGSgAJ17ParameterEncoding_pSDyS2SGSgtF",
+        "mangledName": "$s11RxAlamofire4json__10parameters8encoding7headers0A5Swift10ObservableCyypG0B010HTTPMethodO_AJ14URLConvertible_pSDySSypGSgAJ17ParameterEncoding_pSDyS2SGSgtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "upload",
+        "printedName": "upload(_:urlRequest:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UploadRequest",
+                "printedName": "Alamofire.UploadRequest",
+                "usr": "s:9Alamofire13UploadRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URL",
+            "printedName": "Foundation.URL",
+            "usr": "s:10Foundation3URLV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CG10Foundation3URLV_AG21URLRequestConvertible_ptF",
+        "mangledName": "$s11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CG10Foundation3URLV_AG21URLRequestConvertible_ptF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "upload",
+        "printedName": "upload(_:urlRequest:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UploadRequest",
+                "printedName": "Alamofire.UploadRequest",
+                "usr": "s:9Alamofire13UploadRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Data",
+            "printedName": "Foundation.Data",
+            "usr": "s:10Foundation4DataV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CG10Foundation4DataV_AG21URLRequestConvertible_ptF",
+        "mangledName": "$s11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CG10Foundation4DataV_AG21URLRequestConvertible_ptF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "upload",
+        "printedName": "upload(_:urlRequest:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UploadRequest",
+                "printedName": "Alamofire.UploadRequest",
+                "usr": "s:9Alamofire13UploadRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "InputStream",
+            "printedName": "Foundation.InputStream",
+            "usr": "c:objc(cs)NSInputStream"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CGSo13NSInputStreamC_AG21URLRequestConvertible_ptF",
+        "mangledName": "$s11RxAlamofire6upload_10urlRequest0A5Swift10ObservableCy0B006UploadE0CGSo13NSInputStreamC_AG21URLRequestConvertible_ptF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "download",
+        "printedName": "download(_:to:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.DownloadRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadRequest",
+                "printedName": "Alamofire.DownloadRequest",
+                "usr": "s:9Alamofire15DownloadRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "URLRequestConvertible",
+            "printedName": "Alamofire.URLRequestConvertible",
+            "usr": "s:9Alamofire21URLRequestConvertibleP"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Foundation.URL, Foundation.HTTPURLResponse) -> (destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadOptions",
+                    "printedName": "Alamofire.DownloadRequest.DownloadOptions",
+                    "usr": "s:9Alamofire15DownloadRequestC0B7OptionsV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire8download_2to0A5Swift10ObservableCy0B015DownloadRequestCGAG21URLRequestConvertible_p_10Foundation3URLV011destinationL0_AI0G7OptionsV7optionstAN_So17NSHTTPURLResponseCtctF",
+        "mangledName": "$s11RxAlamofire8download_2to0A5Swift10ObservableCy0B015DownloadRequestCGAG21URLRequestConvertible_p_10Foundation3URLV011destinationL0_AI0G7OptionsV7optionstAN_So17NSHTTPURLResponseCtctF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "download",
+        "printedName": "download(resumeData:to:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Observable",
+            "printedName": "RxSwift.Observable<Alamofire.DownloadRequest>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DownloadRequest",
+                "printedName": "Alamofire.DownloadRequest",
+                "usr": "s:9Alamofire15DownloadRequestC"
+              }
+            ],
+            "usr": "s:7RxSwift10ObservableC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Data",
+            "printedName": "Foundation.Data",
+            "usr": "s:10Foundation4DataV"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Foundation.URL, Foundation.HTTPURLResponse) -> (destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadOptions",
+                    "printedName": "Alamofire.DownloadRequest.DownloadOptions",
+                    "usr": "s:9Alamofire15DownloadRequestC0B7OptionsV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire8download10resumeData2to0A5Swift10ObservableCy0B015DownloadRequestCG10Foundation0E0V_AL3URLV011destinationL0_AJ0I7OptionsV7optionstAP_So17NSHTTPURLResponseCtctF",
+        "mangledName": "$s11RxAlamofire8download10resumeData2to0A5Swift10ObservableCy0B015DownloadRequestCG10Foundation0E0V_AL3URLV011destinationL0_AJ0I7OptionsV7optionstAP_So17NSHTTPURLResponseCtctF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RxProgress",
+        "printedName": "RxProgress",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bytesWritten",
+            "printedName": "bytesWritten",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RxAlamofire0A8ProgressV12bytesWrittens5Int64Vvp",
+            "mangledName": "$s11RxAlamofire0A8ProgressV12bytesWrittens5Int64Vvp",
+            "moduleName": "RxAlamofire",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RxAlamofire0A8ProgressV12bytesWrittens5Int64Vvg",
+                "mangledName": "$s11RxAlamofire0A8ProgressV12bytesWrittens5Int64Vvg",
+                "moduleName": "RxAlamofire",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalBytes",
+            "printedName": "totalBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RxAlamofire0A8ProgressV10totalBytess5Int64Vvp",
+            "mangledName": "$s11RxAlamofire0A8ProgressV10totalBytess5Int64Vvp",
+            "moduleName": "RxAlamofire",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RxAlamofire0A8ProgressV10totalBytess5Int64Vvg",
+                "mangledName": "$s11RxAlamofire0A8ProgressV10totalBytess5Int64Vvg",
+                "moduleName": "RxAlamofire",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bytesWritten:totalBytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RxProgress",
+                "printedName": "RxAlamofire.RxProgress",
+                "usr": "s:11RxAlamofire0A8ProgressV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RxAlamofire0A8ProgressV12bytesWritten10totalBytesACs5Int64V_AGtcfc",
+            "mangledName": "$s11RxAlamofire0A8ProgressV12bytesWritten10totalBytesACs5Int64V_AGtcfc",
+            "moduleName": "RxAlamofire",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "bytesRemaining",
+            "printedName": "bytesRemaining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RxAlamofire0A8ProgressV14bytesRemainings5Int64Vvp",
+            "mangledName": "$s11RxAlamofire0A8ProgressV14bytesRemainings5Int64Vvp",
+            "moduleName": "RxAlamofire",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RxAlamofire0A8ProgressV14bytesRemainings5Int64Vvg",
+                "mangledName": "$s11RxAlamofire0A8ProgressV14bytesRemainings5Int64Vvg",
+                "moduleName": "RxAlamofire",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RxAlamofire0A8ProgressV9completedSfvp",
+            "mangledName": "$s11RxAlamofire0A8ProgressV9completedSfvp",
+            "moduleName": "RxAlamofire",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RxAlamofire0A8ProgressV9completedSfvg",
+                "mangledName": "$s11RxAlamofire0A8ProgressV9completedSfvg",
+                "moduleName": "RxAlamofire",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RxAlamofire0A8ProgressV",
+        "mangledName": "$s11RxAlamofire0A8ProgressV",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "==",
+        "printedName": "==(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "RxProgress",
+            "printedName": "RxAlamofire.RxProgress",
+            "usr": "s:11RxAlamofire0A8ProgressV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "RxProgress",
+            "printedName": "RxAlamofire.RxProgress",
+            "usr": "s:11RxAlamofire0A8ProgressV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11RxAlamofire2eeoiySbAA0A8ProgressV_ADtF",
+        "mangledName": "$s11RxAlamofire2eeoiySbAA0A8ProgressV_ADtF",
+        "moduleName": "RxAlamofire",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SessionManager",
+        "printedName": "SessionManager",
+        "declKind": "Class",
+        "usr": "s:9Alamofire14SessionManagerC",
+        "mangledName": "$s9Alamofire14SessionManagerC",
+        "moduleName": "Alamofire",
+        "isOpen": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionManager",
+                    "printedName": "Alamofire.SessionManager",
+                    "usr": "s:9Alamofire14SessionManagerC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultDataResponse",
+        "printedName": "DefaultDataResponse",
+        "declKind": "Struct",
+        "usr": "s:9Alamofire19DefaultDataResponseV",
+        "mangledName": "$s9Alamofire19DefaultDataResponseV",
+        "moduleName": "Alamofire",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultDownloadResponse",
+        "printedName": "DefaultDownloadResponse",
+        "declKind": "Struct",
+        "usr": "s:9Alamofire23DefaultDownloadResponseV",
+        "mangledName": "$s9Alamofire23DefaultDownloadResponseV",
+        "moduleName": "Alamofire",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataRequest",
+        "printedName": "DataRequest",
+        "declKind": "Class",
+        "usr": "s:9Alamofire11DataRequestC",
+        "mangledName": "$s9Alamofire11DataRequestC",
+        "moduleName": "Alamofire",
+        "isOpen": true,
+        "superclassUsr": "s:9Alamofire7RequestC",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Alamofire.Request"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Request",
+                    "printedName": "Alamofire.Request",
+                    "usr": "s:9Alamofire7RequestC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DownloadRequest",
+        "printedName": "DownloadRequest",
+        "declKind": "Class",
+        "usr": "s:9Alamofire15DownloadRequestC",
+        "mangledName": "$s9Alamofire15DownloadRequestC",
+        "moduleName": "Alamofire",
+        "isOpen": true,
+        "superclassUsr": "s:9Alamofire7RequestC",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Alamofire.Request"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Request",
+                    "printedName": "Alamofire.Request",
+                    "usr": "s:9Alamofire7RequestC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Reactive",
+        "printedName": "Reactive",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DataRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataRequest",
+                    "printedName": "Alamofire.DataRequest",
+                    "usr": "s:9Alamofire11DataRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE7request__10parameters8encoding7headersAA10ObservableCyAE11DataRequestCGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE7request__10parameters8encoding7headersAA10ObservableCyAE11DataRequestCGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(urlRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DataRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataRequest",
+                    "printedName": "Alamofire.DataRequest",
+                    "usr": "s:9Alamofire11DataRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestConvertible",
+                "printedName": "Alamofire.URLRequestConvertible",
+                "usr": "s:9Alamofire21URLRequestConvertibleP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE7request10urlRequestAA10ObservableCyAE04DataI0CGAE21URLRequestConvertible_p_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE7request10urlRequestAA10ObservableCyAE04DataI0CGAE21URLRequestConvertible_p_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseData",
+            "printedName": "responseData(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Foundation.Data)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE12responseData__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_10Foundation0H0VtGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE12responseData__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_10Foundation0H0VtGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Foundation.Data>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE4data__10parameters8encoding7headersAA10ObservableCy10Foundation4DataVGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE4data__10parameters8encoding7headersAA10ObservableCy10Foundation4DataVGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseString",
+            "printedName": "responseString(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE14responseString__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_SStGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE14responseString__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_SStGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6string__10parameters8encoding7headersAA10ObservableCySSGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6string__10parameters8encoding7headersAA10ObservableCySSGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseJSON",
+            "printedName": "responseJSON(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE12responseJSON__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_yptGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE12responseJSON__10parameters8encoding7headersAA10ObservableCySo17NSHTTPURLResponseC_yptGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json(_:_:parameters:encoding:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Any>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLConvertible",
+                "printedName": "Alamofire.URLConvertible",
+                "usr": "s:9Alamofire14URLConvertibleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE4json__10parameters8encoding7headersAA10ObservableCyypGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE4json__10parameters8encoding7headersAA10ObservableCyypGAE10HTTPMethodO_AE14URLConvertible_pSDySSypGSgAE17ParameterEncoding_pSDyS2SGSgtF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(_:urlRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UploadRequest",
+                    "printedName": "Alamofire.UploadRequest",
+                    "usr": "s:9Alamofire13UploadRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestConvertible",
+                "printedName": "Alamofire.URLRequestConvertible",
+                "usr": "s:9Alamofire21URLRequestConvertibleP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CG10Foundation3URLV_AE21URLRequestConvertible_ptF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CG10Foundation3URLV_AE21URLRequestConvertible_ptF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(_:urlRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UploadRequest",
+                    "printedName": "Alamofire.UploadRequest",
+                    "usr": "s:9Alamofire13UploadRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestConvertible",
+                "printedName": "Alamofire.URLRequestConvertible",
+                "usr": "s:9Alamofire21URLRequestConvertibleP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CG10Foundation4DataV_AE21URLRequestConvertible_ptF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CG10Foundation4DataV_AE21URLRequestConvertible_ptF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(_:urlRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.UploadRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UploadRequest",
+                    "printedName": "Alamofire.UploadRequest",
+                    "usr": "s:9Alamofire13UploadRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputStream",
+                "printedName": "Foundation.InputStream",
+                "usr": "c:objc(cs)NSInputStream"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestConvertible",
+                "printedName": "Alamofire.URLRequestConvertible",
+                "usr": "s:9Alamofire21URLRequestConvertibleP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CGSo13NSInputStreamC_AE21URLRequestConvertible_ptF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE6upload_10urlRequestAA10ObservableCyAE06UploadI0CGSo13NSInputStreamC_AE21URLRequestConvertible_ptF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "download",
+            "printedName": "download(_:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DownloadRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadRequest",
+                    "printedName": "Alamofire.DownloadRequest",
+                    "usr": "s:9Alamofire15DownloadRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestConvertible",
+                "printedName": "Alamofire.URLRequestConvertible",
+                "usr": "s:9Alamofire21URLRequestConvertibleP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL, Foundation.HTTPURLResponse) -> (destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadOptions",
+                        "printedName": "Alamofire.DownloadRequest.DownloadOptions",
+                        "usr": "s:9Alamofire15DownloadRequestC0B7OptionsV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE8download_2toAA10ObservableCyAE15DownloadRequestCGAE21URLRequestConvertible_p_10Foundation3URLV011destinationO0_AM0J7OptionsV7optionstAR_So17NSHTTPURLResponseCtctF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE8download_2toAA10ObservableCyAE15DownloadRequestCGAE21URLRequestConvertible_p_10Foundation3URLV011destinationO0_AM0J7OptionsV7optionstAR_So17NSHTTPURLResponseCtctF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "download",
+            "printedName": "download(resumeData:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DownloadRequest>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadRequest",
+                    "printedName": "Alamofire.DownloadRequest",
+                    "usr": "s:9Alamofire15DownloadRequestC"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL, Foundation.HTTPURLResponse) -> (destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(destinationURL: Foundation.URL, options: Alamofire.DownloadRequest.DownloadOptions)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DownloadOptions",
+                        "printedName": "Alamofire.DownloadRequest.DownloadOptions",
+                        "usr": "s:9Alamofire15DownloadRequestC0B7OptionsV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE8download10resumeData2toAA10ObservableCyAE15DownloadRequestCG10Foundation0I0V_AP3URLV011destinationO0_AN0L7OptionsV7optionstAT_So17NSHTTPURLResponseCtctF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D014SessionManagerCRbzlE8download10resumeData2toAA10ObservableCyAE15DownloadRequestCG10Foundation0I0V_AP3URLV011destinationO0_AN0L7OptionsV7optionstAT_So17NSHTTPURLResponseCtctF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.SessionManager>",
+            "sugared_genericSig": "<Base where Base : Alamofire.SessionManager>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseResult",
+            "printedName": "responseResult(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, τ_1_0.SerializedObject)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, τ_1_0.SerializedObject)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_1_0.SerializedObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE14responseResult5queue0G10SerializerAA10ObservableCySo17NSHTTPURLResponseC_16SerializedObjectQyd__tGSo012OS_dispatch_I0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE14responseResult5queue0G10SerializerAA10ObservableCySo17NSHTTPURLResponseC_16SerializedObjectQyd__tGSo012OS_dispatch_I0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Alamofire.DataRequest, τ_1_0 : Alamofire.DataResponseSerializerProtocol>",
+            "sugared_genericSig": "<Base, T where Base : Alamofire.DataRequest, T : Alamofire.DataResponseSerializerProtocol>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseJSON",
+            "printedName": "responseJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DataResponse<Any>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataResponse",
+                    "printedName": "Alamofire.DataResponse<Any>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:9Alamofire12DataResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12responseJSONAA10ObservableCyAE0E8ResponseVyypGGyF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12responseJSONAA10ObservableCyAE0E8ResponseVyypGGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "result",
+            "printedName": "result(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_1_0.SerializedObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_1_0.SerializedObject"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE6result5queue18responseSerializerAA10ObservableCy16SerializedObjectQyd__GSo012OS_dispatch_H0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE6result5queue18responseSerializerAA10ObservableCy16SerializedObjectQyd__GSo012OS_dispatch_H0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Alamofire.DataRequest, τ_1_0 : Alamofire.DataResponseSerializerProtocol>",
+            "sugared_genericSig": "<Base, T where Base : Alamofire.DataRequest, T : Alamofire.DataResponseSerializerProtocol>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseData",
+            "printedName": "responseData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Foundation.Data)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE08responseE0AA10ObservableCySo17NSHTTPURLResponseC_10Foundation0E0VtGyF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE08responseE0AA10ObservableCySo17NSHTTPURLResponseC_10Foundation0E0VtGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Foundation.Data>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE4dataAA10ObservableCy10Foundation0E0VGyF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE4dataAA10ObservableCy10Foundation0E0VGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseString",
+            "printedName": "responseString(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String.Encoding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "Swift.String.Encoding",
+                    "usr": "s:SS10FoundationE8EncodingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE14responseString8encodingAA10ObservableCySo17NSHTTPURLResponseC_SStGSS10FoundationE8EncodingVSg_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE14responseString8encodingAA10ObservableCySo17NSHTTPURLResponseC_SStGSS10FoundationE8EncodingVSg_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String.Encoding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "Swift.String.Encoding",
+                    "usr": "s:SS10FoundationE8EncodingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE6string8encodingAA10ObservableCySSGSS10FoundationE8EncodingVSg_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE6string8encodingAA10ObservableCySSGSS10FoundationE8EncodingVSg_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseJSON",
+            "printedName": "responseJSON(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadingOptions",
+                "printedName": "Foundation.JSONSerialization.ReadingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSJSONReadingOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12responseJSON7optionsAA10ObservableCySo17NSHTTPURLResponseC_yptGSo20NSJSONReadingOptionsV_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12responseJSON7optionsAA10ObservableCySo17NSHTTPURLResponseC_yptGSo20NSJSONReadingOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Any>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadingOptions",
+                "printedName": "Foundation.JSONSerialization.ReadingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSJSONReadingOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE4json7optionsAA10ObservableCyypGSo20NSJSONReadingOptionsV_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE4json7optionsAA10ObservableCyypGSo20NSJSONReadingOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responsePropertyList",
+            "printedName": "responsePropertyList(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MutabilityOptions",
+                "printedName": "Foundation.PropertyListSerialization.MutabilityOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSPropertyListMutabilityOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE20responsePropertyList7optionsAA10ObservableCySo17NSHTTPURLResponseC_yptGSo010NSPropertyI17MutabilityOptionsV_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE20responsePropertyList7optionsAA10ObservableCySo17NSHTTPURLResponseC_yptGSo010NSPropertyI17MutabilityOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "propertyList",
+            "printedName": "propertyList(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Any>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MutabilityOptions",
+                "printedName": "Foundation.PropertyListSerialization.MutabilityOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSPropertyListMutabilityOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12propertyList7optionsAA10ObservableCyypGSo010NSPropertyH17MutabilityOptionsV_tF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D011DataRequestCRbzlE12propertyList7optionsAA10ObservableCyypGSo010NSPropertyH17MutabilityOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DataRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "response",
+            "printedName": "response()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DefaultDownloadResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultDownloadResponse",
+                    "printedName": "Alamofire.DefaultDownloadResponse",
+                    "usr": "s:9Alamofire23DefaultDownloadResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE8responseAA10ObservableCyAE07DefaultE8ResponseVGyF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE8responseAA10ObservableCyAE07DefaultE8ResponseVGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.DownloadRequest>",
+            "sugared_genericSig": "<Base where Base : Alamofire.DownloadRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseSerialized",
+            "printedName": "responseSerialized(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DownloadResponse<τ_1_0.SerializedObject>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadResponse",
+                    "printedName": "Alamofire.DownloadResponse<τ_1_0.SerializedObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_1_0.SerializedObject"
+                      }
+                    ],
+                    "usr": "s:9Alamofire16DownloadResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE18responseSerialized5queue0G10SerializerAA10ObservableCyAE0E8ResponseVy0H6ObjectQyd__GGSo012OS_dispatch_I0CSg_qd__tAE0elJ8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE18responseSerialized5queue0G10SerializerAA10ObservableCyAE0E8ResponseVy0H6ObjectQyd__GGSo012OS_dispatch_I0CSg_qd__tAE0elJ8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Alamofire.DownloadRequest, τ_1_0 : Alamofire.DownloadResponseSerializerProtocol>",
+            "sugared_genericSig": "<Base, Serializer where Base : Alamofire.DownloadRequest, Serializer : Alamofire.DownloadResponseSerializerProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseResult",
+            "printedName": "responseResult(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_1_0.SerializedObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_1_0.SerializedObject"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE14responseResult5queue0G10SerializerAA10ObservableCy16SerializedObjectQyd__GSo012OS_dispatch_I0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D015DownloadRequestCRbzlE14responseResult5queue0G10SerializerAA10ObservableCy16SerializedObjectQyd__GSo012OS_dispatch_I0CSg_qd__tAE0e8ResponseJ8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Alamofire.DownloadRequest, τ_1_0 : Alamofire.DownloadResponseSerializerProtocol>",
+            "sugared_genericSig": "<Base, Serializer where Base : Alamofire.DownloadRequest, Serializer : Alamofire.DownloadResponseSerializerProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "progress",
+            "printedName": "progress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<RxAlamofire.RxProgress>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RxProgress",
+                    "printedName": "RxAlamofire.RxProgress",
+                    "usr": "s:11RxAlamofire0A8ProgressV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift8ReactiveV0A9Alamofire0D07RequestCRbzlE8progressAA10ObservableCyAD0A8ProgressVGyF",
+            "mangledName": "$s7RxSwift8ReactiveV0A9Alamofire0D07RequestCRbzlE8progressAA10ObservableCyAD0A8ProgressVGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alamofire.Request>",
+            "sugared_genericSig": "<Base where Base : Alamofire.Request>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7RxSwift8ReactiveV",
+        "mangledName": "$s7RxSwift8ReactiveV",
+        "moduleName": "RxSwift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Base>",
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObservableType",
+        "printedName": "ObservableType",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "responseJSON",
+            "printedName": "responseJSON()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DataResponse<Any>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataResponse",
+                    "printedName": "Alamofire.DataResponse<Any>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:9Alamofire12DataResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE12responseJSONAA0C0CyAE0F8ResponseVyypGGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE12responseJSONAA0C0CyAE0F8ResponseVyypGGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Any>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadingOptions",
+                "printedName": "Foundation.JSONSerialization.ReadingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSJSONReadingOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE4json7optionsAA0C0CyypGSo20NSJSONReadingOptionsV_tF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE4json7optionsAA0C0CyypGSo20NSJSONReadingOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseString",
+            "printedName": "responseString(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String.Encoding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "Swift.String.Encoding",
+                    "usr": "s:SS10FoundationE8EncodingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE14responseString8encodingAA0C0CySo17NSHTTPURLResponseC_SStGSS10FoundationE8EncodingVSg_tF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE14responseString8encodingAA0C0CySo17NSHTTPURLResponseC_SStGSS10FoundationE8EncodingVSg_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String.Encoding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "Swift.String.Encoding",
+                    "usr": "s:SS10FoundationE8EncodingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE6string8encodingAA0C0CySSGSS10FoundationE8EncodingVSg_tF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE6string8encodingAA0C0CySSGSS10FoundationE8EncodingVSg_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseData",
+            "printedName": "responseData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Foundation.Data)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE08responseF0AA0C0CySo17NSHTTPURLResponseC_10Foundation0F0VtGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE08responseF0AA0C0CySo17NSHTTPURLResponseC_10Foundation0F0VtGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Foundation.Data>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE4dataAA0C0Cy10Foundation0F0VGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE4dataAA0C0Cy10Foundation0F0VGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responsePropertyList",
+            "printedName": "responsePropertyList(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse, Any)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MutabilityOptions",
+                "printedName": "Foundation.PropertyListSerialization.MutabilityOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSPropertyListMutabilityOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE20responsePropertyList7optionsAA0C0CySo17NSHTTPURLResponseC_yptGSo010NSPropertyK17MutabilityOptionsV_tF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE20responsePropertyList7optionsAA0C0CySo17NSHTTPURLResponseC_yptGSo010NSPropertyK17MutabilityOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "propertyList",
+            "printedName": "propertyList(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Any>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MutabilityOptions",
+                "printedName": "Foundation.PropertyListSerialization.MutabilityOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSPropertyListMutabilityOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE12propertyList7optionsAA0C0CyypGSo010NSPropertyJ17MutabilityOptionsV_tF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE12propertyList7optionsAA0C0CyypGSo010NSPropertyJ17MutabilityOptionsV_tF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "progress",
+            "printedName": "progress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<RxAlamofire.RxProgress>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RxProgress",
+                    "printedName": "RxAlamofire.RxProgress",
+                    "usr": "s:11RxAlamofire0A8ProgressV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8progressAA0C0CyAD0A8ProgressVGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8progressAA0C0CyAD0A8ProgressVGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "response",
+            "printedName": "response()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DefaultDownloadResponse>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultDownloadResponse",
+                    "printedName": "Alamofire.DefaultDownloadResponse",
+                    "usr": "s:9Alamofire23DefaultDownloadResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE8responseAA0C0CyAE07DefaultF8ResponseVGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE8responseAA0C0CyAE07DefaultF8ResponseVGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element : Alamofire.DownloadRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element : Alamofire.DownloadRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseSerialized",
+            "printedName": "responseSerialized(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<Alamofire.DownloadResponse<τ_1_0.SerializedObject>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadResponse",
+                    "printedName": "Alamofire.DownloadResponse<τ_1_0.SerializedObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_1_0.SerializedObject"
+                      }
+                    ],
+                    "usr": "s:9Alamofire16DownloadResponseV"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE18responseSerialized5queue0I10SerializerAA0C0CyAE0F8ResponseVy0J6ObjectQyd__GGSo012OS_dispatch_K0CSg_qd__tAE0fmL8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE18responseSerialized5queue0I10SerializerAA0C0CyAE0F8ResponseVy0J6ObjectQyd__GGSo012OS_dispatch_K0CSg_qd__tAE0fmL8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : RxSwift.ObservableType, τ_1_0 : Alamofire.DownloadResponseSerializerProtocol, τ_0_0.Element : Alamofire.DownloadRequest>",
+            "sugared_genericSig": "<Self, Serializer where Self : RxSwift.ObservableType, Serializer : Alamofire.DownloadResponseSerializerProtocol, Self.Element : Alamofire.DownloadRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "responseResult",
+            "printedName": "responseResult(queue:responseSerializer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_1_0.SerializedObject>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_1_0.SerializedObject"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE14responseResult5queue0I10SerializerAA0C0Cy16SerializedObjectQyd__GSo012OS_dispatch_K0CSg_qd__tAE0f8ResponseL8ProtocolRd__lF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E015DownloadRequestC7ElementRczrlE14responseResult5queue0I10SerializerAA0C0Cy16SerializedObjectQyd__GSo012OS_dispatch_K0CSg_qd__tAE0f8ResponseL8ProtocolRd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : RxSwift.ObservableType, τ_1_0 : Alamofire.DownloadResponseSerializerProtocol, τ_0_0.Element : Alamofire.DownloadRequest>",
+            "sugared_genericSig": "<Self, Serializer where Self : RxSwift.ObservableType, Serializer : Alamofire.DownloadResponseSerializerProtocol, Self.Element : Alamofire.DownloadRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(statusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_0_0.Element>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validate10statusCodeAA0C0CyAGGqd___tSTRd__SiAHRtd__lF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validate10statusCodeAA0C0CyAGGqd___tSTRd__SiAHRtd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : RxSwift.ObservableType, τ_1_0 : Swift.Sequence, τ_0_0.Element == Alamofire.DataRequest, τ_1_0.Element == Swift.Int>",
+            "sugared_genericSig": "<Self, S where Self : RxSwift.ObservableType, S : Swift.Sequence, Self.Element == Alamofire.DataRequest, S.Element == Swift.Int>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_0_0.Element>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validateAA0C0CyAGGyF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validateAA0C0CyAGGyF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(contentType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_0_0.Element>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validate07contentD0AA0C0CyAGGqd___tSTRd__SSAHRtd__lF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validate07contentD0AA0C0CyAGGqd___tSTRd__SSAHRtd__lF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : RxSwift.ObservableType, τ_1_0 : Swift.Sequence, τ_0_0.Element == Alamofire.DataRequest, τ_1_0.Element == Swift.String>",
+            "sugared_genericSig": "<Self, S where Self : RxSwift.ObservableType, S : Swift.Sequence, Self.Element == Alamofire.DataRequest, S.Element == Swift.String>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_0_0.Element>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLRequest?, Foundation.HTTPURLResponse, Foundation.Data?) -> Alamofire.Request.ValidationResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValidationResult",
+                    "printedName": "Alamofire.Request.ValidationResult",
+                    "usr": "s:9Alamofire7RequestC16ValidationResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLRequest?, Foundation.HTTPURLResponse, Foundation.Data?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLRequest?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLRequest",
+                            "printedName": "Foundation.URLRequest",
+                            "usr": "s:10Foundation10URLRequestV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validateyAA0C0CyAGGAE0G0C16ValidationResultO10Foundation10URLRequestVSg_So17NSHTTPURLResponseCAR0F0VSgtcF",
+            "mangledName": "$s7RxSwift14ObservableTypeP0A9Alamofire0E011DataRequestC7ElementRtzrlE8validateyAA0C0CyAGGAE0G0C16ValidationResultO10Foundation10URLRequestVSg_So17NSHTTPURLResponseCAR0F0VSgtcF",
+            "moduleName": "RxAlamofire",
+            "genericSig": "<τ_0_0 where τ_0_0 : RxSwift.ObservableType, τ_0_0.Element == Alamofire.DataRequest>",
+            "sugared_genericSig": "<Self where Self : RxSwift.ObservableType, Self.Element == Alamofire.DataRequest>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7RxSwift14ObservableTypeP",
+        "mangledName": "$s7RxSwift14ObservableTypeP",
+        "moduleName": "RxSwift",
+        "genericSig": "<τ_0_0 : RxSwift.ObservableConvertibleType>",
+        "sugared_genericSig": "<Self : RxSwift.ObservableConvertibleType>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableConvertibleType",
+            "printedName": "ObservableConvertibleType",
+            "usr": "s:7RxSwift25ObservableConvertibleTypeP",
+            "mangledName": "$s7RxSwift25ObservableConvertibleTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Request",
+        "printedName": "Request",
+        "declKind": "Class",
+        "usr": "s:9Alamofire7RequestC",
+        "mangledName": "$s9Alamofire7RequestC",
+        "moduleName": "Alamofire",
+        "isOpen": true,
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Request",
+                    "printedName": "Alamofire.Request",
+                    "usr": "s:9Alamofire7RequestC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/phanha\/Documents\/GitHub\/it.kv3.econtract.ios.sdk.vnp\/Pods\/RxAlamofire\/Sources\/RxAlamofire.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 19,
+      "value": "\"RxAlamofireDomain\""
+    },
+    {
+      "filePath": "\/Users\/phanha\/Documents\/GitHub\/it.kv3.econtract.ios.sdk.vnp\/Pods\/RxAlamofire\/Sources\/RxAlamofire.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 2,
+      "value": "1"
+    }
+  ]
+}

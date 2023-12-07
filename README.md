@@ -1,1 +1,0 @@
-# ios-vnptsmartca-sdk-example

@@ -1,0 +1,512 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLLauncherPlugin",
+        "printedName": "URLLauncherPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@url_launcher_ios@objc(cs)URLLauncherPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s16url_launcher_ios17URLLauncherPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "url_launcher_ios",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLLauncherPlugin",
+                "printedName": "url_launcher_ios.URLLauncherPlugin",
+                "usr": "c:@M@url_launcher_ios@objc(cs)URLLauncherPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@url_launcher_ios@objc(cs)URLLauncherPlugin(im)init",
+            "mangledName": "$s16url_launcher_ios17URLLauncherPluginCACycfc",
+            "moduleName": "url_launcher_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@url_launcher_ios@objc(cs)URLLauncherPlugin",
+        "mangledName": "$s16url_launcher_ios17URLLauncherPluginC",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "url_launcher_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 40,
+      "value": "\"Stacktrace: \""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1454,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1454,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1454,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 2803,
+      "length": 65,
+      "value": "\"dev.flutter.pigeon.url_launcher_ios.UrlLauncherApi.canLaunchUrl\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3061,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 3467,
+      "length": 62,
+      "value": "\"dev.flutter.pigeon.url_launcher_ios.UrlLauncherApi.launchUrl\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3719,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3774,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 4338,
+      "length": 82,
+      "value": "\"dev.flutter.pigeon.url_launcher_ios.UrlLauncherApi.openUrlInSafariViewController\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/messages.g.swift",
+      "kind": "StringLiteral",
+      "offset": 5163,
+      "length": 78,
+      "value": "\"dev.flutter.pigeon.url_launcher_ios.UrlLauncherApi.closeSafariViewController\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/URLLauncherPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/URLLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 17,
+      "value": "\"url_launcher_ios.URLLauncherPlugin\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/URLLaunchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1982,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.2.1\/ios\/Classes\/URLLaunchSession.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 16,
+      "value": "\"url_launcher_ios.URLLaunchSession\""
+    }
+  ]
+}

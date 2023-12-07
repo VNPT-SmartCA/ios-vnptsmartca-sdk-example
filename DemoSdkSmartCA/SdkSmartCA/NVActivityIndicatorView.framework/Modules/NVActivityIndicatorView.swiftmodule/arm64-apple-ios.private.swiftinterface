@@ -1,0 +1,119 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NVActivityIndicatorView
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import NVActivityIndicatorView
+import QuartzCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+final public class ActivityData {
+  public init(size: CoreFoundation.CGSize? = nil, message: Swift.String? = nil, messageFont: UIKit.UIFont? = nil, messageSpacing: CoreFoundation.CGFloat? = nil, type: NVActivityIndicatorView.NVActivityIndicatorType? = nil, color: UIKit.UIColor? = nil, padding: CoreFoundation.CGFloat? = nil, displayTimeThreshold: Swift.Int? = nil, minimumDisplayTime: Swift.Int? = nil, backgroundColor: UIKit.UIColor? = nil, textColor: UIKit.UIColor? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class NVActivityIndicatorPresenter {
+  public static let sharedInstance: NVActivityIndicatorView.NVActivityIndicatorPresenter
+  final public var isAnimating: Swift.Bool {
+    get
+  }
+  final public func startAnimating(_ data: NVActivityIndicatorView.ActivityData, _ fadeInAnimation: NVActivityIndicatorView.FadeInAnimation? = nil)
+  final public func stopAnimating(_ fadeOutAnimation: NVActivityIndicatorView.FadeOutAnimation? = nil)
+  final public func setMessage(_ message: Swift.String?)
+  @objc deinit
+}
+public enum NVActivityIndicatorType : Swift.CaseIterable {
+  case blank
+  case ballPulse
+  case ballGridPulse
+  case ballClipRotate
+  case squareSpin
+  case ballClipRotatePulse
+  case ballClipRotateMultiple
+  case ballPulseRise
+  case ballRotate
+  case cubeTransition
+  case ballZigZag
+  case ballZigZagDeflect
+  case ballTrianglePath
+  case ballScale
+  case lineScale
+  case lineScaleParty
+  case ballScaleMultiple
+  case ballPulseSync
+  case ballBeat
+  case ballDoubleBounce
+  case lineScalePulseOut
+  case lineScalePulseOutRapid
+  case ballScaleRipple
+  case ballScaleRippleMultiple
+  case ballSpinFadeLoader
+  case lineSpinFadeLoader
+  case triangleSkewSpin
+  case pacman
+  case ballGridBeat
+  case semiCircleSpin
+  case ballRotateChase
+  case orbit
+  case audioEqualizer
+  case circleStrokeSpin
+  public static func == (a: NVActivityIndicatorView.NVActivityIndicatorType, b: NVActivityIndicatorView.NVActivityIndicatorType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [NVActivityIndicatorView.NVActivityIndicatorType]
+  public static var allCases: [NVActivityIndicatorView.NVActivityIndicatorType] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias FadeInAnimation = (UIKit.UIView) -> Swift.Void
+public typealias FadeOutAnimation = (UIKit.UIView, @escaping () -> Swift.Void) -> Swift.Void
+@objc @_Concurrency.MainActor(unsafe) final public class NVActivityIndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_TYPE: NVActivityIndicatorView.NVActivityIndicatorType
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_TEXT_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_PADDING: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_SIZE: CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_DISPLAY_TIME_THRESHOLD: Swift.Int
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_MINIMUM_DISPLAY_TIME: Swift.Int
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_MESSAGE: Swift.String?
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_MESSAGE_SPACING: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_MESSAGE_FONT: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_BLOCKER_BACKGROUND_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_FADE_IN_ANIMATION: (_ view: UIKit.UIView) -> Swift.Void
+  @_Concurrency.MainActor(unsafe) public static var DEFAULT_FADE_OUT_ANIMATION: (_ view: UIKit.UIView, _ complete: @escaping () -> Swift.Void) -> Swift.Void
+  @_Concurrency.MainActor(unsafe) final public var type: NVActivityIndicatorView.NVActivityIndicatorType
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var color: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) final public var padding: CoreFoundation.CGFloat
+  @available(*, deprecated)
+  @_Concurrency.MainActor(unsafe) final public var animating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var isAnimating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, type: NVActivityIndicatorView.NVActivityIndicatorType? = nil, color: UIKit.UIColor? = nil, padding: CoreFoundation.CGFloat? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) final public func startAnimating()
+  @_Concurrency.MainActor(unsafe) final public func stopAnimating()
+  @objc deinit
+}
+public protocol NVActivityIndicatorViewable {
+}
+extension NVActivityIndicatorView.NVActivityIndicatorViewable where Self : UIKit.UIViewController {
+  public var isAnimating: Swift.Bool {
+    get
+  }
+  public func startAnimating(_ size: CoreFoundation.CGSize? = nil, message: Swift.String? = nil, messageFont: UIKit.UIFont? = nil, type: NVActivityIndicatorView.NVActivityIndicatorType? = nil, color: UIKit.UIColor? = nil, padding: CoreFoundation.CGFloat? = nil, displayTimeThreshold: Swift.Int? = nil, minimumDisplayTime: Swift.Int? = nil, backgroundColor: UIKit.UIColor? = nil, textColor: UIKit.UIColor? = nil, fadeInAnimation: NVActivityIndicatorView.FadeInAnimation? = NVActivityIndicatorView.DEFAULT_FADE_IN_ANIMATION)
+  public func stopAnimating(_ fadeOutAnimation: NVActivityIndicatorView.FadeOutAnimation? = NVActivityIndicatorView.DEFAULT_FADE_OUT_ANIMATION)
+}
+extension NVActivityIndicatorView.NVActivityIndicatorType : Swift.Equatable {}
+extension NVActivityIndicatorView.NVActivityIndicatorType : Swift.Hashable {}

@@ -1,0 +1,109 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxAlamofire
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import Foundation
+@_exported import RxAlamofire
+import RxSwift
+import Swift
+import _Concurrency
+import _StringProcessing
+public let RxAlamofireUnknownError: Foundation.NSError
+public func urlRequest(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) throws -> Foundation.URLRequest
+public func request(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Alamofire.DataRequest>
+public func request(_ urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.DataRequest>
+public func requestData(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>
+public func requestData(_ urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>
+public func data(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Foundation.Data>
+public func requestString(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>
+public func requestString(_ urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>
+public func string(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Swift.String>
+public func requestJSON(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+public func requestJSON(_ urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+public func json(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Any>
+public func upload(_ file: Foundation.URL, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+public func upload(_ data: Foundation.Data, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+public func upload(_ stream: Foundation.InputStream, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+public func download(_ urlRequest: Alamofire.URLRequestConvertible, to destination: @escaping Alamofire.DownloadRequest.DownloadFileDestination) -> RxSwift.Observable<Alamofire.DownloadRequest>
+public func download(resumeData: Foundation.Data, to destination: @escaping Alamofire.DownloadRequest.DownloadFileDestination) -> RxSwift.Observable<Alamofire.DownloadRequest>
+extension Alamofire.SessionManager : RxSwift.ReactiveCompatible {
+  public typealias ReactiveBase = Alamofire.SessionManager
+}
+extension RxSwift.Reactive where Base : Alamofire.SessionManager {
+  public func request(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Alamofire.DataRequest>
+  public func request(urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.DataRequest>
+  public func responseData(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>
+  public func data(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Foundation.Data>
+  public func responseString(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>
+  public func string(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Swift.String>
+  public func responseJSON(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+  public func json(_ method: Alamofire.HTTPMethod, _ url: Alamofire.URLConvertible, parameters: [Swift.String : Any]? = nil, encoding: Alamofire.ParameterEncoding = URLEncoding.default, headers: [Swift.String : Swift.String]? = nil) -> RxSwift.Observable<Any>
+  public func upload(_ file: Foundation.URL, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+  public func upload(_ data: Foundation.Data, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+  public func upload(_ stream: Foundation.InputStream, urlRequest: Alamofire.URLRequestConvertible) -> RxSwift.Observable<Alamofire.UploadRequest>
+  public func download(_ urlRequest: Alamofire.URLRequestConvertible, to destination: @escaping Alamofire.DownloadRequest.DownloadFileDestination) -> RxSwift.Observable<Alamofire.DownloadRequest>
+  public func download(resumeData: Foundation.Data, to destination: @escaping Alamofire.DownloadRequest.DownloadFileDestination) -> RxSwift.Observable<Alamofire.DownloadRequest>
+}
+extension RxSwift.ObservableType where Self.Element == Alamofire.DataRequest {
+  public func responseJSON() -> RxSwift.Observable<Alamofire.DataResponse<Any>>
+  public func json(options: Foundation.JSONSerialization.ReadingOptions = .allowFragments) -> RxSwift.Observable<Any>
+  public func responseString(encoding: Swift.String.Encoding? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>
+  public func string(encoding: Swift.String.Encoding? = nil) -> RxSwift.Observable<Swift.String>
+  public func responseData() -> RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>
+  public func data() -> RxSwift.Observable<Foundation.Data>
+  public func responsePropertyList(options: Foundation.PropertyListSerialization.ReadOptions = PropertyListSerialization.ReadOptions()) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+  public func propertyList(options: Foundation.PropertyListSerialization.ReadOptions = PropertyListSerialization.ReadOptions()) -> RxSwift.Observable<Any>
+  public func progress() -> RxSwift.Observable<RxAlamofire.RxProgress>
+}
+extension RxSwift.ObservableType where Self.Element : Alamofire.DownloadRequest {
+  public func response() -> RxSwift.Observable<Alamofire.DefaultDownloadResponse>
+  public func responseSerialized<Serializer>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: Serializer) -> RxSwift.Observable<Alamofire.DownloadResponse<Serializer.SerializedObject>> where Serializer : Alamofire.DownloadResponseSerializerProtocol
+  public func responseResult<Serializer>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: Serializer) -> RxSwift.Observable<Serializer.SerializedObject> where Serializer : Alamofire.DownloadResponseSerializerProtocol
+}
+extension RxSwift.ObservableType where Self.Element == Alamofire.DataRequest {
+  public func validate<S>(statusCode: S) -> RxSwift.Observable<Self.Element> where S : Swift.Sequence, S.Element == Swift.Int
+  public func validate() -> RxSwift.Observable<Self.Element>
+  public func validate<S>(contentType acceptableContentTypes: S) -> RxSwift.Observable<Self.Element> where S : Swift.Sequence, S.Element == Swift.String
+  public func validate(_ validation: @escaping Alamofire.DataRequest.Validation) -> RxSwift.Observable<Self.Element>
+}
+extension Alamofire.Request : RxSwift.ReactiveCompatible {
+  public typealias ReactiveBase = Alamofire.Request
+}
+extension RxSwift.Reactive where Base : Alamofire.DataRequest {
+  public func responseResult<T>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: T) -> RxSwift.Observable<(Foundation.HTTPURLResponse, T.SerializedObject)> where T : Alamofire.DataResponseSerializerProtocol
+  public func responseJSON() -> RxSwift.Observable<Alamofire.DataResponse<Any>>
+  public func result<T>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: T) -> RxSwift.Observable<T.SerializedObject> where T : Alamofire.DataResponseSerializerProtocol
+  public func responseData() -> RxSwift.Observable<(Foundation.HTTPURLResponse, Foundation.Data)>
+  public func data() -> RxSwift.Observable<Foundation.Data>
+  public func responseString(encoding: Swift.String.Encoding? = nil) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Swift.String)>
+  public func string(encoding: Swift.String.Encoding? = nil) -> RxSwift.Observable<Swift.String>
+  public func responseJSON(options: Foundation.JSONSerialization.ReadingOptions = .allowFragments) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+  public func json(options: Foundation.JSONSerialization.ReadingOptions = .allowFragments) -> RxSwift.Observable<Any>
+  public func responsePropertyList(options: Foundation.PropertyListSerialization.ReadOptions = PropertyListSerialization.ReadOptions()) -> RxSwift.Observable<(Foundation.HTTPURLResponse, Any)>
+  public func propertyList(options: Foundation.PropertyListSerialization.ReadOptions = PropertyListSerialization.ReadOptions()) -> RxSwift.Observable<Any>
+}
+extension RxSwift.Reactive where Base : Alamofire.DownloadRequest {
+  public func response() -> RxSwift.Observable<Alamofire.DefaultDownloadResponse>
+  public func responseSerialized<Serializer>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: Serializer) -> RxSwift.Observable<Alamofire.DownloadResponse<Serializer.SerializedObject>> where Serializer : Alamofire.DownloadResponseSerializerProtocol
+  public func responseResult<Serializer>(queue: Dispatch.DispatchQueue? = nil, responseSerializer: Serializer) -> RxSwift.Observable<Serializer.SerializedObject> where Serializer : Alamofire.DownloadResponseSerializerProtocol
+}
+extension RxSwift.Reactive where Base : Alamofire.Request {
+  public func progress() -> RxSwift.Observable<RxAlamofire.RxProgress>
+}
+public struct RxProgress {
+  public let bytesWritten: Swift.Int64
+  public let totalBytes: Swift.Int64
+  public init(bytesWritten: Swift.Int64, totalBytes: Swift.Int64)
+}
+extension RxAlamofire.RxProgress {
+  public var bytesRemaining: Swift.Int64 {
+    get
+  }
+  public var completed: Swift.Float {
+    get
+  }
+}
+extension RxAlamofire.RxProgress : Swift.Equatable {
+}
+public func == (lhs: RxAlamofire.RxProgress, rhs: RxAlamofire.RxProgress) -> Swift.Bool

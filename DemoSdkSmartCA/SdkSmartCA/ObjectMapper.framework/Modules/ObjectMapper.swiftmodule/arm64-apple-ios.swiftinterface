@@ -1,0 +1,393 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ObjectMapper
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import ObjectMapper
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+open class CodableTransform<T> : ObjectMapper.TransformType where T : Swift.Decodable, T : Swift.Encodable {
+  public typealias Object = T
+  public typealias JSON = Any
+  public init()
+  open func transformFromJSON(_ value: Any?) -> ObjectMapper.CodableTransform<T>.Object?
+  open func transformToJSON(_ value: T?) -> ObjectMapper.CodableTransform<T>.JSON?
+  @objc deinit
+}
+open class CustomDateFormatTransform : ObjectMapper.DateFormatterTransform {
+  public init(formatString: Swift.String)
+  @objc deinit
+}
+open class DataTransform : ObjectMapper.TransformType {
+  public typealias Object = Foundation.Data
+  public typealias JSON = Swift.String
+  public init()
+  open func transformFromJSON(_ value: Any?) -> Foundation.Data?
+  open func transformToJSON(_ value: Foundation.Data?) -> Swift.String?
+  @objc deinit
+}
+open class DateFormatterTransform : ObjectMapper.TransformType {
+  public typealias Object = Foundation.Date
+  public typealias JSON = Swift.String
+  final public let dateFormatter: Foundation.DateFormatter
+  public init(dateFormatter: Foundation.DateFormatter)
+  open func transformFromJSON(_ value: Any?) -> Foundation.Date?
+  open func transformToJSON(_ value: Foundation.Date?) -> Swift.String?
+  @objc deinit
+}
+open class DateTransform : ObjectMapper.TransformType {
+  public typealias Object = Foundation.Date
+  public typealias JSON = Swift.Double
+  public enum Unit : Foundation.TimeInterval {
+    case seconds
+    case milliseconds
+    public init?(rawValue: Foundation.TimeInterval)
+    public typealias RawValue = Foundation.TimeInterval
+    public var rawValue: Foundation.TimeInterval {
+      get
+    }
+  }
+  public init(unit: ObjectMapper.DateTransform.Unit = .seconds)
+  open func transformFromJSON(_ value: Any?) -> Foundation.Date?
+  open func transformToJSON(_ value: Foundation.Date?) -> Swift.Double?
+  @objc deinit
+}
+public struct DictionaryTransform<Key, Value> : ObjectMapper.TransformType where Key : Swift.Hashable, Key : Swift.RawRepresentable, Value : ObjectMapper.Mappable, Key.RawValue == Swift.String {
+  public init()
+  public func transformFromJSON(_ value: Any?) -> [Key : Value]?
+  public func transformToJSON(_ value: [Key : Value]?) -> Any?
+  public typealias JSON = Any
+  public typealias Object = [Key : Value]
+}
+public func <- <T>(left: inout T, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: T, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func <- <T>(left: inout T?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: T?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func <- <T>(left: inout [T], right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: [T], right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func <- <T>(left: inout [T]?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: [T]?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func <- <T>(left: inout [Swift.String : T], right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: [Swift.String : T], right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func <- <T>(left: inout [Swift.String : T]?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+public func >>> <T>(left: [Swift.String : T]?, right: ObjectMapper.Map) where T : Swift.RawRepresentable
+open class EnumTransform<T> : ObjectMapper.TransformType where T : Swift.RawRepresentable {
+  public typealias Object = T
+  public typealias JSON = T.RawValue
+  public init()
+  open func transformFromJSON(_ value: Any?) -> T?
+  open func transformToJSON(_ value: T?) -> T.RawValue?
+  @objc deinit
+}
+open class HexColorTransform : ObjectMapper.TransformType {
+  public typealias Object = UIKit.UIColor
+  public typealias JSON = Swift.String
+  public init(prefixToJSON: Swift.Bool = false, alphaToJSON: Swift.Bool = false)
+  open func transformFromJSON(_ value: Any?) -> ObjectMapper.HexColorTransform.Object?
+  open func transformToJSON(_ value: ObjectMapper.HexColorTransform.Object?) -> ObjectMapper.HexColorTransform.JSON?
+  @objc deinit
+}
+public protocol ImmutableMappable : ObjectMapper.BaseMappable {
+  init(map: ObjectMapper.Map) throws
+}
+extension ObjectMapper.ImmutableMappable {
+  public func mapping(map: ObjectMapper.Map)
+  public init(JSONString: Swift.String, context: ObjectMapper.MapContext? = nil) throws
+  public init(JSON: [Swift.String : Any], context: ObjectMapper.MapContext? = nil) throws
+  public init(JSONObject: Any, context: ObjectMapper.MapContext? = nil) throws
+}
+extension ObjectMapper.Map {
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T
+  final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> Transform.Object where Transform : ObjectMapper.TransformType
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T where T : Swift.RawRepresentable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T? where T : Swift.RawRepresentable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T] where T : Swift.RawRepresentable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T]? where T : Swift.RawRepresentable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T where T : ObjectMapper.BaseMappable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> T? where T : ObjectMapper.BaseMappable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T] where T : ObjectMapper.BaseMappable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [T]? where T : ObjectMapper.BaseMappable
+  final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Transform.Object] where Transform : ObjectMapper.TransformType
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : T] where T : ObjectMapper.BaseMappable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : T]? where T : ObjectMapper.BaseMappable
+  final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [Swift.String : Transform.Object] where Transform : ObjectMapper.TransformType
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[T]]? where T : ObjectMapper.BaseMappable
+  final public func value<T>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[T]] where T : ObjectMapper.BaseMappable
+  final public func value<Transform>(_ key: Swift.String, nested: Swift.Bool? = nil, delimiter: Swift.String = ".", using transform: Transform, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line) throws -> [[Transform.Object]] where Transform : ObjectMapper.TransformType
+}
+extension ObjectMapper.Mapper where N : ObjectMapper.ImmutableMappable {
+  final public func map(JSON: [Swift.String : Any]) throws -> N
+  final public func map(JSONString: Swift.String) throws -> N
+  final public func map(JSONObject: Any) throws -> N
+  final public func mapArray(JSONArray: [[Swift.String : Any]]) throws -> [N]
+  final public func mapArray(JSONString: Swift.String) throws -> [N]
+  final public func mapArray(JSONObject: Any) throws -> [N]
+  final public func mapDictionary(JSONString: Swift.String) throws -> [Swift.String : N]
+  final public func mapDictionary(JSONObject: Any?) throws -> [Swift.String : N]
+  final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]]) throws -> [Swift.String : N]
+  final public func mapDictionaryOfArrays(JSONObject: Any?) throws -> [Swift.String : [N]]
+  final public func mapDictionaryOfArrays(JSON: [Swift.String : [[Swift.String : Any]]]) throws -> [Swift.String : [N]]
+  final public func mapArrayOfArrays(JSONObject: Any?) throws -> [[N]]
+}
+public func <- <T>(left: inout T, right: ObjectMapper.Map) where T : Swift.SignedInteger
+public func <- <T>(left: inout T?, right: ObjectMapper.Map) where T : Swift.SignedInteger
+public func <- <T>(left: inout T, right: ObjectMapper.Map) where T : Swift.UnsignedInteger
+public func <- <T>(left: inout T?, right: ObjectMapper.Map) where T : Swift.UnsignedInteger
+extension Foundation.DateFormatter {
+  convenience public init(withFormat format: Swift.String, locale: Swift.String)
+}
+open class ISO8601DateTransform : ObjectMapper.DateFormatterTransform {
+  public init()
+  @objc deinit
+}
+public protocol MapContext {
+}
+final public class Map {
+  final public let mappingType: ObjectMapper.MappingType
+  final public var JSON: [Swift.String : Any] {
+    get
+  }
+  final public var isKeyPresent: Swift.Bool {
+    get
+  }
+  final public var currentValue: Any? {
+    get
+  }
+  final public var currentKey: Swift.String? {
+    get
+  }
+  final public var nestedKeyDelimiter: Swift.String {
+    get
+  }
+  final public var context: ObjectMapper.MapContext?
+  final public var shouldIncludeNilValues: Swift.Bool
+  final public let toObject: Swift.Bool
+  public init(mappingType: ObjectMapper.MappingType, JSON: [Swift.String : Any], toObject: Swift.Bool = false, context: ObjectMapper.MapContext? = nil, shouldIncludeNilValues: Swift.Bool = false)
+  final public subscript(key: Swift.String) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, delimiter delimiter: Swift.String) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, nested nested: Swift.Bool) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, nested nested: Swift.Bool, delimiter delimiter: Swift.String) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, nested nested: Swift.Bool, ignoreNil ignoreNil: Swift.Bool) -> ObjectMapper.Map {
+    get
+  }
+  final public subscript(key: Swift.String, nested nested: Swift.Bool?, delimiter delimiter: Swift.String, ignoreNil ignoreNil: Swift.Bool) -> ObjectMapper.Map {
+    get
+  }
+  final public func value<T>() -> T?
+  @objc deinit
+}
+public struct MapError : Swift.Error {
+  public var key: Swift.String?
+  public var currentValue: Any?
+  public var reason: Swift.String?
+  public var file: Swift.StaticString?
+  public var function: Swift.StaticString?
+  public var line: Swift.UInt?
+  public init(key: Swift.String?, currentValue: Any?, reason: Swift.String?, file: Swift.StaticString? = nil, function: Swift.StaticString? = nil, line: Swift.UInt? = nil)
+}
+extension ObjectMapper.MapError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol BaseMappable {
+  mutating func mapping(map: ObjectMapper.Map)
+}
+public protocol Mappable : ObjectMapper.BaseMappable {
+  init?(map: ObjectMapper.Map)
+}
+public protocol StaticMappable : ObjectMapper.BaseMappable {
+  static func objectForMapping(map: ObjectMapper.Map) -> ObjectMapper.BaseMappable?
+}
+extension ObjectMapper.Mappable {
+  public init?(JSONString: Swift.String, context: ObjectMapper.MapContext? = nil)
+  public init?(JSON: [Swift.String : Any], context: ObjectMapper.MapContext? = nil)
+}
+extension ObjectMapper.BaseMappable {
+  public func toJSON() -> [Swift.String : Any]
+  public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+}
+extension Swift.Array where Element : ObjectMapper.BaseMappable {
+  public init?(JSONString: Swift.String, context: ObjectMapper.MapContext? = nil)
+  public init(JSONArray: [[Swift.String : Any]], context: ObjectMapper.MapContext? = nil)
+  public func toJSON() -> [[Swift.String : Any]]
+  public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+}
+extension Swift.Set where Element : ObjectMapper.BaseMappable {
+  public init?(JSONString: Swift.String, context: ObjectMapper.MapContext? = nil)
+  public init?(JSONArray: [[Swift.String : Any]], context: ObjectMapper.MapContext? = nil)
+  public func toJSON() -> [[Swift.String : Any]]
+  public func toJSONString(prettyPrint: Swift.Bool = false) -> Swift.String?
+}
+public enum MappingType {
+  case fromJSON
+  case toJSON
+  public static func == (a: ObjectMapper.MappingType, b: ObjectMapper.MappingType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+final public class Mapper<N> where N : ObjectMapper.BaseMappable {
+  final public var context: ObjectMapper.MapContext?
+  final public var shouldIncludeNilValues: Swift.Bool
+  public init(context: ObjectMapper.MapContext? = nil, shouldIncludeNilValues: Swift.Bool = false)
+  final public func map(JSONObject: Any?, toObject object: N) -> N
+  final public func map(JSONString: Swift.String, toObject object: N) -> N
+  final public func map(JSON: [Swift.String : Any], toObject object: N) -> N
+  final public func map(JSONString: Swift.String) -> N?
+  final public func map(JSONObject: Any?) -> N?
+  final public func map(JSON: [Swift.String : Any]) -> N?
+  final public func mapArray(JSONString: Swift.String) -> [N]?
+  final public func mapArray(JSONObject: Any?) -> [N]?
+  final public func mapArray(JSONArray: [[Swift.String : Any]]) -> [N]
+  final public func mapDictionary(JSONString: Swift.String) -> [Swift.String : N]?
+  final public func mapDictionary(JSONObject: Any?) -> [Swift.String : N]?
+  final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]]) -> [Swift.String : N]?
+  final public func mapDictionary(JSONObject: Any?, toDictionary dictionary: [Swift.String : N]) -> [Swift.String : N]
+  final public func mapDictionary(JSON: [Swift.String : [Swift.String : Any]], toDictionary dictionary: [Swift.String : N]) -> [Swift.String : N]
+  final public func mapDictionaryOfArrays(JSONObject: Any?) -> [Swift.String : [N]]?
+  final public func mapDictionaryOfArrays(JSON: [Swift.String : [[Swift.String : Any]]]) -> [Swift.String : [N]]?
+  final public func mapArrayOfArrays(JSONObject: Any?) -> [[N]]?
+  public static func parseJSONStringIntoDictionary(JSONString: Swift.String) -> [Swift.String : Any]?
+  public static func parseJSONString(JSONString: Swift.String) -> Any?
+  @objc deinit
+}
+extension ObjectMapper.Mapper {
+  final public func map(JSONfile: Swift.String) -> N?
+  final public func mapArray(JSONfile: Swift.String) -> [N]?
+}
+extension ObjectMapper.Mapper {
+  final public func toJSON(_ object: N) -> [Swift.String : Any]
+  final public func toJSONArray(_ array: [N]) -> [[Swift.String : Any]]
+  final public func toJSONDictionary(_ dictionary: [Swift.String : N]) -> [Swift.String : [Swift.String : Any]]
+  final public func toJSONDictionaryOfArrays(_ dictionary: [Swift.String : [N]]) -> [Swift.String : [[Swift.String : Any]]]
+  final public func toJSONString(_ object: N, prettyPrint: Swift.Bool = false) -> Swift.String?
+  final public func toJSONString(_ array: [N], prettyPrint: Swift.Bool = false) -> Swift.String?
+  public static func toJSONString(_ JSONObject: Any, prettyPrint: Swift.Bool) -> Swift.String?
+  public static func toJSONData(_ JSONObject: Any, options: Foundation.JSONSerialization.WritingOptions) -> Foundation.Data?
+}
+extension ObjectMapper.Mapper where N : Swift.Hashable {
+  final public func mapSet(JSONString: Swift.String) -> Swift.Set<N>?
+  final public func mapSet(JSONObject: Any?) -> Swift.Set<N>?
+  final public func mapSet(JSONArray: [[Swift.String : Any]]) -> Swift.Set<N>
+  final public func toJSONSet(_ set: Swift.Set<N>) -> [[Swift.String : Any]]
+  final public func toJSONString(_ set: Swift.Set<N>, prettyPrint: Swift.Bool = false) -> Swift.String?
+}
+open class NSDecimalNumberTransform : ObjectMapper.TransformType {
+  public typealias Object = Foundation.NSDecimalNumber
+  public typealias JSON = Swift.String
+  public init()
+  open func transformFromJSON(_ value: Any?) -> Foundation.NSDecimalNumber?
+  open func transformToJSON(_ value: Foundation.NSDecimalNumber?) -> Swift.String?
+  @objc deinit
+}
+infix operator <- : DefaultPrecedence
+infix operator >>> : DefaultPrecedence
+public func <- <T>(left: inout T, right: ObjectMapper.Map)
+public func >>> <T>(left: T, right: ObjectMapper.Map)
+public func <- <T>(left: inout T?, right: ObjectMapper.Map)
+public func >>> <T>(left: T?, right: ObjectMapper.Map)
+public func <- <T>(left: inout T, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: T, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout T?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: T?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Dictionary<Swift.String, [T]>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Dictionary<Swift.String, [T]>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Array<T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Array<T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Array<T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Array<T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Array<Swift.Array<T>>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Array<Swift.Array<T>>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Array<Swift.Array<T>>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func >>> <T>(left: Swift.Array<Swift.Array<T>>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable
+public func <- <T>(left: inout Swift.Set<T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable, T : Swift.Hashable
+public func >>> <T>(left: Swift.Set<T>, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable, T : Swift.Hashable
+public func <- <T>(left: inout Swift.Set<T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable, T : Swift.Hashable
+public func >>> <T>(left: Swift.Set<T>?, right: ObjectMapper.Map) where T : ObjectMapper.BaseMappable, T : Swift.Hashable
+open class TransformOf<ObjectType, JSONType> : ObjectMapper.TransformType {
+  public typealias Object = ObjectType
+  public typealias JSON = JSONType
+  public init(fromJSON: @escaping (JSONType?) -> ObjectType?, toJSON: @escaping (ObjectType?) -> JSONType?)
+  open func transformFromJSON(_ value: Any?) -> ObjectType?
+  open func transformToJSON(_ value: ObjectType?) -> JSONType?
+  @objc deinit
+}
+public func <- <Transform>(left: inout Transform.Object, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: Transform.Object, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout Transform.Object?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: Transform.Object?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout [Transform.Object], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [Transform.Object], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout [Transform.Object]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [Transform.Object]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout [Swift.String : Transform.Object], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [Swift.String : Transform.Object], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout [Swift.String : Transform.Object]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [Swift.String : Transform.Object]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout Transform.Object, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Transform.Object, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Transform.Object?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Transform.Object?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Dictionary<Swift.String, [Transform.Object]>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Array<Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Array<Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout Swift.Array<Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func >>> <Transform>(left: Swift.Array<Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable
+public func <- <Transform>(left: inout [[Transform.Object]], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [[Transform.Object]], right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout [[Transform.Object]]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func >>> <Transform>(left: [[Transform.Object]]?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType
+public func <- <Transform>(left: inout Swift.Set<Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable, Transform.Object : Swift.Hashable
+public func >>> <Transform>(left: Swift.Set<Transform.Object>, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable, Transform.Object : Swift.Hashable
+public func <- <Transform>(left: inout Swift.Set<Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable, Transform.Object : Swift.Hashable
+public func >>> <Transform>(left: Swift.Set<Transform.Object>?, right: (ObjectMapper.Map, Transform)) where Transform : ObjectMapper.TransformType, Transform.Object : ObjectMapper.BaseMappable, Transform.Object : Swift.Hashable
+public protocol TransformType {
+  associatedtype Object
+  associatedtype JSON
+  func transformFromJSON(_ value: Any?) -> Self.Object?
+  func transformToJSON(_ value: Self.Object?) -> Self.JSON?
+}
+open class URLTransform : ObjectMapper.TransformType {
+  public typealias Object = Foundation.URL
+  public typealias JSON = Swift.String
+  public init(shouldEncodeURLString: Swift.Bool = false, allowedCharacterSet: Foundation.CharacterSet = .urlQueryAllowed)
+  open func transformFromJSON(_ value: Any?) -> Foundation.URL?
+  open func transformToJSON(_ value: Foundation.URL?) -> Swift.String?
+  @objc deinit
+}
+extension ObjectMapper.DateTransform.Unit : Swift.Equatable {}
+extension ObjectMapper.DateTransform.Unit : Swift.Hashable {}
+extension ObjectMapper.DateTransform.Unit : Swift.RawRepresentable {}
+extension ObjectMapper.MappingType : Swift.Equatable {}
+extension ObjectMapper.MappingType : Swift.Hashable {}
