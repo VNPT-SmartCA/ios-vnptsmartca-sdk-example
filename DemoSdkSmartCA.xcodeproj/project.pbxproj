@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010446A32B21C1D700DB5FB2 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010446A12B21C1CE00DB5FB2 /* SmartCASDK.framework */; };
+		010446A42B21C1D700DB5FB2 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 010446A12B21C1CE00DB5FB2 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		015003352B2078CF002857A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003342B2078CF002857A1 /* AppDelegate.swift */; };
 		015003372B2078CF002857A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003362B2078CF002857A1 /* SceneDelegate.swift */; };
 		015003392B2078CF002857A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003382B2078CF002857A1 /* ViewController.swift */; };
@@ -73,8 +75,6 @@
 		015003CB2B2079C0002857A1 /* share_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0150035C2B207993002857A1 /* share_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		015003CC2B2079C0002857A1 /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150034F2B207993002857A1 /* SignaturePad.framework */; };
 		015003CD2B2079C0002857A1 /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0150034F2B207993002857A1 /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		015003CE2B2079C1002857A1 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150035B2B207993002857A1 /* SmartCASDK.framework */; };
-		015003CF2B2079C1002857A1 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0150035B2B207993002857A1 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		015003D02B2079C2002857A1 /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015003542B207993002857A1 /* syncfusion_flutter_pdfviewer.xcframework */; };
 		015003D12B2079C2002857A1 /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 015003542B207993002857A1 /* syncfusion_flutter_pdfviewer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		015003D22B2079C3002857A1 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015003662B207993002857A1 /* url_launcher_ios.xcframework */; };
@@ -116,12 +116,12 @@
 				015003B72B2079B7002857A1 /* open_file_safe.xcframework in Embed Frameworks */,
 				015003A12B2079AE002857A1 /* flutter_keyboard_visibility.xcframework in Embed Frameworks */,
 				015003C12B2079BB002857A1 /* Result.framework in Embed Frameworks */,
+				010446A42B21C1D700DB5FB2 /* SmartCASDK.framework in Embed Frameworks */,
 				015003B52B2079B6002857A1 /* ObjectMapper.framework in Embed Frameworks */,
 				015003B12B2079B5002857A1 /* Moya.framework in Embed Frameworks */,
 				0150039F2B2079AD002857A1 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */,
 				015003B92B2079B8002857A1 /* package_info_plus.xcframework in Embed Frameworks */,
 				015003AD2B2079B3002857A1 /* JWTDecode.framework in Embed Frameworks */,
-				015003CF2B2079C1002857A1 /* SmartCASDK.framework in Embed Frameworks */,
 				015003932B2079A8002857A1 /* App.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -130,6 +130,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010446A12B21C1CE00DB5FB2 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 		015003312B2078CF002857A1 /* DemoSdkSmartCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSdkSmartCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015003342B2078CF002857A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015003362B2078CF002857A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,7 +156,6 @@
 		015003582B207993002857A1 /* flutter_jailbreak_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_jailbreak_detection.xcframework; sourceTree = "<group>"; };
 		015003592B207993002857A1 /* flutter_keyboard_visibility.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_keyboard_visibility.xcframework; sourceTree = "<group>"; };
 		0150035A2B207993002857A1 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		0150035B2B207993002857A1 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 		0150035C2B207993002857A1 /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = share_plus.xcframework; sourceTree = "<group>"; };
 		0150035D2B207993002857A1 /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = package_info_plus.xcframework; sourceTree = "<group>"; };
 		0150035E2B207993002857A1 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
@@ -197,9 +197,9 @@
 				015003C22B2079BC002857A1 /* RxAlamofire.framework in Frameworks */,
 				015003A82B2079B1002857A1 /* ICSdkEKYC.xcframework in Frameworks */,
 				015003922B2079A8002857A1 /* App.xcframework in Frameworks */,
-				015003CE2B2079C1002857A1 /* SmartCASDK.framework in Frameworks */,
 				0150039C2B2079AC002857A1 /* eKYCLib.xcframework in Frameworks */,
 				015003CC2B2079C0002857A1 /* SignaturePad.framework in Frameworks */,
+				010446A32B21C1D700DB5FB2 /* SmartCASDK.framework in Frameworks */,
 				015003D42B2079C4002857A1 /* webview_flutter_wkwebview.xcframework in Frameworks */,
 				015003C02B2079BB002857A1 /* Result.framework in Frameworks */,
 				015003C42B2079BD002857A1 /* RxCocoa.framework in Frameworks */,
@@ -255,41 +255,41 @@
 		015003492B207993002857A1 /* SdkSmartCA */ = {
 			isa = PBXGroup;
 			children = (
+				015003612B207993002857A1 /* Alamofire.framework */,
 				0150034A2B207993002857A1 /* App.xcframework */,
-				0150034B2B207993002857A1 /* eKYCLib.xcframework */,
-				0150034C2B207993002857A1 /* Reachability.xcframework */,
-				0150034D2B207993002857A1 /* RxAlamofire.framework */,
-				0150034E2B207993002857A1 /* NVActivityIndicatorView.framework */,
-				0150034F2B207993002857A1 /* SignaturePad.framework */,
-				015003502B207993002857A1 /* eContractSDK.framework */,
-				015003512B207993002857A1 /* Moya.framework */,
-				015003522B207993002857A1 /* flutter_secure_storage.xcframework */,
+				015003632B207993002857A1 /* connectivity_plus.xcframework */,
+				015003602B207993002857A1 /* device_info_plus.xcframework */,
 				015003532B207993002857A1 /* device_info.xcframework */,
-				015003542B207993002857A1 /* syncfusion_flutter_pdfviewer.xcframework */,
-				015003552B207993002857A1 /* RxRelay.framework */,
-				015003562B207993002857A1 /* local_auth_ios.xcframework */,
-				015003572B207993002857A1 /* Result.framework */,
+				015003502B207993002857A1 /* eContractSDK.framework */,
+				0150034B2B207993002857A1 /* eKYCLib.xcframework */,
 				015003582B207993002857A1 /* flutter_jailbreak_detection.xcframework */,
 				015003592B207993002857A1 /* flutter_keyboard_visibility.xcframework */,
-				0150035A2B207993002857A1 /* webview_flutter_wkwebview.xcframework */,
-				0150035B2B207993002857A1 /* SmartCASDK.framework */,
-				0150035C2B207993002857A1 /* share_plus.xcframework */,
-				0150035D2B207993002857A1 /* package_info_plus.xcframework */,
-				0150035E2B207993002857A1 /* FlutterPluginRegistrant.xcframework */,
-				0150035F2B207993002857A1 /* path_provider_foundation.xcframework */,
-				015003602B207993002857A1 /* device_info_plus.xcframework */,
-				015003612B207993002857A1 /* Alamofire.framework */,
-				015003622B207993002857A1 /* ObjectMapper.framework */,
-				015003632B207993002857A1 /* connectivity_plus.xcframework */,
-				015003642B207993002857A1 /* IOSSecuritySuite.xcframework */,
-				015003652B207993002857A1 /* permission_handler_apple.xcframework */,
-				015003662B207993002857A1 /* url_launcher_ios.xcframework */,
-				015003672B207993002857A1 /* open_file_safe.xcframework */,
+				015003522B207993002857A1 /* flutter_secure_storage.xcframework */,
 				015003682B207993002857A1 /* Flutter.xcframework */,
-				015003692B207993002857A1 /* RxCocoa.framework */,
-				0150036A2B207993002857A1 /* JWTDecode.framework */,
-				0150036B2B207993002857A1 /* RxSwift.framework */,
+				0150035E2B207993002857A1 /* FlutterPluginRegistrant.xcframework */,
 				0150036C2B207993002857A1 /* ICSdkEKYC.xcframework */,
+				015003642B207993002857A1 /* IOSSecuritySuite.xcframework */,
+				0150036A2B207993002857A1 /* JWTDecode.framework */,
+				015003562B207993002857A1 /* local_auth_ios.xcframework */,
+				015003512B207993002857A1 /* Moya.framework */,
+				0150034E2B207993002857A1 /* NVActivityIndicatorView.framework */,
+				015003622B207993002857A1 /* ObjectMapper.framework */,
+				015003672B207993002857A1 /* open_file_safe.xcframework */,
+				0150035D2B207993002857A1 /* package_info_plus.xcframework */,
+				0150035F2B207993002857A1 /* path_provider_foundation.xcframework */,
+				015003652B207993002857A1 /* permission_handler_apple.xcframework */,
+				0150034C2B207993002857A1 /* Reachability.xcframework */,
+				015003572B207993002857A1 /* Result.framework */,
+				0150034D2B207993002857A1 /* RxAlamofire.framework */,
+				015003692B207993002857A1 /* RxCocoa.framework */,
+				015003552B207993002857A1 /* RxRelay.framework */,
+				0150036B2B207993002857A1 /* RxSwift.framework */,
+				0150035C2B207993002857A1 /* share_plus.xcframework */,
+				0150034F2B207993002857A1 /* SignaturePad.framework */,
+				010446A12B21C1CE00DB5FB2 /* SmartCASDK.framework */,
+				015003542B207993002857A1 /* syncfusion_flutter_pdfviewer.xcframework */,
+				015003662B207993002857A1 /* url_launcher_ios.xcframework */,
+				0150035A2B207993002857A1 /* webview_flutter_wkwebview.xcframework */,
 			);
 			path = SdkSmartCA;
 			sourceTree = "<group>";
@@ -527,7 +527,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +560,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

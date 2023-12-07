@@ -4608,6 +4608,94 @@
           },
           {
             "kind": "Var",
+            "name": "isFlutterApp",
+            "printedName": "isFlutterApp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvp",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvp",
+            "moduleName": "SmartCASDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvg",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvg",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvs",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvs",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvM",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C12isFlutterAppSbvM",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "viewController",
             "printedName": "viewController",
             "children": [
@@ -5378,7 +5466,7 @@
           {
             "kind": "Function",
             "name": "makeConfigure",
-            "printedName": "makeConfigure(env:clientId:lang:)",
+            "printedName": "makeConfigure(env:clientId:lang:isFlutter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5416,11 +5504,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10SmartCASDK6HelperC13makeConfigure3env8clientId4langSDySSypGSi_S2StFZ",
-            "mangledName": "$s10SmartCASDK6HelperC13makeConfigure3env8clientId4langSDySSypGSi_S2StFZ",
+            "usr": "s:10SmartCASDK6HelperC13makeConfigure3env8clientId4lang9isFlutterSDySSypGSi_S2SSbtFZ",
+            "mangledName": "$s10SmartCASDK6HelperC13makeConfigure3env8clientId4lang9isFlutterSDySSypGSi_S2SSbtFZ",
             "moduleName": "SmartCASDK",
             "static": true,
             "declAttributes": [
@@ -5594,6 +5688,29 @@
         "declKind": "Var",
         "usr": "s:10SmartCASDK7ENV_KEYSSvp",
         "mangledName": "$s10SmartCASDK7ENV_KEYSSvp",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "IS_FLUTTER",
+        "printedName": "IS_FLUTTER",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10SmartCASDK10IS_FLUTTERSSvp",
+        "mangledName": "$s10SmartCASDK10IS_FLUTTERSSvp",
         "moduleName": "SmartCASDK",
         "declAttributes": [
           "HasInitialValue",
@@ -6055,14 +6172,14 @@
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 913,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1049,
+      "offset": 1076,
       "length": 5,
       "value": "false"
     },
@@ -6096,29 +6213,36 @@
     },
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "\"isFlutter\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 384,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 393,
+      "offset": 422,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 446,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/SmartCA\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 472,
       "length": 4,
       "value": "\"vi\""
     }

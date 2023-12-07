@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.vnptSmartCASDK = VNPTSmartCASDK(
-            viewController:  self,
+            viewController: self,
             partnerId: "CLIENT_ID",
             environment: VNPTSmartCASDK.ENVIRONMENT.DEMO,
             lang: VNPTSmartCASDK.LANG.VI)

@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+
+module eKYCLib{
+   header "../Utils/InternalClass.h"
+   export *
+}
+=======
+
+module eKYCLib{
+   header "../Utils/InternalClass.h"
+   export *
+}
+>>>>>>> 1b35ae3a138f834885aa05dc5520282ab0a1aea5
