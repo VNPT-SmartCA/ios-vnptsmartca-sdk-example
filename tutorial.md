@@ -38,7 +38,7 @@ override func viewDidLoad() {
 - Xác nhận giao dịch ký số
 - Xem thông tin khác: Lịch sử giao dịch, Thông tin chứng thư, Tài khoản
 - Hủy kết nối SDK
-```
+
 ### 📦 Hàm kích hoạt tài khoản, lấy accessToken và credentialId của người dùng
 
 - SDK sẽ thực hiện kiểm tra trạng thái tài khoản và chứng thư của khách hàng như: đã kích hoạt hay chưa, chứng thư hợp lệ hay không, tự động làm mới token khi hết hạn. Thành công SDK sẽ trả về **accessToken** và **credentialId** của người dùng.
