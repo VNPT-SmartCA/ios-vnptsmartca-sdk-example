@@ -22,7 +22,8 @@ class ViewController: UIViewController {
             viewController: self,
             partnerId: "CLIENT_ID",
             environment: VNPTSmartCASDK.ENVIRONMENT.DEMO,
-            lang: VNPTSmartCASDK.LANG.VI)
+            lang: VNPTSmartCASDK.LANG.VI,
+            isFlutterApp: false)
         
         self.hideKeyboardWhenTappedAround()
     }
