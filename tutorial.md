@@ -3,9 +3,13 @@
 -    Yêu cầu iOS >= 13.0
 
 ## Bước 1: Tải SDK và cấu hình Project
--    Tải phiên bản SDK mới nhất từ link sau: https://github.com/VNPT-SmartCA/ios_vnptsmartca_sdk
+-    Tải phiên bản SDK mới nhất từ link: https://github.com/VNPT-SmartCA/ios_vnptsmartca_sdk hoặc copy thư mục SdkSmartCA trong example này
 
--    Kéo thả toàn bộ file *.xcframework và *.framework vào trong project. Đi tới Targets Project -> General -> Frameworks, Libraries, and Embedded Content, ngoại trừ 2 thư viện FlutterPluginRegistrant.xcframework và permission_handler_apple.xcframework cấu hình Do not Embed, tất cả các thư viện còn lại cấu hình Embed & Sign
+-    Kéo thả toàn bộ file *.xcframework và *.framework vào trong project. Đi tới Targets Project -> General -> Frameworks, Libraries, and Embedded Content
+
+-    Ngoại trừ 2 thư viện FlutterPluginRegistrant.xcframework và permission_handler_apple.xcframework cấu hình Do not Embed, tất cả các thư viện còn lại cấu hình Embed & Sign
+
+-    Nếu project chưa cấu hình quyền sử dụng camera(NSCameraUsageDescription) hãy bổ sung cấu hình quyền sử dụng camera trong Info.plist
 
 ## Bước 2: Khởi tạo SDK tại nơi bắt đầu kết nối
 - Code tại **ViewController**
@@ -13,7 +17,7 @@
 // import thư viện
 import SmartCASDK
 
-//Khai báo biến
+// Khai báo biến
 var vnptSmartCASDK: VNPTSmartCASDK?
 
 // Khởi tạo SDK 
@@ -26,9 +30,9 @@ override func viewDidLoad() {
         environment: VNPTSmartCASDK.ENVIRONMENT.DEMO,
         lang: VNPTSmartCASDK.LANG.VI,
         isFlutterApp: false)
-    //isFlutterApp: true nếu app của bạn là Flutter, false nếu app của bạn là native
-    //... 
-    //Code của project
+    // isFlutterApp: true nếu app của bạn là Flutter, false nếu app của bạn là native
+    // ... 
+    // Code của project
 }
 ```
 
