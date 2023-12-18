@@ -68,9 +68,9 @@ override func viewDidLoad() {
 
     self.vnptSmartCASDK?.getWaitingTransaction(tranId: self.tranId, callback: { result in
         if result.status == SmartCAResultCode.SUCCESS_CODE {
-            print("Giao dịch thành công: \(result.status) - \(result.statusDesc) - \(result.data)");
+            // Xử lý khi thành công
         } else {
-            print("Lỗi giao dịch: \(result.status) - \(result.statusDesc) - \(result.data)");
+            // Xử lý khi thất bại
         }
     });
 }

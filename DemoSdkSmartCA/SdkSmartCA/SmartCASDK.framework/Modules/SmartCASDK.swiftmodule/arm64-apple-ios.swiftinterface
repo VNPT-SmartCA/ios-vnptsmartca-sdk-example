@@ -16,6 +16,7 @@ public struct SmartCAResult {
   public var statusDesc: Swift.String
   public var data: Swift.String
   public init(map: [Swift.String : Any?])
+  public func toJson() -> [Swift.String : Any]
 }
 @_hasMissingDesignatedInitializers public class SmartCAResultCode {
   public static var REQUIRED_OPEN_SDK: Swift.Int
