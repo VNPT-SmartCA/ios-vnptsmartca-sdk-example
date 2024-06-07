@@ -1,0 +1,11 @@
+framework module SignaturePad {
+  umbrella header "SignaturePad-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SignaturePad.Swift {
+  header "SignaturePad-Swift.h"
+  requires objc
+}

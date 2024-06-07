@@ -1,0 +1,4 @@
+framework module SmartCASDK {
+  header "SmartCASDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,179 @@
+/* 
+  Localizable.strings
+  ICSdkEKYC
+
+  Created by MinhMinh on 10/12/2022.
+  Copyright © 2022 iOS Team IC - VNPT IT. All rights reserved.
+*/
+
+
+
+// =============== HELP =============== //
+// ICEkycHelpDocumentViewController
+"ICEKYC_HELP_DOCUMENT_TITLE_IDENTITY_CARD" = "HƯỚNG DẪN\nCHỤP ẢNH CHỨNG MINH THƯ";
+"ICEKYC_HELP_DOCUMENT_TITLE_CITIZEN_ID_WITH_CHIP" = "HƯỚNG DẪN\nCHỤP ẢNH THẺ CĂN CƯỚC GẮN CHÍP";
+"ICEKYC_HELP_DOCUMENT_TITLE_PASSPORT" = "HƯỚNG DẪN\nCHỤP THÔNG TIN HỘ CHIẾU";
+"ICEKYC_HELP_DOCUMENT_TITLE_DRIVERS_LICENSE" = "HƯỚNG DẪN\nCHỤP ẢNH GIẤY PHÉP LÁI XE";
+"ICEKYC_HELP_DOCUMENT_TITLE_MILITARY_CARD" = "HƯỚNG DẪN\nCHỤP ẢNH CHỨNG MINH THƯ QUÂN ĐỘI";
+"ICEKYC_HELP_DOCUMENT_STEP_0102" = "Bước 1:\nChụp mặt trước";
+"ICEKYC_HELP_DOCUMENT_STEP_0202" = "Bước 2:\nChụp mặt sau";
+"ICEKYC_HELP_DOCUMENT_STEP_0103" = "Bước 1:\nQuét QR code";
+"ICEKYC_HELP_DOCUMENT_STEP_0203" = "Bước 2:\nChụp mặt trước";
+"ICEKYC_HELP_DOCUMENT_STEP_0303" = "Bước 3:\nChụp mặt sau";
+"ICEKYC_HELP_DOCUMENT_CONTENT_01" = "Giấy tờ còn hạn sử dụng. Là hình gốc, không scan và photocopy";
+"ICEKYC_HELP_DOCUMENT_CONTENT_02" = "Đặt giấy tờ trên một mặt phẳng";
+"ICEKYC_HELP_DOCUMENT_CONTENT_03" = "Đảm bảo ảnh rõ nét, không bị mờ lóa";
+"ICEKYC_HELP_DOCUMENT_CONTENT_PASSPORT" = "Ảnh hộ chiếu hợp lệ";
+"ICEKYC_HELP_DOCUMENT_CONTENT_DRIVERS_LICENSE" = "Ảnh chụp Giấy phép lái xe hợp lệ";
+"ICEKYC_HELP_DOCUMENT_NOTE_01" = "Không chụp\nquá mờ";
+"ICEKYC_HELP_DOCUMENT_NOTE_02" = "Không chụp\nmất góc";
+"ICEKYC_HELP_DOCUMENT_NOTE_03" = "Không chụp\nlóa sáng";
+"ICEKYC_HELP_DOCUMENT_GOTIT" = "TÔI ĐÃ HIỂU";
+"ICEKYC_HELP_DOCUMENT_SCAN_QR_CODE" = "QUÉT QR CODE";
+"ICEKYC_HELP_DOCUMENT_TAKE_BACK_PHOTO" = "CHỤP MẶT SAU";
+"ICEKYC_HELP_DOCUMENT_TAKE_FRONT_PHOTO" = "CHỤP MẶT TRƯỚC";
+
+// ICEkycHelpFullVideoViewController
+"ICEKYC_HELP_FULLSCREEN_VIDEO_SKIP_VIDEO" = "BỎ QUA\nHƯỚNG DẪN";
+
+// ICEkycHelpFaceViewController
+"ICEKYC_HELP_FACE_TITLE" = "Hướng dẫn\nxác thực khuôn mặt chủ giấy tờ";
+"ICEKYC_HELP_FACE_CONTENT_01" = "Chụp trong môi trường đủ ánh sáng";
+"ICEKYC_HELP_FACE_CONTENT_02" = "Đảm bảo ảnh rõ nét, không bị mờ lóa";
+"ICEKYC_HELP_FACE_NOTE_01" = "Không chụp quá mờ";
+"ICEKYC_HELP_FACE_NOTE_02" = "Không đeo kính";
+"ICEKYC_HELP_FACE_NOTE_03" = "Không chụp lóa sáng";
+"ICEKYC_HELP_FACE_GOTIT" = "TÔI ĐÃ HIỂU";
+
+// ICEkycHelpFaceVideoViewController
+"ICEKYC_HELP_FACE_TITLE" = "Hướng dẫn\nxác thực khuôn mặt chủ giấy tờ";
+"ICEKYC_HELP_FACE_DESCRIPTION" = "Xem video để trải nghiệm dễ dàng hơn";
+"ICEKYC_HELP_FACE_TITLE_DESCRIPTION" = "Quý khách vui lòng chuẩn bị:";
+"ICEKYC_HELP_FACE_2D_CONTENT_0103" = "Giữ điện thoại ở khoảng cách 40-45 cm";
+"ICEKYC_HELP_FACE_2D_CONTENT_0203" = "Quay mặt từ từ sang phải, sau đó nhìn thẳng";
+"ICEKYC_HELP_FACE_2D_CONTENT_0303" = "Không đeo kính, khẩu trang, không chụp ngược sáng";
+"ICEKYC_HELP_FACE_3D_CONTENT_0103" = "Giữ điện thoại ở khoảng cách 40-45 cm";
+"ICEKYC_HELP_FACE_3D_CONTENT_0203" = "Quay mặt từ từ sang phải, từ từ sang trái, sau đó nhìn thẳng";
+"ICEKYC_HELP_FACE_3D_CONTENT_0303" = "Không đeo kính, khẩu trang, không chụp ngược sáng";
+"ICEKYC_HELP_FACE_OVAL_CONTENT_0103" = "Giữ điện thoại ổn định và thẳng khuôn mặt";
+"ICEKYC_HELP_FACE_OVAL_CONTENT_0203" = "Để khuôn mặt vừa khung hình nhỏ và khung hình lớn";
+"ICEKYC_HELP_FACE_OVAL_CONTENT_0303" = "Không đeo kính, khẩu trang, không chụp ngược sáng";
+"ICEKYC_HELP_FACE_GOTIT" = "TÔI ĐÃ HIỂU";
+"ICEKYC_HELP_FACE_PLEASE_WATCH_THE_FULL_VIDEO" = "VUI LÒNG XEM HẾT VIDEO";
+// =============== HELP =============== //
+
+
+
+// =============== MAIN CAMERA =============== //
+// ICScanQRCodeViewController
+"ICEKYC_SCAN_QRCODE_TITLE" = "Thẻ căn cước gắn chíp";
+"ICEKYC_SCAN_QRCODE_HEADER" = "QR CODE";
+"ICEKYC_SCAN_QRCODE_CONTENT" = "Xin vui lòng\nĐưa mã QR Code vào trung tâm của camera";
+
+// ICDocumentViewController
+"ICEKYC_DOCUMENT_TITLE_IDENTITY_CARD" = "Chứng minh thư / Thẻ căn cước";
+"ICEKYC_DOCUMENT_TITLE_ID_CARD_CITIZEN_CHIP" = "Thẻ căn cước gắn chíp";
+"ICEKYC_DOCUMENT_TITLE_PASSPORT" = "Hộ chiếu";
+"ICEKYC_DOCUMENT_TITLE_DRIVERS_LICENSE" = "Bằng lái xe";
+"ICEKYC_DOCUMENT_TITLE_MILITARY_ID_CARD" = "Chứng minh thư quân đội";
+"ICEKYC_DOCUMENT_HEADER_FRONT" = "CHỤP MẶT TRƯỚC";
+"ICEKYC_DOCUMENT_HEADER_BACK" = "CHỤP MẶT SAU";
+"ICEKYC_DOCUMENT_CONTENT_FRONT" = "Xin vui lòng\nĐặt giấy tờ nằm vừa khung hình chữ nhật.\n\nVui lòng thực hiện xoay giấy tờ để thấy các góc cạnh của CCCD\n\nSau đó thực hiện chụp mặt trước và mặt sau của giấy tờ";
+"ICEKYC_DOCUMENT_CONTENT_BACK" = "Xin vui lòng\nĐặt giấy tờ nằm vừa khung hình chữ nhật,\nchụp đủ ánh sáng và rõ nét";
+"ICEKYC_DOCUMENT_CONTENT_PASSPORT" = "Xin vui lòng\nChụp trang thông tin hộ chiếu có ảnh chân dung bạn";
+
+"ICEKYC_DOCUMENT_VALIDATE_NO_CARD_FRONT" = "Vui lòng chụp ảnh mặt trước của Giấy tờ";
+"ICEKYC_DOCUMENT_VALIDATE_NO_CARD_BACK" = "Vui lòng chụp ảnh mặt sau của Giấy tờ";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_NEAR" = "Vui lòng đặt Giấy tờ xa hơn";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_FAR" = "Vui lòng đưa Giấy tờ lại gần hơn";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_LEFT" = "Vui lòng đặt Giấy tờ thẳng góc, không bị xô lệch khi chụp";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_RIGHT" = "Vui lòng đặt Giấy tờ thẳng góc, không bị xô lệch khi chụp";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_TOP" = "Vui lòng đặt Giấy tờ thẳng góc, không bị xô lệch khi chụp";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_BOTTOM" = "Vui lòng đặt Giấy tờ thẳng góc, không bị xô lệch khi chụp";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_BLUR" = "Hãy giữ yên";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_BRIGHT" = "Ảnh chụp bị lóa.\nVui lòng điều chỉnh góc chụp";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_VALID" = "Sẵn sàng chụp.\nVui lòng giữ yên!";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_INVALID" = "Ảnh chụp không hợp lệ";
+"ICEKYC_DOCUMENT_VALIDATE_CARD_TILT" = "Vui lòng đặt giấy tờ thẳng, không bị nghiêng khi chụp";
+
+// ICFaceCircleViewController
+"ICEKYC_FACE_CIRCLE_TITLE" = "Xác thực khuôn mặt của chủ giấy tờ";
+"ICEKYC_FACE_CIRCLE_CONTENT" = "Xin vui lòng\nĐể khuôn mặt vừa khung hình, chụp đủ sáng và rõ nét";
+"ICEKYC_FACE_CIRCLE_HELP" = "Hướng dẫn";
+
+// ICFaceCircleProViewController
+"ICEKYC_FACE_CIRCLE_PRO_TITLE" = "Xác thực khuôn mặt của chủ giấy tờ";
+"ICEKYC_FACE_CIRCLE_PRO_CONTENT_TO_THE_RIGHT" = "Xin vui lòng quay mặt từ từ sang phải";
+"ICEKYC_FACE_CIRCLE_PRO_CONTENT_TO_THE_LEFT" = "Xin vui lòng quay mặt từ từ sang trái";
+"ICEKYC_FACE_CIRCLE_PRO_CONTENT_LOOK_STRAIGHT" = "Xin vui lòng nhìn thẳng";
+"ICEKYC_FACE_CIRCLE_PRO_HELP" = "Hướng dẫn";
+
+// ICFaceOvalViewController
+"ICEKYC_FACE_OVAL_TITLE" = "Xác thực khuôn mặt của chủ giấy tờ";
+"ICEKYC_FACE_OVAL_MOVE_CLOSER" = "Gần hơn nữa";
+"ICEKYC_FACE_OVAL_MOVE_AWAY" = "Để mặt xa chút nữa";
+"ICEKYC_FACE_OVAL_HOLD_STEADY" = "Giữ vững khuôn mặt";
+"ICEKYC_FACE_OVAL_MOVE_FACE_FIT_FRAME" = "Đảm bảo khuôn mặt vừa khung hình";
+"ICEKYC_FACE_OVAL_MANY_FACES_IN_FRAME" = "Có nhiều hơn một khuôn mặt";
+"ICEKYC_FACE_OVAL_HELP" = "Hướng dẫn";
+
+// ICDataProcessingViewController
+"ICEKYC_DATA_PROCESSING_CONTENT" = "Đang tải dữ liệu";
+"ICEKYC_DATA_PROCESSING_COMPLETED" = "Hoàn thành";
+// =============== MAIN CAMERA =============== //
+
+
+
+// =============== PREVIEW =============== //
+// PreviewDocument
+"ICEKYC_PREVIEW_DOCUMENT_RE_CAPTURE" = "CHỤP LẠI";
+"ICEKYC_PREVIEW_DOCUMENT_HEADER_FRONT_PHOTO" = "ẢNH MẶT TRƯỚC";
+"ICEKYC_PREVIEW_DOCUMENT_HEADER_BACK_PHOTO" = "ẢNH MẶT SAU";
+"ICEKYC_PREVIEW_DOCUMENT_TAKE_FRONT_PHOTO" = "CHỤP MẶT TRƯỚC";
+"ICEKYC_PREVIEW_DOCUMENT_TAKE_BACK_PHOTO" = "CHỤP MẶT SAU";
+"ICEKYC_PREVIEW_DOCUMENT_NEXT" = "TIẾP THEO";
+"ICEKYC_PREVIEW_DOCUMENT_CONTENT_RECAPTURE" = "Chọn \"Chụp lại\" nếu ảnh mờ, lóa, không rõ nét";
+"ICEKYC_PREVIEW_DOCUMENT_CONTENT_CHOOSE_TAKE_BACK_PHOTO" = "Chọn \"Chụp mặt sau\" để sang bước tiếp theo";
+"ICEKYC_PREVIEW_DOCUMENT_CONTENT_CHOOSE_NEXT" = "Chọn \"Tiếp theo\" để kiểm tra thông tin";
+
+// PreviewFace
+"ICEKYC_PREVIEW_FACE_RE_CAPTURE" = "CHỤP LẠI";
+"ICEKYC_PREVIEW_FACE_CONTENT" = "Ảnh\nchân dung chủ giấy tờ";
+"ICEKYC_PREVIEW_FACE_COMPLETED" = "HOÀN THÀNH";
+// =============== PREVIEW =============== //
+
+
+
+// =============== POPUP =============== //
+// PopupCloseSDK
+"ICEKYC_POPUP_CLOSE_SDK_TITLE" = "Thông báo";
+"ICEKYC_POPUP_CLOSE_SDK_CONTENT" = "Bạn có muốn thoát khi chưa thực hiện xong quá trình?";
+"ICEKYC_POPUP_CLOSE_SDK_LEFT" = "KHÔNG";
+"ICEKYC_POPUP_CLOSE_SDK_RIGHT" = "CÓ";
+
+// PopupVoice
+"ICEKYC_POPUP_VOICE_CONTENT" = "Bạn đọc dãy số chưa chính xác, vui lòng thử lại!";
+"ICEKYC_POPUP_VOICE_LEFT" = "BỎ QUA";
+"ICEKYC_POPUP_VOICE_RIGHT" = "THỬ LẠI";
+
+// PopupLivenessDocument
+"ICEKYC_POPUP_LIVENESS_DOCUMENT_CONTENT" = "Ảnh chụp giấy tờ \nkhông hợp lệ";
+"ICEKYC_POPUP_LIVENESS_DOCUMENT_RETRY" = "THỬ LẠI";
+
+// PopupLivenessFace
+"ICEKYC_POPUP_LIVENESS_FACE_TITLE" = "Thông báo";
+"ICEKYC_POPUP_LIVENESS_FACE_CONTENT" = "Bạn có muốn thoát khi chưa thực hiện xong quá trình?";
+"ICEKYC_POPUP_LIVENESS_FACE_AGREE" = "KHÔNG";
+
+// PopupQRCode
+"ICEKYC_POPUP_QR_CODE_TITLE_CONTENT" = "Nội dung";
+"ICEKYC_POPUP_QR_CODE_TITLE_NOTIFICATION" = "Thông báo";
+"ICEKYC_POPUP_QR_CODE_CONTENT_FAILED" = "Thông tin QR không hợp lệ!\nVui lòng quét QR code trên CCCD.";
+"ICEKYC_POPUP_QR_CODE_AGREE" = "ĐỒNG Ý";
+
+// PopupRecordTimeout
+"ICEKYC_POPUP_RECORD_TIMEOUT_TITLE" = "Thông báo";
+"ICEKYC_POPUP_RECORD_TIMEOUT_CONTENT" = "Quá trình thao tác chưa thành công. Vui lòng thử lại";
+"ICEKYC_POPUP_RECORD_TIMEOUT_AGREE" = "THỬ LẠI";
+
+// =============== POPUP =============== //

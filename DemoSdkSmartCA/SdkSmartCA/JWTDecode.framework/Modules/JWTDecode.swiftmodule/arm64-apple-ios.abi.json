@@ -1,0 +1,2618 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_JWT",
+        "printedName": "_JWT",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "header",
+            "printedName": "header",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(py)header",
+            "mangledName": "$s9JWTDecode4_JWTC6headerSDySSypGvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)header",
+                "mangledName": "$s9JWTDecode4_JWTC6headerSDySSypGvg",
+                "moduleName": "JWTDecode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(py)body",
+            "mangledName": "$s9JWTDecode4_JWTC4bodySDySSypGvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)body",
+                "mangledName": "$s9JWTDecode4_JWTC4bodySDySSypGvg",
+                "moduleName": "JWTDecode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signature",
+            "printedName": "signature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(py)signature",
+            "mangledName": "$s9JWTDecode4_JWTC9signatureSSSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)signature",
+                "mangledName": "$s9JWTDecode4_JWTC9signatureSSSgvg",
+                "moduleName": "JWTDecode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(py)expiresAt",
+            "mangledName": "$s9JWTDecode4_JWTC9expiresAt10Foundation4DateVSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)expiresAt",
+                "mangledName": "$s9JWTDecode4_JWTC9expiresAt10Foundation4DateVSgvg",
+                "moduleName": "JWTDecode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(py)expired",
+            "mangledName": "$s9JWTDecode4_JWTC7expiredSbvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)expired",
+                "mangledName": "$s9JWTDecode4_JWTC7expiredSbvg",
+                "moduleName": "JWTDecode",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(jwt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_JWT",
+                "printedName": "JWTDecode._JWT",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(cm)decodeWithJwt:error:",
+            "mangledName": "$s9JWTDecode4_JWTC6decode3jwtACSS_tKFZ",
+            "moduleName": "JWTDecode",
+            "static": true,
+            "objc_name": "decodeWithJwt:error:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_JWT",
+                "printedName": "JWTDecode._JWT",
+                "usr": "c:@M@JWTDecode@objc(cs)A0JWT"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@JWTDecode@objc(cs)A0JWT(im)init",
+            "mangledName": "$s9JWTDecode4_JWTCACycfc",
+            "moduleName": "JWTDecode",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@JWTDecode@objc(cs)A0JWT",
+        "mangledName": "$s9JWTDecode4_JWTC",
+        "moduleName": "JWTDecode",
+        "objc_name": "A0JWT",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DecodeError",
+        "printedName": "DecodeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidBase64Url",
+            "printedName": "invalidBase64Url",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.DecodeError.Type) -> (Swift.String) -> JWTDecode.DecodeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JWTDecode.DecodeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.DecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode11DecodeErrorO16invalidBase64UrlyACSScACmF",
+            "mangledName": "$s9JWTDecode11DecodeErrorO16invalidBase64UrlyACSScACmF",
+            "moduleName": "JWTDecode"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidJSON",
+            "printedName": "invalidJSON",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.DecodeError.Type) -> (Swift.String) -> JWTDecode.DecodeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JWTDecode.DecodeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.DecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode11DecodeErrorO11invalidJSONyACSScACmF",
+            "mangledName": "$s9JWTDecode11DecodeErrorO11invalidJSONyACSScACmF",
+            "moduleName": "JWTDecode"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidPartCount",
+            "printedName": "invalidPartCount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.DecodeError.Type) -> (Swift.String, Swift.Int) -> JWTDecode.DecodeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int) -> JWTDecode.DecodeError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.DecodeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DecodeError",
+                        "printedName": "JWTDecode.DecodeError",
+                        "usr": "s:9JWTDecode11DecodeErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode11DecodeErrorO16invalidPartCountyACSS_SitcACmF",
+            "mangledName": "$s9JWTDecode11DecodeErrorO16invalidPartCountyACSS_SitcACmF",
+            "moduleName": "JWTDecode"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode11DecodeErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s9JWTDecode11DecodeErrorO20localizedDescriptionSSvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode11DecodeErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s9JWTDecode11DecodeErrorO20localizedDescriptionSSvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JWTDecode11DecodeErrorO",
+        "mangledName": "$s9JWTDecode11DecodeErrorO",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JWT",
+        "printedName": "JWT",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "header",
+            "printedName": "header",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP6headerSDySSypGvp",
+            "mangledName": "$s9JWTDecode3JWTP6headerSDySSypGvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP6headerSDySSypGvg",
+                "mangledName": "$s9JWTDecode3JWTP6headerSDySSypGvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP4bodySDySSypGvp",
+            "mangledName": "$s9JWTDecode3JWTP4bodySDySSypGvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP4bodySDySSypGvg",
+                "mangledName": "$s9JWTDecode3JWTP4bodySDySSypGvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signature",
+            "printedName": "signature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP9signatureSSSgvp",
+            "mangledName": "$s9JWTDecode3JWTP9signatureSSSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP9signatureSSSgvg",
+                "mangledName": "$s9JWTDecode3JWTP9signatureSSSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP6stringSSvp",
+            "mangledName": "$s9JWTDecode3JWTP6stringSSvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP6stringSSvg",
+                "mangledName": "$s9JWTDecode3JWTP6stringSSvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP9expiresAt10Foundation4DateVSgvp",
+            "mangledName": "$s9JWTDecode3JWTP9expiresAt10Foundation4DateVSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP9expiresAt10Foundation4DateVSgvg",
+                "mangledName": "$s9JWTDecode3JWTP9expiresAt10Foundation4DateVSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issuer",
+            "printedName": "issuer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP6issuerSSSgvp",
+            "mangledName": "$s9JWTDecode3JWTP6issuerSSSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP6issuerSSSgvg",
+                "mangledName": "$s9JWTDecode3JWTP6issuerSSSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subject",
+            "printedName": "subject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP7subjectSSSgvp",
+            "mangledName": "$s9JWTDecode3JWTP7subjectSSSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP7subjectSSSgvg",
+                "mangledName": "$s9JWTDecode3JWTP7subjectSSSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audience",
+            "printedName": "audience",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP8audienceSaySSGSgvp",
+            "mangledName": "$s9JWTDecode3JWTP8audienceSaySSGSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP8audienceSaySSGSgvg",
+                "mangledName": "$s9JWTDecode3JWTP8audienceSaySSGSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issuedAt",
+            "printedName": "issuedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP8issuedAt10Foundation4DateVSgvp",
+            "mangledName": "$s9JWTDecode3JWTP8issuedAt10Foundation4DateVSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP8issuedAt10Foundation4DateVSgvg",
+                "mangledName": "$s9JWTDecode3JWTP8issuedAt10Foundation4DateVSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notBefore",
+            "printedName": "notBefore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP9notBefore10Foundation4DateVSgvp",
+            "mangledName": "$s9JWTDecode3JWTP9notBefore10Foundation4DateVSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP9notBefore10Foundation4DateVSgvg",
+                "mangledName": "$s9JWTDecode3JWTP9notBefore10Foundation4DateVSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP10identifierSSSgvp",
+            "mangledName": "$s9JWTDecode3JWTP10identifierSSSgvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP10identifierSSSgvg",
+                "mangledName": "$s9JWTDecode3JWTP10identifierSSSgvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode3JWTP7expiredSbvp",
+            "mangledName": "$s9JWTDecode3JWTP7expiredSbvp",
+            "moduleName": "JWTDecode",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode3JWTP7expiredSbvg",
+                "mangledName": "$s9JWTDecode3JWTP7expiredSbvg",
+                "moduleName": "JWTDecode",
+                "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+                "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "claim",
+            "printedName": "claim(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Claim",
+                "printedName": "JWTDecode.Claim",
+                "usr": "s:9JWTDecode5ClaimV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JWTDecode3JWTPAAE5claim4nameAA5ClaimVSS_tF",
+            "mangledName": "$s9JWTDecode3JWTPAAE5claim4nameAA5ClaimVSS_tF",
+            "moduleName": "JWTDecode",
+            "genericSig": "<τ_0_0 where τ_0_0 : JWTDecode.JWT>",
+            "sugared_genericSig": "<Self where Self : JWTDecode.JWT>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9JWTDecode3JWTP",
+        "mangledName": "$s9JWTDecode3JWTP",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "decode",
+        "printedName": "decode(jwt:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "JWT",
+            "printedName": "JWTDecode.JWT",
+            "usr": "s:9JWTDecode3JWTP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9JWTDecode6decode3jwtAA3JWT_pSS_tKF",
+        "mangledName": "$s9JWTDecode6decode3jwtAA3JWT_pSS_tKF",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Claim",
+        "printedName": "Claim",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV8rawValueypSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV8rawValueypSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV8rawValueypSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV8rawValueypSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV6stringSSSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV6stringSSSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV6stringSSSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV6stringSSSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "boolean",
+            "printedName": "boolean",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV7booleanSbSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV7booleanSbSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV7booleanSbSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV7booleanSbSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV6doubleSdSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV6doubleSdSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV6doubleSdSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV6doubleSdSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "integer",
+            "printedName": "integer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV7integerSiSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV7integerSiSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV7integerSiSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV7integerSiSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV4date10Foundation4DateVSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV4date10Foundation4DateVSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV4date10Foundation4DateVSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV4date10Foundation4DateVSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode5ClaimV5arraySaySSGSgvp",
+            "mangledName": "$s9JWTDecode5ClaimV5arraySaySSGSgvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode5ClaimV5arraySaySSGSgvg",
+                "mangledName": "$s9JWTDecode5ClaimV5arraySaySSGSgvg",
+                "moduleName": "JWTDecode",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JWTDecode5ClaimV",
+        "mangledName": "$s9JWTDecode5ClaimV",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDTokenValidation",
+        "printedName": "IDTokenValidation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "issuer",
+            "printedName": "issuer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode17IDTokenValidationV6issuerSSvp",
+            "mangledName": "$s9JWTDecode17IDTokenValidationV6issuerSSvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode17IDTokenValidationV6issuerSSvg",
+                "mangledName": "$s9JWTDecode17IDTokenValidationV6issuerSSvg",
+                "moduleName": "JWTDecode",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audience",
+            "printedName": "audience",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9JWTDecode17IDTokenValidationV8audienceSSvp",
+            "mangledName": "$s9JWTDecode17IDTokenValidationV8audienceSSvp",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9JWTDecode17IDTokenValidationV8audienceSSvg",
+                "mangledName": "$s9JWTDecode17IDTokenValidationV8audienceSSvg",
+                "moduleName": "JWTDecode",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(issuer:audience:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDTokenValidation",
+                "printedName": "JWTDecode.IDTokenValidation",
+                "usr": "s:9JWTDecode17IDTokenValidationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9JWTDecode17IDTokenValidationV6issuer8audienceACSS_SStcfc",
+            "mangledName": "$s9JWTDecode17IDTokenValidationV6issuer8audienceACSS_SStcfc",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(_:nonce:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JWTDecode.ValidationError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValidationError",
+                    "printedName": "JWTDecode.ValidationError",
+                    "usr": "s:9JWTDecode15ValidationErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JWT",
+                "printedName": "JWTDecode.JWT",
+                "usr": "s:9JWTDecode3JWTP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9JWTDecode17IDTokenValidationV8validate_5nonceAA0C5ErrorOSgAA3JWT_p_SSSgtF",
+            "mangledName": "$s9JWTDecode17IDTokenValidationV8validate_5nonceAA0C5ErrorOSgAA3JWT_p_SSSgtF",
+            "moduleName": "JWTDecode",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9JWTDecode17IDTokenValidationV",
+        "mangledName": "$s9JWTDecode17IDTokenValidationV",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValidationError",
+        "printedName": "ValidationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidClaim",
+            "printedName": "invalidClaim",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.ValidationError.Type) -> (Swift.String) -> JWTDecode.ValidationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> JWTDecode.ValidationError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "JWTDecode.ValidationError",
+                        "usr": "s:9JWTDecode15ValidationErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.ValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "JWTDecode.ValidationError",
+                        "usr": "s:9JWTDecode15ValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode15ValidationErrorO12invalidClaimyACSScACmF",
+            "mangledName": "$s9JWTDecode15ValidationErrorO12invalidClaimyACSScACmF",
+            "moduleName": "JWTDecode"
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.ValidationError.Type) -> JWTDecode.ValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValidationError",
+                    "printedName": "JWTDecode.ValidationError",
+                    "usr": "s:9JWTDecode15ValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.ValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "JWTDecode.ValidationError",
+                        "usr": "s:9JWTDecode15ValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode15ValidationErrorO7expiredyA2CmF",
+            "mangledName": "$s9JWTDecode15ValidationErrorO7expiredyA2CmF",
+            "moduleName": "JWTDecode"
+          },
+          {
+            "kind": "Var",
+            "name": "nonce",
+            "printedName": "nonce",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JWTDecode.ValidationError.Type) -> JWTDecode.ValidationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValidationError",
+                    "printedName": "JWTDecode.ValidationError",
+                    "usr": "s:9JWTDecode15ValidationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JWTDecode.ValidationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidationError",
+                        "printedName": "JWTDecode.ValidationError",
+                        "usr": "s:9JWTDecode15ValidationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9JWTDecode15ValidationErrorO5nonceyA2CmF",
+            "mangledName": "$s9JWTDecode15ValidationErrorO5nonceyA2CmF",
+            "moduleName": "JWTDecode"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9JWTDecode15ValidationErrorO",
+        "mangledName": "$s9JWTDecode15ValidationErrorO",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JWTDecode",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/A0JWT.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 4,
+      "value": "\"JWTDecode._JWT\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 73,
+      "value": "\"Malformed jwt token, failed to parse JSON value from base64Url \""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 1847,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 1859,
+      "length": 37,
+      "value": "\"Invalid JSON value inside base64Url\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
+      "length": 75,
+      "value": "\"Malformed jwt token \""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2014,
+      "length": 3,
+      "value": "\" has \""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2027,
+      "length": 5,
+      "value": "\" parts when it should have 3 parts\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 29,
+      "value": "\"Invalid amount of jwt parts\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 64,
+      "value": "\"Malformed jwt token, failed to decode base64Url value \""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2247,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 2259,
+      "length": 35,
+      "value": "\"Invalid JWT token base64Url value\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 1791,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1825,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1956,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2004,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2039,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 5,
+      "value": "\"exp\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 5,
+      "value": "\"iss\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2242,
+      "length": 5,
+      "value": "\"sub\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 5,
+      "value": "\"aud\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2367,
+      "length": 5,
+      "value": "\"iat\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2427,
+      "length": 5,
+      "value": "\"nbf\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 2490,
+      "length": 5,
+      "value": "\"jti\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4356,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4406,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4522,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "FloatLiteral",
+      "offset": 4540,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4642,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "StringLiteral",
+      "offset": 4692,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/JWTDecode.swift",
+      "kind": "Array",
+      "offset": 5083,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/TokenValidators.swift",
+      "kind": "StringLiteral",
+      "offset": 1979,
+      "length": 5,
+      "value": "\"aud\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/TokenValidators.swift",
+      "kind": "StringLiteral",
+      "offset": 2054,
+      "length": 5,
+      "value": "\"aud\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/TokenValidators.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
+      "length": 5,
+      "value": "\"iss\""
+    },
+    {
+      "filePath": "\/Users\/haphan\/Documents\/github\/it.kv3.econtract.ios.sdk\/Pods\/JWTDecode\/JWTDecode\/TokenValidators.swift",
+      "kind": "StringLiteral",
+      "offset": 2213,
+      "length": 7,
+      "value": "\"nonce\""
+    }
+  ]
+}

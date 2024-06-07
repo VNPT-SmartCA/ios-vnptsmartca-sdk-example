@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoSdkSmartCA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo SmartCA SDK" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcq-0e-5Fc">
+                                <rect key="frame" x="15" y="109" width="363" height="38"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96R-pT-dWL">
+                                <rect key="frame" x="15" y="197" width="363" height="52"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lấy Access token" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getAuthentication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c0t-1n-Efq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV8-Mp-XrM">
+                                <rect key="frame" x="15" y="383" width="363" height="51.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Xác nhận giao dịch" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getWaitingTransaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UQd-zJ-axd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHI-at-TLV">
+                                <rect key="frame" x="15" y="484.66666666666669" width="363" height="52.000000000000057"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Quản lý tài khoản" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getMainInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgf-dX-ox7"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Vui lòng điền Transaction ID" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="3B6-ad-zle">
+                                <rect key="frame" x="15" y="299" width="363" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gHI-at-TLV" firstAttribute="top" secondItem="KV8-Mp-XrM" secondAttribute="bottom" constant="50" id="7Db-za-DLj"/>
+                            <constraint firstItem="3B6-ad-zle" firstAttribute="top" secondItem="96R-pT-dWL" secondAttribute="bottom" constant="50" id="A0k-ZL-yhL"/>
+                            <constraint firstItem="3B6-ad-zle" firstAttribute="leading" secondItem="KV8-Mp-XrM" secondAttribute="leading" id="Lyr-i6-eaE"/>
+                            <constraint firstItem="96R-pT-dWL" firstAttribute="top" secondItem="zcq-0e-5Fc" secondAttribute="bottom" constant="50" id="R5b-GK-J1U"/>
+                            <constraint firstItem="96R-pT-dWL" firstAttribute="leading" secondItem="3B6-ad-zle" secondAttribute="leading" id="VcI-EQ-akc"/>
+                            <constraint firstItem="96R-pT-dWL" firstAttribute="leading" secondItem="zcq-0e-5Fc" secondAttribute="leading" id="aLI-b4-mE1"/>
+                            <constraint firstItem="3B6-ad-zle" firstAttribute="trailing" secondItem="KV8-Mp-XrM" secondAttribute="trailing" id="bgN-UF-CMc"/>
+                            <constraint firstItem="KV8-Mp-XrM" firstAttribute="top" secondItem="3B6-ad-zle" secondAttribute="bottom" constant="50" id="hhd-Lm-IDx"/>
+                            <constraint firstItem="zcq-0e-5Fc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iKA-4L-huw"/>
+                            <constraint firstItem="KV8-Mp-XrM" firstAttribute="trailing" secondItem="gHI-at-TLV" secondAttribute="trailing" id="npS-u3-A0g"/>
+                            <constraint firstItem="zcq-0e-5Fc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="qyx-UT-i8w"/>
+                            <constraint firstItem="zcq-0e-5Fc" firstAttribute="centerX" secondItem="96R-pT-dWL" secondAttribute="centerX" id="sqk-CY-X0e"/>
+                            <constraint firstItem="zcq-0e-5Fc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="tUZ-Ns-6g7"/>
+                            <constraint firstItem="KV8-Mp-XrM" firstAttribute="leading" secondItem="gHI-at-TLV" secondAttribute="leading" id="uQu-gO-qpO"/>
+                            <constraint firstItem="3B6-ad-zle" firstAttribute="trailing" secondItem="96R-pT-dWL" secondAttribute="trailing" id="v3A-Wr-u2k"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtTranID" destination="3B6-ad-zle" id="W3Z-yE-KNu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="39" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,2706 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCAResult",
+        "printedName": "SmartCAResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A8CAResultV6statusSivp",
+            "mangledName": "$s10SmartCASDK0A8CAResultV6statusSivp",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV6statusSivg",
+                "mangledName": "$s10SmartCASDK0A8CAResultV6statusSivg",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV6statusSivs",
+                "mangledName": "$s10SmartCASDK0A8CAResultV6statusSivs",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV6statusSivM",
+                "mangledName": "$s10SmartCASDK0A8CAResultV6statusSivM",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusDesc",
+            "printedName": "statusDesc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A8CAResultV10statusDescSSvp",
+            "mangledName": "$s10SmartCASDK0A8CAResultV10statusDescSSvp",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV10statusDescSSvg",
+                "mangledName": "$s10SmartCASDK0A8CAResultV10statusDescSSvg",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV10statusDescSSvs",
+                "mangledName": "$s10SmartCASDK0A8CAResultV10statusDescSSvs",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV10statusDescSSvM",
+                "mangledName": "$s10SmartCASDK0A8CAResultV10statusDescSSvM",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A8CAResultV4dataSSvp",
+            "mangledName": "$s10SmartCASDK0A8CAResultV4dataSSvp",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV4dataSSvg",
+                "mangledName": "$s10SmartCASDK0A8CAResultV4dataSSvg",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV4dataSSvs",
+                "mangledName": "$s10SmartCASDK0A8CAResultV4dataSSvs",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A8CAResultV4dataSSvM",
+                "mangledName": "$s10SmartCASDK0A8CAResultV4dataSSvM",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SmartCAResult",
+                "printedName": "SmartCASDK.SmartCAResult",
+                "usr": "s:10SmartCASDK0A8CAResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SmartCASDK0A8CAResultV3mapACSDySSypSgG_tcfc",
+            "mangledName": "$s10SmartCASDK0A8CAResultV3mapACSDySSypSgG_tcfc",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK0A8CAResultV6toJsonSDySSypGyF",
+            "mangledName": "$s10SmartCASDK0A8CAResultV6toJsonSDySSypGyF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10SmartCASDK0A8CAResultV",
+        "mangledName": "$s10SmartCASDK0A8CAResultV",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmartCAResultCode",
+        "printedName": "SmartCAResultCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "REQUIRED_OPEN_SDK",
+            "printedName": "REQUIRED_OPEN_SDK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivpZ",
+            "mangledName": "$s10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivpZ",
+            "moduleName": "SmartCASDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivgZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivgZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivsZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivsZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivMZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC17REQUIRED_OPEN_SDKSivMZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "UNKNOWN_ERROR_CODE",
+            "printedName": "UNKNOWN_ERROR_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivpZ",
+            "mangledName": "$s10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivpZ",
+            "moduleName": "SmartCASDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivgZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivgZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivsZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivsZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivMZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC18UNKNOWN_ERROR_CODESivMZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USER_CANCEL_CODE",
+            "printedName": "USER_CANCEL_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivpZ",
+            "mangledName": "$s10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivpZ",
+            "moduleName": "SmartCASDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivgZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivgZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivsZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivsZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivMZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC16USER_CANCEL_CODESivMZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SUCCESS_CODE",
+            "printedName": "SUCCESS_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivpZ",
+            "mangledName": "$s10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivpZ",
+            "moduleName": "SmartCASDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivgZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivgZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivsZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivsZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivMZ",
+                "mangledName": "$s10SmartCASDK0A12CAResultCodeC12SUCCESS_CODESivMZ",
+                "moduleName": "SmartCASDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10SmartCASDK0A12CAResultCodeC",
+        "mangledName": "$s10SmartCASDK0A12CAResultCodeC",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ICSdkEKYC",
+        "printedName": "ICSdkEKYC",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "eContractSDK",
+        "printedName": "eContractSDK",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VNPTSmartCASDK",
+        "printedName": "VNPTSmartCASDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flutterEngine",
+            "printedName": "flutterEngine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterEngine",
+                "printedName": "Flutter.FlutterEngine",
+                "usr": "c:objc(cs)FlutterEngine"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvp",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvp",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvg",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvg",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvs",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0Cvs",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0CvM",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C13flutterEngineSo07FlutterE0CvM",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ENVIRONMENT",
+            "printedName": "ENVIRONMENT",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "DEMO",
+                "printedName": "DEMO",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SmartCASDK.VNPTSmartCASDK.ENVIRONMENT.Type) -> SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ENVIRONMENT",
+                            "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                            "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO4DEMOyA2EmF",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO4DEMOyA2EmF",
+                "moduleName": "SmartCASDK"
+              },
+              {
+                "kind": "Var",
+                "name": "PRODUCTION",
+                "printedName": "PRODUCTION",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SmartCASDK.VNPTSmartCASDK.ENVIRONMENT.Type) -> SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ENVIRONMENT",
+                            "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                            "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO10PRODUCTIONyA2EmF",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO10PRODUCTIONyA2EmF",
+                "moduleName": "SmartCASDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ENVIRONMENT",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueAESgSi_tcfc",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueAESgSi_tcfc",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueSivp",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueSivp",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueSivg",
+                    "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO8rawValueSivg",
+                    "moduleName": "SmartCASDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "LANG",
+            "printedName": "LANG",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "VI",
+                "printedName": "VI",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SmartCASDK.VNPTSmartCASDK.LANG.Type) -> SmartCASDK.VNPTSmartCASDK.LANG",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.LANG.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LANG",
+                            "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                            "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO2VIyA2EmF",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO2VIyA2EmF",
+                "moduleName": "SmartCASDK"
+              },
+              {
+                "kind": "Var",
+                "name": "EN",
+                "printedName": "EN",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SmartCASDK.VNPTSmartCASDK.LANG.Type) -> SmartCASDK.VNPTSmartCASDK.LANG",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.LANG.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LANG",
+                            "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                            "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO2ENyA2EmF",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO2ENyA2EmF",
+                "moduleName": "SmartCASDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SmartCASDK.VNPTSmartCASDK.LANG?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LANG",
+                        "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                        "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO8rawValueAESgSS_tcfc",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO8rawValueAESgSS_tcfc",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO8rawValueSSvp",
+                "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO8rawValueSSvp",
+                "moduleName": "SmartCASDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO8rawValueSSvg",
+                    "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO8rawValueSSvg",
+                    "moduleName": "SmartCASDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C4LANGO",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewController:partnerId:environment:lang:isFlutterApp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VNPTSmartCASDK",
+                "printedName": "SmartCASDK.VNPTSmartCASDK",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ENVIRONMENT",
+                "printedName": "SmartCASDK.VNPTSmartCASDK.ENVIRONMENT",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C11ENVIRONMENTO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LANG",
+                "printedName": "SmartCASDK.VNPTSmartCASDK.LANG",
+                "usr": "s:10SmartCASDK09VNPTSmartB0C4LANGO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C14viewController9partnerId11environment4lang12isFlutterAppACSo06UIViewE0C_SSAC11ENVIRONMENTOAC4LANGOSbtcfc",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C14viewController9partnerId11environment4lang12isFlutterAppACSo06UIViewE0C_SSAC11ENVIRONMENTOAC4LANGOSbtcfc",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configSDK",
+            "printedName": "configSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C9configSDKyyF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C9configSDKyyF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthentication",
+            "printedName": "getAuthentication(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartCASDK.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "SmartCASDK.SmartCAResult",
+                    "usr": "s:10SmartCASDK0A8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C17getAuthentication8callbackyyAA0A8CAResultVc_tF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C17getAuthentication8callbackyyAA0A8CAResultVc_tF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWaitingTransaction",
+            "printedName": "getWaitingTransaction(tranId:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartCASDK.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "SmartCASDK.SmartCAResult",
+                    "usr": "s:10SmartCASDK0A8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C21getWaitingTransaction6tranId8callbackySS_yAA0A8CAResultVctF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C21getWaitingTransaction6tranId8callbackySS_yAA0A8CAResultVctF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMainInfo",
+            "printedName": "getMainInfo(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartCASDK.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "SmartCASDK.SmartCAResult",
+                    "usr": "s:10SmartCASDK0A8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C11getMainInfo8callbackyyAA0A8CAResultVc_tF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C11getMainInfo8callbackyyAA0A8CAResultVc_tF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signOut",
+            "printedName": "signOut(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartCASDK.SmartCAResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCAResult",
+                    "printedName": "SmartCASDK.SmartCAResult",
+                    "usr": "s:10SmartCASDK0A8CAResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C7signOut8callbackyyAA0A8CAResultVc_tF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C7signOut8callbackyyAA0A8CAResultVc_tF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroySDK",
+            "printedName": "destroySDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SmartCASDK09VNPTSmartB0C10destroySDKyyF",
+            "mangledName": "$s10SmartCASDK09VNPTSmartB0C10destroySDKyyF",
+            "moduleName": "SmartCASDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10SmartCASDK09VNPTSmartB0C",
+        "mangledName": "$s10SmartCASDK09VNPTSmartB0C",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Var",
+        "name": "ENVIRONMENT_DEMO",
+        "printedName": "ENVIRONMENT_DEMO",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10SmartCASDK16ENVIRONMENT_DEMOSivp",
+        "mangledName": "$s10SmartCASDK16ENVIRONMENT_DEMOSivp",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10SmartCASDK16ENVIRONMENT_DEMOSivg",
+            "mangledName": "$s10SmartCASDK16ENVIRONMENT_DEMOSivg",
+            "moduleName": "SmartCASDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "ENVIRONMENT_PRODUCTION",
+        "printedName": "ENVIRONMENT_PRODUCTION",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10SmartCASDK22ENVIRONMENT_PRODUCTIONSivp",
+        "mangledName": "$s10SmartCASDK22ENVIRONMENT_PRODUCTIONSivp",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10SmartCASDK22ENVIRONMENT_PRODUCTIONSivg",
+            "mangledName": "$s10SmartCASDK22ENVIRONMENT_PRODUCTIONSivg",
+            "moduleName": "SmartCASDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LANG_EN",
+        "printedName": "LANG_EN",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10SmartCASDK7LANG_ENSSvp",
+        "mangledName": "$s10SmartCASDK7LANG_ENSSvp",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10SmartCASDK7LANG_ENSSvg",
+            "mangledName": "$s10SmartCASDK7LANG_ENSSvg",
+            "moduleName": "SmartCASDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LANG_VI",
+        "printedName": "LANG_VI",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10SmartCASDK7LANG_VISSvp",
+        "mangledName": "$s10SmartCASDK7LANG_VISSvp",
+        "moduleName": "SmartCASDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10SmartCASDK7LANG_VISSvg",
+            "mangledName": "$s10SmartCASDK7LANG_VISSvg",
+            "moduleName": "SmartCASDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "SmartCASDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 12,
+      "value": "\"statusDesc\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 12,
+      "value": "\"statusDesc\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1061,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1106,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1149,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1188,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 12,
+      "value": "\"configeKYC\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 10,
+      "value": "\"eKYCFull\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 10,
+      "value": "\"ocrFront\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 9,
+      "value": "\"ocrBack\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 17,
+      "value": "\"ocrFrontAndBack\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 13,
+      "value": "\"compareFace\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 12,
+      "value": "\"verifyFace\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 16,
+      "value": "\"configContract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 14,
+      "value": "\"showContract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 19,
+      "value": "\"getAuthentication\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 25,
+      "value": "\"getAuthenticationResult\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 23,
+      "value": "\"getWaitingTransaction\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 29,
+      "value": "\"getWaitingTransactionResult\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 13,
+      "value": "\"getMainInfo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 19,
+      "value": "\"getMainInfoResult\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 12,
+      "value": "\"activeEKYC\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 17,
+      "value": "\"activeEContract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 12,
+      "value": "\"userCancel\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 24,
+      "value": "\"VNPTSmartCASDK#isReady\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 22,
+      "value": "\"VNPTSmartCASDK#start\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1262,
+      "length": 16,
+      "value": "\"configContract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1309,
+      "length": 14,
+      "value": "\"showContract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 9,
+      "value": "\"signOut\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1390,
+      "length": 15,
+      "value": "\"signOutResult\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 23,
+      "value": "\"com.vnpt.smartca\/ekyc\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 17,
+      "value": "\"Not Implemented\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1468,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1513,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 21,
+      "value": "\"languageApplication\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 18,
+      "value": "\"isSkipVoiceVideo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 21,
+      "value": "\"isCheckLivenessCard\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 1827,
+      "length": 17,
+      "value": "\"isCheckMaskFace\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1858,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2196,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 9,
+      "value": "\"IdFront\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2532,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 13,
+      "value": "\"IdFrontFull\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2631,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 8,
+      "value": "\"IdBack\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2743,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2762,
+      "length": 12,
+      "value": "\"IdBackFull\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2840,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 14,
+      "value": "\"NearPortrait\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 2956,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 13,
+      "value": "\"FarPortrait\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 3057,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 3076,
+      "length": 20,
+      "value": "\"imageCropedFaceFar\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 3171,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 3190,
+      "length": 21,
+      "value": "\"imageCropedFaceNear\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "FloatLiteral",
+      "offset": 3287,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 3306,
+      "length": 11,
+      "value": "\"FaceVideo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 12,
+      "value": "\"OcrIdVideo\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/EKYCService.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 11,
+      "value": "\"SmartCASDK.EKYCService\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 28,
+      "value": "\"com.vnpt.smartca\/econtract\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
+      "length": 17,
+      "value": "\"Not Implemented\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
+      "length": 9,
+      "value": "\"tokenId\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 10,
+      "value": "\"tokenKey\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 8,
+      "value": "\"domain\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1487,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1581,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1744,
+      "length": 9,
+      "value": "\"orderId\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 11,
+      "value": "\"isSuccess\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/eContractService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 14,
+      "value": "\"vnpt_smartca\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1083,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 23,
+      "value": "\"VNPTSmartCAEntryponit\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3522,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3717,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/VNPTSmartCASDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3884,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/SmartCAResultListener.swift",
+      "kind": "StringLiteral",
+      "offset": 3222,
+      "length": 10,
+      "value": "\"bad args\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 35,
+      "value": "\"vnpt.plugins.io\/smartca_messaging\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 6,
+      "value": "\"lang\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 5,
+      "value": "\"env\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "\"isFlutter\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/SmartCA_Mobile\/egov.ptpm.smartca_mobile\/sdk_v2\/host_flutter_module_ios\/host_flutter_module_ios\/VNPTSmartCASDK\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 4,
+      "value": "\"vi\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/DemoSmartCASDK-grogtlmhsixjkienkyseehevyvxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartCASDK\/IntermediateBuildFilesPath\/SmartCASDK.build\/Release-iphoneos\/SmartCASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 9,
+      "value": "\"ic_back\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/DemoSmartCASDK-grogtlmhsixjkienkyseehevyvxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartCASDK\/IntermediateBuildFilesPath\/SmartCASDK.build\/Release-iphoneos\/SmartCASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 9,
+      "value": "\"ic_vnpt\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Library\/Developer\/Xcode\/DerivedData\/DemoSmartCASDK-grogtlmhsixjkienkyseehevyvxb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartCASDK\/IntermediateBuildFilesPath\/SmartCASDK.build\/Release-iphoneos\/SmartCASDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 14,
+      "value": "\"img_scan_nfc\""
+    }
+  ]
+}
