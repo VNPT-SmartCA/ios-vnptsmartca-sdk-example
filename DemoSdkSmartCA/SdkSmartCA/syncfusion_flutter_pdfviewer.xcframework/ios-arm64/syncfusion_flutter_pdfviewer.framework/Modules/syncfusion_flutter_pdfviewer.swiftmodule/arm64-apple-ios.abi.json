@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "syncfusion_flutter_pdfviewer",
+    "printedName": "syncfusion_flutter_pdfviewer",
     "children": [
       {
         "kind": "Import",
@@ -36,7 +36,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -152,6 +152,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -206,235 +220,25 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 30,
       "value": "\"syncfusion_flutter_pdfviewer\""
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
       "kind": "FloatLiteral",
       "offset": 494,
       "length": 4,
       "value": "96.0"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
       "kind": "FloatLiteral",
       "offset": 501,
       "length": 4,
       "value": "72.0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 688,
-      "length": 30,
-      "value": "\"syncfusion_flutter_pdfviewer\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1057,
-      "length": 23,
-      "value": "\"initializePdfRenderer\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 10,
-      "value": "\"getImage\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1365,
-      "length": 15,
-      "value": "\"getPagesWidth\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1488,
-      "length": 16,
-      "value": "\"getPagesHeight\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 1612,
-      "length": 15,
-      "value": "\"closeDocument\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 2022,
-      "length": 15,
-      "value": "\"documentBytes\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
-      "length": 12,
-      "value": "\"documentID\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3280,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3307,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3314,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3465,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3554,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4225,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4252,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4259,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4410,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4499,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 4995,
-      "length": 7,
-      "value": "\"index\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 5047,
-      "length": 7,
-      "value": "\"scale\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5088,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5123,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 5220,
-      "length": 12,
-      "value": "\"documentID\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5649,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5654,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5871,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6035,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6342,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6366,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/syncfusion_flutter_pdfviewer-23.2.7\/ios\/Classes\/SwiftSyncfusionFlutterPdfViewerPlugin.swift",
-      "kind": "FloatLiteral",
-      "offset": 6418,
-      "length": 3,
-      "value": "0.0"
     }
   ]
 }

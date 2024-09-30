@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/flutter_jailbreak_detection-Swift.h</key>
 		<data>
-		ph3FnzxSaB28NPlRntKd7BUVdXA=
+		xpoaVxH3A3knHtjeZBDVzHScvos=
 		</data>
 		<key>Headers/flutter_jailbreak_detection-umbrella.h</key>
 		<data>
@@ -18,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TkVS9PbwleHSlncXDiQB8m+whws=
+		hdWa7Q0D72r1Cn1+HCvll36bz9s=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		a6iXMOIYKRxlw6D6QnKQ2YwWuVc=
+		H/IioTQKDwilb846CksZ1ZhFK/A=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vdAkwKQvwE3N+G6O2oGhUGzRA40=
+		Im+OF9ejsGsofsZgl5cFdg44RZk=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SHA4pXGXFx9P/pxz/w8UwdfUWxs=
+		YoPVNMVUO6/iUYk/eRW3280Lr78=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		v0KHuVe0Qy2RUbEYywtvxzgE7Zk=
+		dVly/iu9OtOVKur3Ng24YEaOWU8=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2AY3FeV8t3fxPTrsVfwERDSMGGs=
+		TwX3VTuvOOjanyaY1KbfmvA5is0=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v0KHuVe0Qy2RUbEYywtvxzgE7Zk=
+		dVly/iu9OtOVKur3Ng24YEaOWU8=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FKpTVrWhIRin5pd3sLkPIRaGSS0=
+		1ZWWzHkiBrlLQmh9vcNP4RMF940=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SHA4pXGXFx9P/pxz/w8UwdfUWxs=
+		YoPVNMVUO6/iUYk/eRW3280Lr78=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uC9pA23W76MVoljr5BXEo17QldM=
+		n04HGpZal8hKIAojiQETHR3qw7U=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NxaboMOTm4NMEOKnPYmld/SIcDU=
+		0YCWiZ8yMsM7rjSslwg4ZvhxJt0=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uC9pA23W76MVoljr5BXEo17QldM=
+		n04HGpZal8hKIAojiQETHR3qw7U=
 		</data>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ShXPJ7M93ALcJ9sGO1L3DDaIgH4=
+		x9hZ/FKuLk81j8SqW87ZWpSTf+Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OJUfv7KcSzWCzxtyN42MjI1ijB8RujLePsQzBd0XpCo=
+			4CEZYQwXgd7ldgkYGdTXyn/ApcdRAYKAIMArPuvup/0=
 			</data>
 		</dict>
 		<key>Headers/flutter_jailbreak_detection-umbrella.h</key>
@@ -100,84 +100,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YJTh65PHydxwKlwM+Om6SpIz6tl4+IEpaKRCVdWxSqA=
+			vIrrgUqr6TGKbmG7U7ROpVTtoqRmI3LIo2t/nwi44ik=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fx+06cs0S0u+AiYui0S1GTjXUj7jrI+1uC6nLv8tAeo=
+			8ACKUirgJif/UNpm3PZatTr+sXIfjKUuT/tI/EnwQ2U=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nzy0RGkvPwnlRvYH4WeJ+Bq1ehyX44ebVs/Pw3qHRAo=
+			fRA6dElbfQvaX+bbRLq6OttzDMBZR/HXhzTMxvHg5y8=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5P1aHP+Hkb+a8QxlWqWPdHagQz1VAkpzMro7pJhj0X0=
+			hBnT6x/upQ/6IubowA26bFD2g2Pzs6kI8Z1SNW6+y58=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvsGEDhcdSSN4AN/tcE1YPpHjhcgcv2WM4E0gHV/FOY=
+			X0x8tKfBv6hQxTAr7k/MFchkmdqhIYAafGwtoGAM9RI=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5P1aHP+Hkb+a8QxlWqWPdHagQz1VAkpzMro7pJhj0X0=
+			hBnT6x/upQ/6IubowA26bFD2g2Pzs6kI8Z1SNW6+y58=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tuTr/EY4januzzepKAoLXdH8oun+NnvypLNDQzt+bXQ=
+			+tsCXDhIRjlGlz2xP95ArxWsd4uvhrU+y4hwa9gucds=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nzy0RGkvPwnlRvYH4WeJ+Bq1ehyX44ebVs/Pw3qHRAo=
+			fRA6dElbfQvaX+bbRLq6OttzDMBZR/HXhzTMxvHg5y8=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HakHEKfR6X9M4Ldqxs4rB/T8x8WIXUCYCgLU4UDSxyk=
+			8hzOc5r4WOuAo2UmrsGNON2MuBo+nyiMPJPBXviIPsM=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rCPYF9pHv5faw6tknl01lXOFdxZsu3IoLoe4bqrh1KQ=
+			EmpJ7IxMyP2FMqAGPAuHYrSmK06e6agCw+0WjVJfWyM=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HakHEKfR6X9M4Ldqxs4rB/T8x8WIXUCYCgLU4UDSxyk=
+			8hzOc5r4WOuAo2UmrsGNON2MuBo+nyiMPJPBXviIPsM=
 			</data>
 		</dict>
 		<key>Modules/flutter_jailbreak_detection.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iuCRxWC7lFe4U/Ux4PN6h2SzsTZ3CyIO576B1V6XXC4=
+			INrrxMV8hq5s2+j4BfahxSjT6DwDflrQfSr1dAwRWWc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

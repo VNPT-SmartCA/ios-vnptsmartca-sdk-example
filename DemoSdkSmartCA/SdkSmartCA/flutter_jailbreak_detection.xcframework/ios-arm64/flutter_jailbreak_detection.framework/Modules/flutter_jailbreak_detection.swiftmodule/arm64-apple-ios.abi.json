@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "flutter_jailbreak_detection",
+    "printedName": "flutter_jailbreak_detection",
     "children": [
       {
         "kind": "Import",
@@ -43,7 +43,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -156,6 +156,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -208,27 +222,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/flutter_jailbreak_detection-1.10.0\/ios\/Classes\/SwiftFlutterJailbreakDetectionPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 251,
-      "length": 29,
-      "value": "\"flutter_jailbreak_detection\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/flutter_jailbreak_detection-1.10.0\/ios\/Classes\/SwiftFlutterJailbreakDetectionPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 12,
-      "value": "\"jailbroken\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/flutter_jailbreak_detection-1.10.0\/ios\/Classes\/SwiftFlutterJailbreakDetectionPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 15,
-      "value": "\"developerMode\""
-    }
-  ]
+  "ConstValues": []
 }

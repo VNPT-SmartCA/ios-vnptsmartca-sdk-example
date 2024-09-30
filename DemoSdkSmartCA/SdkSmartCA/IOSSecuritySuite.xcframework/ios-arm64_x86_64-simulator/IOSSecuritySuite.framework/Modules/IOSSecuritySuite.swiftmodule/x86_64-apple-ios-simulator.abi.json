@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "IOSSecuritySuite",
+    "printedName": "IOSSecuritySuite",
     "children": [
       {
         "kind": "Import",
@@ -112,6 +112,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -178,6 +194,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -687,6 +719,9 @@
             "moduleName": "IOSSecuritySuite",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -728,6 +763,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1036,6 +1085,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -1232,6 +1295,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1250,6 +1327,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -1567,6 +1651,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1661,7 +1761,23 @@
         "declKind": "Protocol",
         "usr": "s:16IOSSecuritySuite11ExplainableP",
         "mangledName": "$s16IOSSecuritySuite11ExplainableP",
-        "moduleName": "IOSSecuritySuite"
+        "moduleName": "IOSSecuritySuite",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1894,6 +2010,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Explainable",
             "printedName": "Explainable",
             "usr": "s:16IOSSecuritySuite11ExplainableP",
@@ -1991,6 +2121,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2398,7 +2544,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2462,7 +2608,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2576,7 +2722,23 @@
           "Available",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2878,7 +3040,23 @@
             "declKind": "Struct",
             "usr": "s:16IOSSecuritySuite16JailbreakCheckerC0C6StatusV",
             "mangledName": "$s16IOSSecuritySuite16JailbreakCheckerC0C6StatusV",
-            "moduleName": "IOSSecuritySuite"
+            "moduleName": "IOSSecuritySuite",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -3021,6 +3199,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3087,6 +3281,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3170,6 +3380,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3391,7 +3617,23 @@
             "declKind": "Struct",
             "usr": "s:16IOSSecuritySuite30ReverseEngineeringToolsCheckerC0cdE6StatusV",
             "mangledName": "$s16IOSSecuritySuite30ReverseEngineeringToolsCheckerC0cdE6StatusV",
-            "moduleName": "IOSSecuritySuite"
+            "moduleName": "IOSSecuritySuite",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -3499,6 +3741,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3551,7 +3809,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3610,6 +3868,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       }
     ],
@@ -3617,7 +3891,91 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/phamtu\/Desktop\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/ProxyChecker.swift",
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 8,
+      "value": "\"ptrace\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1087,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1091,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1097,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1125,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1141,
+      "length": 75,
+      "value": "\"Error occured when calling ptrace(). Denying debugger may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9975,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10018,
+      "length": 6,
+      "value": "\"fork\""
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10189,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alwayssmile\/Documents\/FLUTTER-PROJECT\/egov.ptpm.smartca_mobile\/sdk_v2\/vnpt_smartca_module\/.ios\/Pods\/IOSSecuritySuite\/IOSSecuritySuite\/ProxyChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 266,
       "length": 5,

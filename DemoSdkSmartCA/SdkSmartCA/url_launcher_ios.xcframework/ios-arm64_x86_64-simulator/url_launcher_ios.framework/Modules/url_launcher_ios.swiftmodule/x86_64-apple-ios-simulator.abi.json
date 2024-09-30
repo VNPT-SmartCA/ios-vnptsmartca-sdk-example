@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "url_launcher_ios",
+    "printedName": "url_launcher_ios",
     "children": [
       {
         "kind": "Import",
@@ -132,6 +132,177 @@
         "moduleName": "url_launcher_ios",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultLauncher",
+        "printedName": "DefaultLauncher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canOpenURL",
+            "printedName": "canOpenURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16url_launcher_ios15DefaultLauncherC10canOpenURLySb10Foundation0H0VF",
+            "mangledName": "$s16url_launcher_ios15DefaultLauncherC10canOpenURLySb10Foundation0H0VF",
+            "moduleName": "url_launcher_ios",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(_:options:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenExternalURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenExternalURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenExternalURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenExternalURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16url_launcher_ios15DefaultLauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "mangledName": "$s16url_launcher_ios15DefaultLauncherC4open_7options17completionHandlery10Foundation3URLV_SDySo38UIApplicationOpenExternalURLOptionsKeyaypGySbcSgtF",
+            "moduleName": "url_launcher_ios",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultLauncher",
+                "printedName": "url_launcher_ios.DefaultLauncher",
+                "usr": "s:16url_launcher_ios15DefaultLauncherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16url_launcher_ios15DefaultLauncherCACycfc",
+            "mangledName": "$s16url_launcher_ios15DefaultLauncherCACycfc",
+            "moduleName": "url_launcher_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16url_launcher_ios15DefaultLauncherC",
+        "mangledName": "$s16url_launcher_ios15DefaultLauncherC",
+        "moduleName": "url_launcher_ios",
+        "declAttributes": [
+          "Final",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Launcher",
+            "printedName": "Launcher",
+            "usr": "s:16url_launcher_ios8LauncherP",
+            "mangledName": "$s16url_launcher_ios8LauncherP"
+          }
         ]
       },
       {
@@ -364,6 +535,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -404,6 +589,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -620,6 +812,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -660,6 +866,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -725,7 +938,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -735,7 +948,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -746,7 +959,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -787,7 +1000,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -797,7 +1010,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -808,7 +1021,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -862,6 +1075,22 @@
         "moduleName": "url_launcher_ios",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -882,18 +1111,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterBinaryMessenger",
-                "printedName": "Flutter.FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
                 "usr": "c:objc(pl)FlutterBinaryMessenger"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "url_launcher_ios.UrlLauncherApi?",
+                "printedName": "(any url_launcher_ios.UrlLauncherApi)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UrlLauncherApi",
-                    "printedName": "url_launcher_ios.UrlLauncherApi",
+                    "printedName": "any url_launcher_ios.UrlLauncherApi",
                     "usr": "s:16url_launcher_ios14UrlLauncherApiP"
                   }
                 ],
@@ -938,6 +1167,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -975,7 +1220,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FlutterPluginRegistrar",
-                "printedName": "Flutter.FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
                 "usr": "c:objc(pl)FlutterPluginRegistrar"
               }
             ],
@@ -1006,7 +1251,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Launcher",
-                "printedName": "url_launcher_ios.Launcher",
+                "printedName": "any url_launcher_ios.Launcher",
                 "hasDefaultArg": true,
                 "usr": "s:16url_launcher_ios8LauncherP"
               }
@@ -1069,7 +1314,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1079,7 +1324,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.LaunchResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1090,7 +1335,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1127,7 +1372,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1137,7 +1382,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1148,7 +1393,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1237,6 +1482,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1316,7 +1575,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1326,7 +1585,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1337,7 +1596,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1609,7 +1868,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1619,7 +1878,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, Swift.Error>",
+                    "printedName": "Swift.Result<url_launcher_ios.InAppLoadResult, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1630,7 +1889,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -1776,80 +2035,18 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIApplication",
-        "printedName": "UIApplication",
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIApplication",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIApplication",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1898,13 +2095,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Launcher",
-            "printedName": "Launcher",
-            "usr": "s:16url_launcher_ios8LauncherP",
-            "mangledName": "$s16url_launcher_ios8LauncherP"
           }
         ]
       },
@@ -1931,6 +2121,7 @@
             "moduleName": "url_launcher_ios",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -1965,6 +2156,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -1979,6 +2171,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2042,144 +2248,46 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1301,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1151,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1151,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1301,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/alwayssmile\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.1\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 1600,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1519,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1600,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1519,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1600,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLauncherPlugin.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 17,
-      "value": "\"url_launcher_ios.URLLauncherPlugin\""
-    },
-    {
-      "filePath": "\/Users\/phamtu\/.pub-cache\/hosted\/pub.dev\/url_launcher_ios-6.3.0\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 16,
-      "value": "\"url_launcher_ios.URLLaunchSession\""
     }
   ]
 }
