@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D32E212-CDE7-47E7-9873-52334444A75F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B261D9A-3F30-457C-899D-DBA3D05AA6B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemoSdkSmartCA/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "createAccount(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B261D9A-3F30-457C-899D-DBA3D05AA6B8 - aea084e4c1ec0b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DemoSdkSmartCA.ViewController.createAccount(Any) -&gt; ()"
+                  moduleName = "DemoSdkSmartCA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vnptsi/Desktop/ios-vnptsmartca-sdk-example/DemoSdkSmartCA/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "2B261D9A-3F30-457C-899D-DBA3D05AA6B8 - 7c38de8164c6ac97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SmartCASDK.SmartCAResult) -&gt; () in DemoSdkSmartCA.ViewController.createAccount(Any) -&gt; ()"
+                  moduleName = "DemoSdkSmartCA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vnptsi/Desktop/ios-vnptsmartca-sdk-example/DemoSdkSmartCA/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
