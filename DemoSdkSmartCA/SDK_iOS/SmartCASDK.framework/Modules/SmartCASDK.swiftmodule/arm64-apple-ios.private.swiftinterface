@@ -1,0 +1,81 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SmartCASDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
+import Flutter
+import Foundation
+import ICSdkEKYC
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import eContractSDK
+public struct SmartCAResult {
+  public var status: Swift.Int
+  public var statusDesc: Swift.String
+  public var data: Swift.String
+  public init(map: [Swift.String : Any?])
+  public func toJson() -> [Swift.String : Any]
+}
+@_hasMissingDesignatedInitializers public class SmartCAResultCode {
+  public static var REQUIRED_OPEN_SDK: Swift.Int
+  public static var UNKNOWN_ERROR_CODE: Swift.Int
+  public static var USER_CANCEL_CODE: Swift.Int
+  public static var SUCCESS_CODE: Swift.Int
+  public static var NO_EXIST_CERT_VALID: Swift.Int
+  @objc deinit
+}
+public struct CustomParams : Swift.Codable {
+  public init(customerId: Swift.String, borderRadiusBtn: Swift.Double?, colorSecondBtn: Swift.String, colorPrimaryBtn: Swift.String, featuresLink: Swift.String, customerPhone: Swift.String, packageDefault: Swift.String, password: Swift.String, logoCustom: Swift.String, backgroundLogin: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SDKConfig : Swift.Codable {
+  public init(clientId: Swift.String, clientSecret: Swift.String, environment: SmartCASDK.ENVIRONMENT, lang: SmartCASDK.LANG, isFlutterApp: Swift.Bool = false, customParams: SmartCASDK.CustomParams)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class VNPTSmartCASDK {
+  public var flutterEngine: Flutter.FlutterEngine {
+    get
+    set
+  }
+  public init(viewController: UIKit.UIViewController, config: SmartCASDK.SDKConfig)
+  public func configSDK()
+  public func getAuthentication(callback: @escaping (SmartCASDK.SmartCAResult) -> Swift.Void)
+  public func getWaitingTransaction(tranId: Swift.String, callback: @escaping (SmartCASDK.SmartCAResult) -> Swift.Void)
+  public func getMainInfo(callback: @escaping (SmartCASDK.SmartCAResult) -> Swift.Void)
+  public func signOut(callback: @escaping (SmartCASDK.SmartCAResult) -> Swift.Void)
+  public func createAccount(callback: @escaping (SmartCASDK.SmartCAResult) -> Swift.Void)
+  public func destroySDK()
+  @objc deinit
+}
+public let ENVIRONMENT_DEMO: Swift.Int
+public let ENVIRONMENT_PRODUCTION: Swift.Int
+public let LANG_EN: Swift.String
+public let LANG_VI: Swift.String
+public enum ENVIRONMENT : Swift.Int {
+  case DEMO, PRODUCTION
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum LANG : Swift.String {
+  case VI, EN
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SmartCASDK.ENVIRONMENT : Swift.Equatable {}
+extension SmartCASDK.ENVIRONMENT : Swift.Hashable {}
+extension SmartCASDK.ENVIRONMENT : Swift.RawRepresentable {}
+extension SmartCASDK.LANG : Swift.Equatable {}
+extension SmartCASDK.LANG : Swift.Hashable {}
+extension SmartCASDK.LANG : Swift.RawRepresentable {}

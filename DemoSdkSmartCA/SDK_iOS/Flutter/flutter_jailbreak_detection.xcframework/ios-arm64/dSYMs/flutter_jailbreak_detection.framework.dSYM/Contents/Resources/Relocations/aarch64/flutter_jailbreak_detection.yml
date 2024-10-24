@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vnptsi/AndroidStudioProjects/egov.ptpm.smartca_mobile/sdk_v2/vnpt_smartca_module/ios_framework/Release/iphoneos/Release-iphoneos/flutter_jailbreak_detection/flutter_jailbreak_detection.framework/flutter_jailbreak_detection'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5A9D1, size: 0x8, addend: 0x0, symName: _flutter_jailbreak_detectionVersionString, symObjAddr: 0x0, symBinAddr: 0x9A60, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5AA06, size: 0x8, addend: 0x0, symName: _flutter_jailbreak_detectionVersionNumber, symObjAddr: 0x40, symBinAddr: 0x9AA0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5AA43, size: 0x8, addend: 0x0, symName: '+[FlutterJailbreakDetectionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x5AAAD, size: 0x8, addend: 0x0, symName: '+[FlutterJailbreakDetectionPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0xC }
+  - { offsetInCU: 0x4B, offset: 0x5AB65, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC8register4withySo0eH9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x800C, symSize: 0x4 }
+  - { offsetInCU: 0x5F, offset: 0x5AB79, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x8010, symSize: 0x20 }
+  - { offsetInCU: 0x82, offset: 0x5AB9C, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC8register4withySo0eH9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x8030, symSize: 0x30 }
+  - { offsetInCU: 0xB4, offset: 0x5ABCE, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC6handle_6resultySo0E10MethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x8060, symSize: 0x1AC }
+  - { offsetInCU: 0x162, offset: 0x5AC7C, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC6handle_6resultySo0E10MethodCallC_yypSgctFTo', symObjAddr: 0x200, symBinAddr: 0x820C, symSize: 0x78 }
+  - { offsetInCU: 0x194, offset: 0x5ACAE, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginCACycfc', symObjAddr: 0x278, symBinAddr: 0x8284, symSize: 0x30 }
+  - { offsetInCU: 0x1CF, offset: 0x5ACE9, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginCACycfcTo', symObjAddr: 0x2A8, symBinAddr: 0x82B4, symSize: 0x3C }
+  - { offsetInCU: 0x20A, offset: 0x5AD24, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginCfD', symObjAddr: 0x2E4, symBinAddr: 0x82F0, symSize: 0x30 }
+  - { offsetInCU: 0x248, offset: 0x5AD62, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC8register4withySo0eH9Registrar_p_tFZTf4nd_n', symObjAddr: 0x314, symBinAddr: 0x8320, symSize: 0xD4 }
+  - { offsetInCU: 0x2DB, offset: 0x5ADF5, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginC6handle_6resultySo0E10MethodCallC_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0x4EC, symBinAddr: 0x84F8, symSize: 0x2D8 }
+  - { offsetInCU: 0x380, offset: 0x5AE9A, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x3E8, symBinAddr: 0x83F4, symSize: 0x3C }
+  - { offsetInCU: 0x394, offset: 0x5AEAE, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x424, symBinAddr: 0x8430, symSize: 0x40 }
+  - { offsetInCU: 0x3A8, offset: 0x5AEC2, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x464, symBinAddr: 0x8470, symSize: 0x40 }
+  - { offsetInCU: 0x3BC, offset: 0x5AED6, size: 0x8, addend: 0x0, symName: '_$s27flutter_jailbreak_detection36SwiftFlutterJailbreakDetectionPluginCMa', symObjAddr: 0x4A4, symBinAddr: 0x84B0, symSize: 0x20 }
+  - { offsetInCU: 0x3DB, offset: 0x5AEF5, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x7C4, symBinAddr: 0x87D0, symSize: 0x48 }
+  - { offsetInCU: 0x3EF, offset: 0x5AF09, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x80C, symBinAddr: 0x8818, symSize: 0x24 }
+  - { offsetInCU: 0x403, offset: 0x5AF1D, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x830, symBinAddr: 0x883C, symSize: 0x20 }
+...

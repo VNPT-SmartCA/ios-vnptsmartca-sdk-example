@@ -7,76 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01404EEE2CAA92CA00A41C64 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDC2CAA92C500A41C64 /* FlutterPluginRegistrant.xcframework */; };
-		01404EF72CAA92CB00A41C64 /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE52CAA92C700A41C64 /* permission_handler_apple.xcframework */; };
 		015003352B2078CF002857A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003342B2078CF002857A1 /* AppDelegate.swift */; };
 		015003372B2078CF002857A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003362B2078CF002857A1 /* SceneDelegate.swift */; };
 		015003392B2078CF002857A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015003382B2078CF002857A1 /* ViewController.swift */; };
 		0150033C2B2078CF002857A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0150033A2B2078CF002857A1 /* Main.storyboard */; };
 		0150033E2B2078D0002857A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0150033D2B2078D0002857A1 /* Assets.xcassets */; };
 		015003412B2078D0002857A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0150033F2B2078D0002857A1 /* LaunchScreen.storyboard */; };
-		017BC9F52CAA951400ABE583 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F032CAA92E900A41C64 /* Alamofire.framework */; };
-		017BC9F62CAA951400ABE583 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F032CAA92E900A41C64 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BC9F72CAA951400ABE583 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEB2CAA92CA00A41C64 /* App.xcframework */; };
-		017BC9F82CAA951400ABE583 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEB2CAA92CA00A41C64 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BC9F92CAA951400ABE583 /* connectivity_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDB2CAA92C500A41C64 /* connectivity_plus.xcframework */; };
-		017BC9FA2CAA951400ABE583 /* connectivity_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDB2CAA92C500A41C64 /* connectivity_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BC9FB2CAA951400ABE583 /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE32CAA92C600A41C64 /* device_info_plus.xcframework */; };
-		017BC9FC2CAA951400ABE583 /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE32CAA92C600A41C64 /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BC9FD2CAA951400ABE583 /* device_info.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE22CAA92C600A41C64 /* device_info.xcframework */; };
-		017BC9FE2CAA951400ABE583 /* device_info.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE22CAA92C600A41C64 /* device_info.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BC9FF2CAA951400ABE583 /* eContractSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0C2CAA92EF00A41C64 /* eContractSDK.framework */; };
-		017BCA002CAA951400ABE583 /* eContractSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0C2CAA92EF00A41C64 /* eContractSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA012CAA951400ABE583 /* eKYCLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F052CAA92EA00A41C64 /* eKYCLib.xcframework */; };
-		017BCA022CAA951400ABE583 /* eKYCLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F052CAA92EA00A41C64 /* eKYCLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA032CAA951400ABE583 /* flutter_jailbreak_detection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE72CAA92C700A41C64 /* flutter_jailbreak_detection.xcframework */; };
-		017BCA042CAA951400ABE583 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE72CAA92C700A41C64 /* flutter_jailbreak_detection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA052CAA951400ABE583 /* flutter_keyboard_visibility.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE62CAA92C700A41C64 /* flutter_keyboard_visibility.xcframework */; };
-		017BCA062CAA951400ABE583 /* flutter_keyboard_visibility.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE62CAA92C700A41C64 /* flutter_keyboard_visibility.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA072CAA951400ABE583 /* flutter_secure_storage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDE2CAA92C600A41C64 /* flutter_secure_storage.xcframework */; };
-		017BCA082CAA951400ABE583 /* flutter_secure_storage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDE2CAA92C600A41C64 /* flutter_secure_storage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA092CAA951400ABE583 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE92CAA92C900A41C64 /* Flutter.xcframework */; };
-		017BCA0A2CAA951400ABE583 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE92CAA92C900A41C64 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA0B2CAA951400ABE583 /* ICSdkEKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0B2CAA92EF00A41C64 /* ICSdkEKYC.xcframework */; };
-		017BCA0C2CAA951400ABE583 /* ICSdkEKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0B2CAA92EF00A41C64 /* ICSdkEKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA0D2CAA951400ABE583 /* IOSSecuritySuite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE42CAA92C700A41C64 /* IOSSecuritySuite.xcframework */; };
-		017BCA0E2CAA951400ABE583 /* IOSSecuritySuite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE42CAA92C700A41C64 /* IOSSecuritySuite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA0F2CAA951500ABE583 /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EFF2CAA92E800A41C64 /* JWTDecode.framework */; };
-		017BCA102CAA951500ABE583 /* JWTDecode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EFF2CAA92E800A41C64 /* JWTDecode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA112CAA951500ABE583 /* local_auth_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEC2CAA92CA00A41C64 /* local_auth_ios.xcframework */; };
-		017BCA122CAA951500ABE583 /* local_auth_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEC2CAA92CA00A41C64 /* local_auth_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA132CAA951500ABE583 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0A2CAA92EB00A41C64 /* Moya.framework */; };
-		017BCA142CAA951500ABE583 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F0A2CAA92EB00A41C64 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA152CAA951500ABE583 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F062CAA92EB00A41C64 /* NVActivityIndicatorView.framework */; };
-		017BCA162CAA951500ABE583 /* NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F062CAA92EB00A41C64 /* NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA172CAA951500ABE583 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F072CAA92EB00A41C64 /* ObjectMapper.framework */; };
-		017BCA182CAA951500ABE583 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F072CAA92EB00A41C64 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA192CAA951500ABE583 /* package_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDF2CAA92C600A41C64 /* package_info_plus.xcframework */; };
-		017BCA1A2CAA951500ABE583 /* package_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDF2CAA92C600A41C64 /* package_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA1B2CAA951500ABE583 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE12CAA92C600A41C64 /* path_provider_foundation.xcframework */; };
-		017BCA1C2CAA951500ABE583 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE12CAA92C600A41C64 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA1D2CAA951500ABE583 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F002CAA92E800A41C64 /* Result.framework */; };
-		017BCA1E2CAA951500ABE583 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F002CAA92E800A41C64 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA1F2CAA951500ABE583 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F042CAA92E900A41C64 /* RxAlamofire.framework */; };
-		017BCA202CAA951500ABE583 /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F042CAA92E900A41C64 /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA212CAA951500ABE583 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F082CAA92EB00A41C64 /* RxCocoa.framework */; };
-		017BCA222CAA951500ABE583 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F082CAA92EB00A41C64 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA232CAA951500ABE583 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F092CAA92EB00A41C64 /* RxRelay.framework */; };
-		017BCA242CAA951500ABE583 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F092CAA92EB00A41C64 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA252CAA951500ABE583 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F012CAA92E800A41C64 /* RxSwift.framework */; };
-		017BCA262CAA951500ABE583 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F012CAA92E800A41C64 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA272CAA951500ABE583 /* share_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE82CAA92C700A41C64 /* share_plus.xcframework */; };
-		017BCA282CAA951500ABE583 /* share_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE82CAA92C700A41C64 /* share_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA292CAA951500ABE583 /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F022CAA92E900A41C64 /* SignaturePad.framework */; };
-		017BCA2A2CAA951500ABE583 /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F022CAA92E900A41C64 /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA2B2CAA951500ABE583 /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F1B2CAA930400A41C64 /* SmartCASDK.framework */; };
-		017BCA2C2CAA951600ABE583 /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404F1B2CAA930400A41C64 /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA2D2CAA951600ABE583 /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE02CAA92C600A41C64 /* syncfusion_flutter_pdfviewer.xcframework */; };
-		017BCA2E2CAA951600ABE583 /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EE02CAA92C600A41C64 /* syncfusion_flutter_pdfviewer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA2F2CAA951600ABE583 /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEA2CAA92C900A41C64 /* url_launcher_ios.xcframework */; };
-		017BCA302CAA951600ABE583 /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EEA2CAA92C900A41C64 /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		017BCA312CAA951600ABE583 /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDD2CAA92C500A41C64 /* webview_flutter_wkwebview.xcframework */; };
-		017BCA322CAA951600ABE583 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01404EDD2CAA92C500A41C64 /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8912CCA26FF00D4600D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8592CCA26DD00D4600D /* Alamofire.framework */; };
+		3072F8922CCA26FF00D4600D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8592CCA26DD00D4600D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8932CCA26FF00D4600D /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8602CCA26DD00D4600D /* App.xcframework */; };
+		3072F8942CCA26FF00D4600D /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8602CCA26DD00D4600D /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8952CCA26FF00D4600D /* connectivity_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86D2CCA26DD00D4600D /* connectivity_plus.xcframework */; };
+		3072F8962CCA26FF00D4600D /* connectivity_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86D2CCA26DD00D4600D /* connectivity_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8972CCA26FF00D4600D /* device_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86C2CCA26DD00D4600D /* device_info_plus.xcframework */; };
+		3072F8982CCA26FF00D4600D /* device_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86C2CCA26DD00D4600D /* device_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8992CCA26FF00D4600D /* device_info.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8622CCA26DD00D4600D /* device_info.xcframework */; };
+		3072F89A2CCA26FF00D4600D /* device_info.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8622CCA26DD00D4600D /* device_info.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F89B2CCA26FF00D4600D /* eContractSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8562CCA26DD00D4600D /* eContractSDK.framework */; };
+		3072F89C2CCA26FF00D4600D /* eContractSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8562CCA26DD00D4600D /* eContractSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F89D2CCA270000D4600D /* eKYCLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8522CCA26DD00D4600D /* eKYCLib.xcframework */; };
+		3072F89E2CCA270000D4600D /* eKYCLib.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8522CCA26DD00D4600D /* eKYCLib.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F89F2CCA270000D4600D /* flutter_jailbreak_detection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8652CCA26DD00D4600D /* flutter_jailbreak_detection.xcframework */; };
+		3072F8A02CCA270000D4600D /* flutter_jailbreak_detection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8652CCA26DD00D4600D /* flutter_jailbreak_detection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8A12CCA270000D4600D /* flutter_keyboard_visibility.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8662CCA26DD00D4600D /* flutter_keyboard_visibility.xcframework */; };
+		3072F8A22CCA270000D4600D /* flutter_keyboard_visibility.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8662CCA26DD00D4600D /* flutter_keyboard_visibility.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8A32CCA270000D4600D /* flutter_secure_storage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8612CCA26DD00D4600D /* flutter_secure_storage.xcframework */; };
+		3072F8A42CCA270000D4600D /* flutter_secure_storage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8612CCA26DD00D4600D /* flutter_secure_storage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8A52CCA270000D4600D /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8712CCA26DD00D4600D /* Flutter.xcframework */; };
+		3072F8A62CCA270000D4600D /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8712CCA26DD00D4600D /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8A72CCA270000D4600D /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86A2CCA26DD00D4600D /* FlutterPluginRegistrant.xcframework */; };
+		3072F8A92CCA270000D4600D /* ICSdkEKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85E2CCA26DD00D4600D /* ICSdkEKYC.xcframework */; };
+		3072F8AA2CCA270000D4600D /* ICSdkEKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85E2CCA26DD00D4600D /* ICSdkEKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8AB2CCA270000D4600D /* IOSSecuritySuite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86E2CCA26DD00D4600D /* IOSSecuritySuite.xcframework */; };
+		3072F8AC2CCA270000D4600D /* IOSSecuritySuite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86E2CCA26DD00D4600D /* IOSSecuritySuite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8AD2CCA270000D4600D /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85C2CCA26DD00D4600D /* JWTDecode.framework */; };
+		3072F8AE2CCA270100D4600D /* JWTDecode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85C2CCA26DD00D4600D /* JWTDecode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8AF2CCA270100D4600D /* local_auth_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8642CCA26DD00D4600D /* local_auth_ios.xcframework */; };
+		3072F8B02CCA270100D4600D /* local_auth_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8642CCA26DD00D4600D /* local_auth_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8B12CCA270100D4600D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8572CCA26DD00D4600D /* Moya.framework */; };
+		3072F8B22CCA270100D4600D /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8572CCA26DD00D4600D /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8B32CCA270100D4600D /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8542CCA26DD00D4600D /* NVActivityIndicatorView.framework */; };
+		3072F8B42CCA270100D4600D /* NVActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8542CCA26DD00D4600D /* NVActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8B52CCA270100D4600D /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85A2CCA26DD00D4600D /* ObjectMapper.framework */; };
+		3072F8B62CCA270100D4600D /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85A2CCA26DD00D4600D /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8B72CCA270100D4600D /* package_info_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8692CCA26DD00D4600D /* package_info_plus.xcframework */; };
+		3072F8B82CCA270100D4600D /* package_info_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8692CCA26DD00D4600D /* package_info_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8B92CCA270100D4600D /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86B2CCA26DD00D4600D /* path_provider_foundation.xcframework */; };
+		3072F8BA2CCA270100D4600D /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86B2CCA26DD00D4600D /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8BB2CCA270100D4600D /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F86F2CCA26DD00D4600D /* permission_handler_apple.xcframework */; };
+		3072F8BD2CCA270100D4600D /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8532CCA26DD00D4600D /* RxAlamofire.framework */; };
+		3072F8BE2CCA270100D4600D /* RxAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8532CCA26DD00D4600D /* RxAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8BF2CCA270200D4600D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85B2CCA26DD00D4600D /* RxCocoa.framework */; };
+		3072F8C02CCA270200D4600D /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85B2CCA26DD00D4600D /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8C12CCA270200D4600D /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8582CCA26DD00D4600D /* RxRelay.framework */; };
+		3072F8C22CCA270200D4600D /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8582CCA26DD00D4600D /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8C32CCA270200D4600D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85D2CCA26DD00D4600D /* RxSwift.framework */; };
+		3072F8C42CCA270200D4600D /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F85D2CCA26DD00D4600D /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8C52CCA270200D4600D /* share_plus.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8682CCA26DD00D4600D /* share_plus.xcframework */; };
+		3072F8C62CCA270200D4600D /* share_plus.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8682CCA26DD00D4600D /* share_plus.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8C72CCA270200D4600D /* SignaturePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8552CCA26DD00D4600D /* SignaturePad.framework */; };
+		3072F8C82CCA270200D4600D /* SignaturePad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8552CCA26DD00D4600D /* SignaturePad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8C92CCA270200D4600D /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8632CCA26DD00D4600D /* syncfusion_flutter_pdfviewer.xcframework */; };
+		3072F8CA2CCA270200D4600D /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8632CCA26DD00D4600D /* syncfusion_flutter_pdfviewer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8CB2CCA270200D4600D /* url_launcher_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8702CCA26DD00D4600D /* url_launcher_ios.xcframework */; };
+		3072F8CC2CCA270200D4600D /* url_launcher_ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8702CCA26DD00D4600D /* url_launcher_ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8CD2CCA270200D4600D /* webview_flutter_wkwebview.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8672CCA26DD00D4600D /* webview_flutter_wkwebview.xcframework */; };
+		3072F8CE2CCA270200D4600D /* webview_flutter_wkwebview.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8672CCA26DD00D4600D /* webview_flutter_wkwebview.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3072F8D12CCA291A00D4600D /* SmartCASDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8CF2CCA291000D4600D /* SmartCASDK.framework */; };
+		3072F8D22CCA291A00D4600D /* SmartCASDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3072F8CF2CCA291000D4600D /* SmartCASDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,37 +84,36 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				017BCA262CAA951500ABE583 /* RxSwift.framework in Embed Frameworks */,
-				017BCA182CAA951500ABE583 /* ObjectMapper.framework in Embed Frameworks */,
-				017BCA142CAA951500ABE583 /* Moya.framework in Embed Frameworks */,
-				017BC9F62CAA951400ABE583 /* Alamofire.framework in Embed Frameworks */,
-				017BCA162CAA951500ABE583 /* NVActivityIndicatorView.framework in Embed Frameworks */,
-				017BCA2C2CAA951600ABE583 /* SmartCASDK.framework in Embed Frameworks */,
-				017BCA222CAA951500ABE583 /* RxCocoa.framework in Embed Frameworks */,
-				017BCA0A2CAA951400ABE583 /* Flutter.xcframework in Embed Frameworks */,
-				017BCA322CAA951600ABE583 /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
-				017BCA1A2CAA951500ABE583 /* package_info_plus.xcframework in Embed Frameworks */,
-				017BCA302CAA951600ABE583 /* url_launcher_ios.xcframework in Embed Frameworks */,
-				017BCA102CAA951500ABE583 /* JWTDecode.framework in Embed Frameworks */,
-				017BCA282CAA951500ABE583 /* share_plus.xcframework in Embed Frameworks */,
-				017BCA0C2CAA951400ABE583 /* ICSdkEKYC.xcframework in Embed Frameworks */,
-				017BCA1C2CAA951500ABE583 /* path_provider_foundation.xcframework in Embed Frameworks */,
-				017BCA002CAA951400ABE583 /* eContractSDK.framework in Embed Frameworks */,
-				017BCA022CAA951400ABE583 /* eKYCLib.xcframework in Embed Frameworks */,
-				017BCA122CAA951500ABE583 /* local_auth_ios.xcframework in Embed Frameworks */,
-				017BC9FC2CAA951400ABE583 /* device_info_plus.xcframework in Embed Frameworks */,
-				017BC9FA2CAA951400ABE583 /* connectivity_plus.xcframework in Embed Frameworks */,
-				017BCA082CAA951400ABE583 /* flutter_secure_storage.xcframework in Embed Frameworks */,
-				017BCA1E2CAA951500ABE583 /* Result.framework in Embed Frameworks */,
-				017BC9FE2CAA951400ABE583 /* device_info.xcframework in Embed Frameworks */,
-				017BCA062CAA951400ABE583 /* flutter_keyboard_visibility.xcframework in Embed Frameworks */,
-				017BCA2A2CAA951500ABE583 /* SignaturePad.framework in Embed Frameworks */,
-				017BCA042CAA951400ABE583 /* flutter_jailbreak_detection.xcframework in Embed Frameworks */,
-				017BCA242CAA951500ABE583 /* RxRelay.framework in Embed Frameworks */,
-				017BC9F82CAA951400ABE583 /* App.xcframework in Embed Frameworks */,
-				017BCA0E2CAA951400ABE583 /* IOSSecuritySuite.xcframework in Embed Frameworks */,
-				017BCA2E2CAA951600ABE583 /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */,
-				017BCA202CAA951500ABE583 /* RxAlamofire.framework in Embed Frameworks */,
+				3072F8AC2CCA270000D4600D /* IOSSecuritySuite.xcframework in Embed Frameworks */,
+				3072F8C62CCA270200D4600D /* share_plus.xcframework in Embed Frameworks */,
+				3072F8BE2CCA270100D4600D /* RxAlamofire.framework in Embed Frameworks */,
+				3072F8922CCA26FF00D4600D /* Alamofire.framework in Embed Frameworks */,
+				3072F8B42CCA270100D4600D /* NVActivityIndicatorView.framework in Embed Frameworks */,
+				3072F8A62CCA270000D4600D /* Flutter.xcframework in Embed Frameworks */,
+				3072F89C2CCA26FF00D4600D /* eContractSDK.framework in Embed Frameworks */,
+				3072F8C42CCA270200D4600D /* RxSwift.framework in Embed Frameworks */,
+				3072F8CE2CCA270200D4600D /* webview_flutter_wkwebview.xcframework in Embed Frameworks */,
+				3072F89E2CCA270000D4600D /* eKYCLib.xcframework in Embed Frameworks */,
+				3072F8CC2CCA270200D4600D /* url_launcher_ios.xcframework in Embed Frameworks */,
+				3072F8982CCA26FF00D4600D /* device_info_plus.xcframework in Embed Frameworks */,
+				3072F8962CCA26FF00D4600D /* connectivity_plus.xcframework in Embed Frameworks */,
+				3072F8B02CCA270100D4600D /* local_auth_ios.xcframework in Embed Frameworks */,
+				3072F8A42CCA270000D4600D /* flutter_secure_storage.xcframework in Embed Frameworks */,
+				3072F8C82CCA270200D4600D /* SignaturePad.framework in Embed Frameworks */,
+				3072F89A2CCA26FF00D4600D /* device_info.xcframework in Embed Frameworks */,
+				3072F8C02CCA270200D4600D /* RxCocoa.framework in Embed Frameworks */,
+				3072F8AA2CCA270000D4600D /* ICSdkEKYC.xcframework in Embed Frameworks */,
+				3072F8C22CCA270200D4600D /* RxRelay.framework in Embed Frameworks */,
+				3072F8A22CCA270000D4600D /* flutter_keyboard_visibility.xcframework in Embed Frameworks */,
+				3072F8BA2CCA270100D4600D /* path_provider_foundation.xcframework in Embed Frameworks */,
+				3072F8B62CCA270100D4600D /* ObjectMapper.framework in Embed Frameworks */,
+				3072F8B82CCA270100D4600D /* package_info_plus.xcframework in Embed Frameworks */,
+				3072F8B22CCA270100D4600D /* Moya.framework in Embed Frameworks */,
+				3072F8A02CCA270000D4600D /* flutter_jailbreak_detection.xcframework in Embed Frameworks */,
+				3072F8AE2CCA270100D4600D /* JWTDecode.framework in Embed Frameworks */,
+				3072F8CA2CCA270200D4600D /* syncfusion_flutter_pdfviewer.xcframework in Embed Frameworks */,
+				3072F8942CCA26FF00D4600D /* App.xcframework in Embed Frameworks */,
+				3072F8D22CCA291A00D4600D /* SmartCASDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,39 +121,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01404EDB2CAA92C500A41C64 /* connectivity_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = connectivity_plus.xcframework; sourceTree = "<group>"; };
-		01404EDC2CAA92C500A41C64 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		01404EDD2CAA92C500A41C64 /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
-		01404EDE2CAA92C600A41C64 /* flutter_secure_storage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_secure_storage.xcframework; sourceTree = "<group>"; };
-		01404EDF2CAA92C600A41C64 /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = package_info_plus.xcframework; sourceTree = "<group>"; };
-		01404EE02CAA92C600A41C64 /* syncfusion_flutter_pdfviewer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = syncfusion_flutter_pdfviewer.xcframework; sourceTree = "<group>"; };
-		01404EE12CAA92C600A41C64 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = path_provider_foundation.xcframework; sourceTree = "<group>"; };
-		01404EE22CAA92C600A41C64 /* device_info.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = device_info.xcframework; sourceTree = "<group>"; };
-		01404EE32CAA92C600A41C64 /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = device_info_plus.xcframework; sourceTree = "<group>"; };
-		01404EE42CAA92C700A41C64 /* IOSSecuritySuite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IOSSecuritySuite.xcframework; sourceTree = "<group>"; };
-		01404EE52CAA92C700A41C64 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = permission_handler_apple.xcframework; sourceTree = "<group>"; };
-		01404EE62CAA92C700A41C64 /* flutter_keyboard_visibility.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_keyboard_visibility.xcframework; sourceTree = "<group>"; };
-		01404EE72CAA92C700A41C64 /* flutter_jailbreak_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_jailbreak_detection.xcframework; sourceTree = "<group>"; };
-		01404EE82CAA92C700A41C64 /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = share_plus.xcframework; sourceTree = "<group>"; };
-		01404EE92CAA92C900A41C64 /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
-		01404EEA2CAA92C900A41C64 /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = url_launcher_ios.xcframework; sourceTree = "<group>"; };
-		01404EEB2CAA92CA00A41C64 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
-		01404EEC2CAA92CA00A41C64 /* local_auth_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = local_auth_ios.xcframework; sourceTree = "<group>"; };
-		01404EFF2CAA92E800A41C64 /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = "<group>"; };
-		01404F002CAA92E800A41C64 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
-		01404F012CAA92E800A41C64 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		01404F022CAA92E900A41C64 /* SignaturePad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SignaturePad.framework; sourceTree = "<group>"; };
-		01404F032CAA92E900A41C64 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		01404F042CAA92E900A41C64 /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
-		01404F052CAA92EA00A41C64 /* eKYCLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = eKYCLib.xcframework; sourceTree = "<group>"; };
-		01404F062CAA92EB00A41C64 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
-		01404F072CAA92EB00A41C64 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
-		01404F082CAA92EB00A41C64 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		01404F092CAA92EB00A41C64 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
-		01404F0A2CAA92EB00A41C64 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
-		01404F0B2CAA92EF00A41C64 /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
-		01404F0C2CAA92EF00A41C64 /* eContractSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eContractSDK.framework; sourceTree = "<group>"; };
-		01404F1B2CAA930400A41C64 /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 		015003312B2078CF002857A1 /* DemoSdkSmartCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSdkSmartCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015003342B2078CF002857A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015003362B2078CF002857A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +129,38 @@
 		0150033D2B2078D0002857A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015003402B2078D0002857A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015003422B2078D0002857A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3072F8522CCA26DD00D4600D /* eKYCLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = eKYCLib.xcframework; sourceTree = "<group>"; };
+		3072F8532CCA26DD00D4600D /* RxAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxAlamofire.framework; sourceTree = "<group>"; };
+		3072F8542CCA26DD00D4600D /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		3072F8552CCA26DD00D4600D /* SignaturePad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SignaturePad.framework; sourceTree = "<group>"; };
+		3072F8562CCA26DD00D4600D /* eContractSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eContractSDK.framework; sourceTree = "<group>"; };
+		3072F8572CCA26DD00D4600D /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Moya.framework; sourceTree = "<group>"; };
+		3072F8582CCA26DD00D4600D /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
+		3072F8592CCA26DD00D4600D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		3072F85A2CCA26DD00D4600D /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		3072F85B2CCA26DD00D4600D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		3072F85C2CCA26DD00D4600D /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = "<group>"; };
+		3072F85D2CCA26DD00D4600D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		3072F85E2CCA26DD00D4600D /* ICSdkEKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ICSdkEKYC.xcframework; sourceTree = "<group>"; };
+		3072F8602CCA26DD00D4600D /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = App.xcframework; sourceTree = "<group>"; };
+		3072F8612CCA26DD00D4600D /* flutter_secure_storage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_secure_storage.xcframework; sourceTree = "<group>"; };
+		3072F8622CCA26DD00D4600D /* device_info.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = device_info.xcframework; sourceTree = "<group>"; };
+		3072F8632CCA26DD00D4600D /* syncfusion_flutter_pdfviewer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = syncfusion_flutter_pdfviewer.xcframework; sourceTree = "<group>"; };
+		3072F8642CCA26DD00D4600D /* local_auth_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = local_auth_ios.xcframework; sourceTree = "<group>"; };
+		3072F8652CCA26DD00D4600D /* flutter_jailbreak_detection.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_jailbreak_detection.xcframework; sourceTree = "<group>"; };
+		3072F8662CCA26DD00D4600D /* flutter_keyboard_visibility.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = flutter_keyboard_visibility.xcframework; sourceTree = "<group>"; };
+		3072F8672CCA26DD00D4600D /* webview_flutter_wkwebview.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = webview_flutter_wkwebview.xcframework; sourceTree = "<group>"; };
+		3072F8682CCA26DD00D4600D /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = share_plus.xcframework; sourceTree = "<group>"; };
+		3072F8692CCA26DD00D4600D /* package_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = package_info_plus.xcframework; sourceTree = "<group>"; };
+		3072F86A2CCA26DD00D4600D /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		3072F86B2CCA26DD00D4600D /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		3072F86C2CCA26DD00D4600D /* device_info_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = device_info_plus.xcframework; sourceTree = "<group>"; };
+		3072F86D2CCA26DD00D4600D /* connectivity_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = connectivity_plus.xcframework; sourceTree = "<group>"; };
+		3072F86E2CCA26DD00D4600D /* IOSSecuritySuite.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IOSSecuritySuite.xcframework; sourceTree = "<group>"; };
+		3072F86F2CCA26DD00D4600D /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = permission_handler_apple.xcframework; sourceTree = "<group>"; };
+		3072F8702CCA26DD00D4600D /* url_launcher_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = url_launcher_ios.xcframework; sourceTree = "<group>"; };
+		3072F8712CCA26DD00D4600D /* Flutter.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:S8QB4VV633:FLUTTER.IO LLC"; lastKnownFileType = wrapper.xcframework; path = Flutter.xcframework; sourceTree = "<group>"; };
+		3072F8CF2CCA291000D4600D /* SmartCASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartCASDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,39 +168,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017BCA312CAA951600ABE583 /* webview_flutter_wkwebview.xcframework in Frameworks */,
-				017BC9F92CAA951400ABE583 /* connectivity_plus.xcframework in Frameworks */,
-				017BC9FD2CAA951400ABE583 /* device_info.xcframework in Frameworks */,
-				017BC9F52CAA951400ABE583 /* Alamofire.framework in Frameworks */,
-				017BCA0D2CAA951400ABE583 /* IOSSecuritySuite.xcframework in Frameworks */,
-				017BC9FB2CAA951400ABE583 /* device_info_plus.xcframework in Frameworks */,
-				017BCA212CAA951500ABE583 /* RxCocoa.framework in Frameworks */,
-				017BCA092CAA951400ABE583 /* Flutter.xcframework in Frameworks */,
-				017BCA172CAA951500ABE583 /* ObjectMapper.framework in Frameworks */,
-				017BCA1D2CAA951500ABE583 /* Result.framework in Frameworks */,
-				017BCA1B2CAA951500ABE583 /* path_provider_foundation.xcframework in Frameworks */,
-				017BCA272CAA951500ABE583 /* share_plus.xcframework in Frameworks */,
-				017BC9F72CAA951400ABE583 /* App.xcframework in Frameworks */,
-				017BCA192CAA951500ABE583 /* package_info_plus.xcframework in Frameworks */,
-				017BCA2D2CAA951600ABE583 /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */,
-				017BCA032CAA951400ABE583 /* flutter_jailbreak_detection.xcframework in Frameworks */,
-				01404EF72CAA92CB00A41C64 /* permission_handler_apple.xcframework in Frameworks */,
-				017BCA252CAA951500ABE583 /* RxSwift.framework in Frameworks */,
-				017BCA152CAA951500ABE583 /* NVActivityIndicatorView.framework in Frameworks */,
-				01404EEE2CAA92CA00A41C64 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				017BCA0B2CAA951400ABE583 /* ICSdkEKYC.xcframework in Frameworks */,
-				017BCA052CAA951400ABE583 /* flutter_keyboard_visibility.xcframework in Frameworks */,
-				017BC9FF2CAA951400ABE583 /* eContractSDK.framework in Frameworks */,
-				017BCA112CAA951500ABE583 /* local_auth_ios.xcframework in Frameworks */,
-				017BCA132CAA951500ABE583 /* Moya.framework in Frameworks */,
-				017BCA2B2CAA951500ABE583 /* SmartCASDK.framework in Frameworks */,
-				017BCA012CAA951400ABE583 /* eKYCLib.xcframework in Frameworks */,
-				017BCA072CAA951400ABE583 /* flutter_secure_storage.xcframework in Frameworks */,
-				017BCA0F2CAA951500ABE583 /* JWTDecode.framework in Frameworks */,
-				017BCA292CAA951500ABE583 /* SignaturePad.framework in Frameworks */,
-				017BCA2F2CAA951600ABE583 /* url_launcher_ios.xcframework in Frameworks */,
-				017BCA1F2CAA951500ABE583 /* RxAlamofire.framework in Frameworks */,
-				017BCA232CAA951500ABE583 /* RxRelay.framework in Frameworks */,
+				3072F8A72CCA270000D4600D /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				3072F8C52CCA270200D4600D /* share_plus.xcframework in Frameworks */,
+				3072F8932CCA26FF00D4600D /* App.xcframework in Frameworks */,
+				3072F8972CCA26FF00D4600D /* device_info_plus.xcframework in Frameworks */,
+				3072F8BD2CCA270100D4600D /* RxAlamofire.framework in Frameworks */,
+				3072F8C92CCA270200D4600D /* syncfusion_flutter_pdfviewer.xcframework in Frameworks */,
+				3072F8C72CCA270200D4600D /* SignaturePad.framework in Frameworks */,
+				3072F8A32CCA270000D4600D /* flutter_secure_storage.xcframework in Frameworks */,
+				3072F8CD2CCA270200D4600D /* webview_flutter_wkwebview.xcframework in Frameworks */,
+				3072F89B2CCA26FF00D4600D /* eContractSDK.framework in Frameworks */,
+				3072F8B72CCA270100D4600D /* package_info_plus.xcframework in Frameworks */,
+				3072F8AF2CCA270100D4600D /* local_auth_ios.xcframework in Frameworks */,
+				3072F8BF2CCA270200D4600D /* RxCocoa.framework in Frameworks */,
+				3072F8AD2CCA270000D4600D /* JWTDecode.framework in Frameworks */,
+				3072F8B92CCA270100D4600D /* path_provider_foundation.xcframework in Frameworks */,
+				3072F8AB2CCA270000D4600D /* IOSSecuritySuite.xcframework in Frameworks */,
+				3072F89F2CCA270000D4600D /* flutter_jailbreak_detection.xcframework in Frameworks */,
+				3072F8992CCA26FF00D4600D /* device_info.xcframework in Frameworks */,
+				3072F8A12CCA270000D4600D /* flutter_keyboard_visibility.xcframework in Frameworks */,
+				3072F8B32CCA270100D4600D /* NVActivityIndicatorView.framework in Frameworks */,
+				3072F8A52CCA270000D4600D /* Flutter.xcframework in Frameworks */,
+				3072F8B52CCA270100D4600D /* ObjectMapper.framework in Frameworks */,
+				3072F8CB2CCA270200D4600D /* url_launcher_ios.xcframework in Frameworks */,
+				3072F8C32CCA270200D4600D /* RxSwift.framework in Frameworks */,
+				3072F8A92CCA270000D4600D /* ICSdkEKYC.xcframework in Frameworks */,
+				3072F89D2CCA270000D4600D /* eKYCLib.xcframework in Frameworks */,
+				3072F8912CCA26FF00D4600D /* Alamofire.framework in Frameworks */,
+				3072F8BB2CCA270100D4600D /* permission_handler_apple.xcframework in Frameworks */,
+				3072F8C12CCA270200D4600D /* RxRelay.framework in Frameworks */,
+				3072F8D12CCA291A00D4600D /* SmartCASDK.framework in Frameworks */,
+				3072F8B12CCA270100D4600D /* Moya.framework in Frameworks */,
+				3072F8952CCA26FF00D4600D /* connectivity_plus.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +226,7 @@
 		015003332B2078CF002857A1 /* DemoSdkSmartCA */ = {
 			isa = PBXGroup;
 			children = (
-				015003492B207993002857A1 /* SdkSmartCA */,
+				3072F8502CCA26DD00D4600D /* SDK_iOS */,
 				015003342B2078CF002857A1 /* AppDelegate.swift */,
 				015003362B2078CF002857A1 /* SceneDelegate.swift */,
 				015003382B2078CF002857A1 /* ViewController.swift */,
@@ -243,44 +238,59 @@
 			path = DemoSdkSmartCA;
 			sourceTree = "<group>";
 		};
-		015003492B207993002857A1 /* SdkSmartCA */ = {
+		3072F8502CCA26DD00D4600D /* SDK_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				01404F1B2CAA930400A41C64 /* SmartCASDK.framework */,
-				01404F032CAA92E900A41C64 /* Alamofire.framework */,
-				01404F0C2CAA92EF00A41C64 /* eContractSDK.framework */,
-				01404F052CAA92EA00A41C64 /* eKYCLib.xcframework */,
-				01404F0B2CAA92EF00A41C64 /* ICSdkEKYC.xcframework */,
-				01404EFF2CAA92E800A41C64 /* JWTDecode.framework */,
-				01404F0A2CAA92EB00A41C64 /* Moya.framework */,
-				01404F062CAA92EB00A41C64 /* NVActivityIndicatorView.framework */,
-				01404F072CAA92EB00A41C64 /* ObjectMapper.framework */,
-				01404F002CAA92E800A41C64 /* Result.framework */,
-				01404F042CAA92E900A41C64 /* RxAlamofire.framework */,
-				01404F082CAA92EB00A41C64 /* RxCocoa.framework */,
-				01404F092CAA92EB00A41C64 /* RxRelay.framework */,
-				01404F012CAA92E800A41C64 /* RxSwift.framework */,
-				01404F022CAA92E900A41C64 /* SignaturePad.framework */,
-				01404EEB2CAA92CA00A41C64 /* App.xcframework */,
-				01404EDB2CAA92C500A41C64 /* connectivity_plus.xcframework */,
-				01404EE32CAA92C600A41C64 /* device_info_plus.xcframework */,
-				01404EE22CAA92C600A41C64 /* device_info.xcframework */,
-				01404EE72CAA92C700A41C64 /* flutter_jailbreak_detection.xcframework */,
-				01404EE62CAA92C700A41C64 /* flutter_keyboard_visibility.xcframework */,
-				01404EDE2CAA92C600A41C64 /* flutter_secure_storage.xcframework */,
-				01404EE92CAA92C900A41C64 /* Flutter.xcframework */,
-				01404EDC2CAA92C500A41C64 /* FlutterPluginRegistrant.xcframework */,
-				01404EE42CAA92C700A41C64 /* IOSSecuritySuite.xcframework */,
-				01404EEC2CAA92CA00A41C64 /* local_auth_ios.xcframework */,
-				01404EDF2CAA92C600A41C64 /* package_info_plus.xcframework */,
-				01404EE12CAA92C600A41C64 /* path_provider_foundation.xcframework */,
-				01404EE52CAA92C700A41C64 /* permission_handler_apple.xcframework */,
-				01404EE82CAA92C700A41C64 /* share_plus.xcframework */,
-				01404EE02CAA92C600A41C64 /* syncfusion_flutter_pdfviewer.xcframework */,
-				01404EEA2CAA92C900A41C64 /* url_launcher_ios.xcframework */,
-				01404EDD2CAA92C500A41C64 /* webview_flutter_wkwebview.xcframework */,
+				3072F8CF2CCA291000D4600D /* SmartCASDK.framework */,
+				3072F8512CCA26DD00D4600D /* eContract-eKYC */,
+				3072F85F2CCA26DD00D4600D /* Flutter */,
 			);
-			path = SdkSmartCA;
+			path = SDK_iOS;
+			sourceTree = "<group>";
+		};
+		3072F8512CCA26DD00D4600D /* eContract-eKYC */ = {
+			isa = PBXGroup;
+			children = (
+				3072F8522CCA26DD00D4600D /* eKYCLib.xcframework */,
+				3072F8532CCA26DD00D4600D /* RxAlamofire.framework */,
+				3072F8542CCA26DD00D4600D /* NVActivityIndicatorView.framework */,
+				3072F8552CCA26DD00D4600D /* SignaturePad.framework */,
+				3072F8562CCA26DD00D4600D /* eContractSDK.framework */,
+				3072F8572CCA26DD00D4600D /* Moya.framework */,
+				3072F8582CCA26DD00D4600D /* RxRelay.framework */,
+				3072F8592CCA26DD00D4600D /* Alamofire.framework */,
+				3072F85A2CCA26DD00D4600D /* ObjectMapper.framework */,
+				3072F85B2CCA26DD00D4600D /* RxCocoa.framework */,
+				3072F85C2CCA26DD00D4600D /* JWTDecode.framework */,
+				3072F85D2CCA26DD00D4600D /* RxSwift.framework */,
+				3072F85E2CCA26DD00D4600D /* ICSdkEKYC.xcframework */,
+			);
+			path = "eContract-eKYC";
+			sourceTree = "<group>";
+		};
+		3072F85F2CCA26DD00D4600D /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				3072F8602CCA26DD00D4600D /* App.xcframework */,
+				3072F8612CCA26DD00D4600D /* flutter_secure_storage.xcframework */,
+				3072F8622CCA26DD00D4600D /* device_info.xcframework */,
+				3072F8632CCA26DD00D4600D /* syncfusion_flutter_pdfviewer.xcframework */,
+				3072F8642CCA26DD00D4600D /* local_auth_ios.xcframework */,
+				3072F8652CCA26DD00D4600D /* flutter_jailbreak_detection.xcframework */,
+				3072F8662CCA26DD00D4600D /* flutter_keyboard_visibility.xcframework */,
+				3072F8672CCA26DD00D4600D /* webview_flutter_wkwebview.xcframework */,
+				3072F8682CCA26DD00D4600D /* share_plus.xcframework */,
+				3072F8692CCA26DD00D4600D /* package_info_plus.xcframework */,
+				3072F86A2CCA26DD00D4600D /* FlutterPluginRegistrant.xcframework */,
+				3072F86B2CCA26DD00D4600D /* path_provider_foundation.xcframework */,
+				3072F86C2CCA26DD00D4600D /* device_info_plus.xcframework */,
+				3072F86D2CCA26DD00D4600D /* connectivity_plus.xcframework */,
+				3072F86E2CCA26DD00D4600D /* IOSSecuritySuite.xcframework */,
+				3072F86F2CCA26DD00D4600D /* permission_handler_apple.xcframework */,
+				3072F8702CCA26DD00D4600D /* url_launcher_ios.xcframework */,
+				3072F8712CCA26DD00D4600D /* Flutter.xcframework */,
+			);
+			path = Flutter;
 			sourceTree = "<group>";
 		};
 		F0105C142C12A6CA00465835 /* Frameworks */ = {
@@ -515,6 +525,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoSdkSmartCA/SdkSmartCA",
+					"$(PROJECT_DIR)/DemoSdkSmartCA/SDK_iOS/eContract-eKYC",
+					"$(PROJECT_DIR)/DemoSdkSmartCA/SDK_iOS",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoSdkSmartCA/Info.plist;
@@ -553,6 +565,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoSdkSmartCA/SdkSmartCA",
+					"$(PROJECT_DIR)/DemoSdkSmartCA/SDK_iOS/eContract-eKYC",
+					"$(PROJECT_DIR)/DemoSdkSmartCA/SDK_iOS",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoSdkSmartCA/Info.plist;
