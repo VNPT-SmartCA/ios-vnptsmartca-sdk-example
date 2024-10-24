@@ -37,8 +37,8 @@ class ViewController: UIViewController {
         )
         
         let config = SDKConfig(
-            clientId: "4185-637127995547330633.apps.signserviceapi.com",                   // clientId tương ứng với môi trường được cấp qua email
-            clientSecret: "NGNhMzdmOGE-OGM2Mi00MTg0",               // clientSecret tương ứng với môi trường được cấp qua email
+            clientId: "",                   // clientId tương ứng với môi trường được cấp qua email
+            clientSecret: "",               // clientSecret tương ứng với môi trường được cấp qua email
             environment: ENVIRONMENT.DEMO,  // Môi trường kết nối DEMO/PROD
             lang: LANG.VI,                  // Ngôn ngữ vi/en
             isFlutterApp: false,            // true nếu app là Flutter
